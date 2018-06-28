@@ -21,15 +21,15 @@ Training a Diverse Ensemble of Deep Networks]](https://arxiv.org/pdf/1511.06314.
 * [CNN中feature map可视化有哪些思路和方法吗](https://www.zhihu.com/question/41529286)
 * [目标检测二十年](http://www.tuan18.org/thread-1353-1-1.html)
 * [卷积神经网络物体检测之感受野大小计算](http://www.cnblogs.com/objectDetect/p/5947169.html)
-* [Concepts and Tricks In CNN(长期更新)](http://blog.cvmarcher.cn/posts/2015/05/17/cnn-trick/)
-* [原始图片中的ROI如何映射到到feature map](https://zhuanlan.zhihu.com/p/24780433)
-* [ImageNet: A Large-Scale Hierarchical Image Database](https://sfu-db.github.io/cmpt884-fall16/Lectures/ImageNet.pdf)
-* [yolo回归型的物体检测](https://blog.csdn.net/jinlong_xu/article/details/77888100)
-* [Detecting and classifying lesions in mammograms with Deep Learning](https://www.nature.com/articles/s41598-018-22437-z)
-* [YOLO：实时快速目标检测](https://zhuanlan.zhihu.com/p/25045711?refer=shanren7)
-* [SSD关键源码解析](https://zhuanlan.zhihu.com/p/25100992)
-* [基于mtcnn和facenet的实时人脸检测与识别系统开发](https://zhuanlan.zhihu.com/p/25025596)
-* [怎么形象理解embedding这个概念](https://www.zhihu.com/question/38002635)
+* [Concepts and Tricks In CNN(长期更新)](http://blog.cvmarcher.cn/posts/2015/05/17/cnn-trick/)
+* [原始图片中的ROI如何映射到到feature map](https://zhuanlan.zhihu.com/p/24780433)
+* [ImageNet: A Large-Scale Hierarchical Image Database](https://sfu-db.github.io/cmpt884-fall16/Lectures/ImageNet.pdf)
+* [yolo回归型的物体检测](https://blog.csdn.net/jinlong_xu/article/details/77888100)
+* [Detecting and classifying lesions in mammograms with Deep Learning](https://www.nature.com/articles/s41598-018-22437-z)
+* [YOLO：实时快速目标检测](https://zhuanlan.zhihu.com/p/25045711?refer=shanren7)
+* [SSD关键源码解析](https://zhuanlan.zhihu.com/p/25100992)
+* [基于mtcnn和facenet的实时人脸检测与识别系统开发](https://zhuanlan.zhihu.com/p/25025596)
+* [怎么形象理解embedding这个概念](https://www.zhihu.com/question/38002635)
 * [开源代码cmusatyalab/openface](https://github.com/cmusatyalab/openface)
 * [[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html)
 * [谷歌人脸识别系统FaceNet解析](https://zhuanlan.zhihu.com/p/24837264)
