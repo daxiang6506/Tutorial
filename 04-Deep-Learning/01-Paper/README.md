@@ -12,7 +12,38 @@ Training a Diverse Ensemble of Deep Networks]](https://arxiv.org/pdf/1511.06314.
 * [Structured SVM&半监督SVM](http://blog.163.com/clarence_li/blog/static/251334074201579114615359/)
 * [Hinge_loss](https://en.wikipedia.org/wiki/Hinge_loss)
 * [机器学习中的损失函数 （着重比较：hinge loss vs softmax loss）](https://blog.csdn.net/u010976453/article/details/78488279)
-* []()
-* []()
-* []()
-* []()
+* [如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？](https://www.zhihu.com/question/35866596)
+* [学习笔记：条件随机场（CRF）](https://hit-computer.github.io/2017/06/10/CRF/)
+* [迁移学习之Domain Adaptation](http://www.sohu.com/a/227995138_642762)
+* [分类与回归区别是什么?](https://www.zhihu.com/question/21329754)
+* [基于深度学习的目标检测技术演进：R-CNN、Fast R-CNN、Faster R-CNN](https://www.cnblogs.com/skyfsm/p/6806246.html)
+* [深度学习时代的目标检测算法综述](http://www.tuan18.org/thread-2482-1-3.html)
+* [CNN中feature map可视化有哪些思路和方法吗](https://www.zhihu.com/question/41529286)
+* [目标检测二十年](http://www.tuan18.org/thread-1353-1-1.html)
+* [卷积神经网络物体检测之感受野大小计算](http://www.cnblogs.com/objectDetect/p/5947169.html)
+* [Concepts and Tricks In CNN(长期更新)](http://blog.cvmarcher.cn/posts/2015/05/17/cnn-trick/)
+* [原始图片中的ROI如何映射到到feature map](https://zhuanlan.zhihu.com/p/24780433)
+* [ImageNet: A Large-Scale Hierarchical Image Database](https://sfu-db.github.io/cmpt884-fall16/Lectures/ImageNet.pdf)
+* [yolo回归型的物体检测](https://blog.csdn.net/jinlong_xu/article/details/77888100)
+* [Detecting and classifying lesions in mammograms with Deep Learning](https://www.nature.com/articles/s41598-018-22437-z)
+* [YOLO：实时快速目标检测](https://zhuanlan.zhihu.com/p/25045711?refer=shanren7)
+* [SSD关键源码解析](https://zhuanlan.zhihu.com/p/25100992)
+* [基于mtcnn和facenet的实时人脸检测与识别系统开发](https://zhuanlan.zhihu.com/p/25025596)
+* [怎么形象理解embedding这个概念](https://www.zhihu.com/question/38002635)
+* [开源代码cmusatyalab/openface](https://github.com/cmusatyalab/openface)
+* [[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html)
+* [谷歌人脸识别系统FaceNet解析](https://zhuanlan.zhihu.com/p/24837264)
+* [基于深度学习的人脸识别技术综述](https://zhuanlan.zhihu.com/p/24816781)
+* [开源代码-OpenFace 2.0.0: an open source facial behavior analysis toolkit](https://github.com/TadasBaltrusaitis/OpenFace)
+* [机器视觉 目标检测补习贴之YOLO实时检测](http://nooverfit.com/wp/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E8%A1%A5%E4%B9%A0%E8%B4%B4%E4%B9%8Byolo-you-only-look-once)
+* [工具-LabelImg](https://github.com/tzutalin/labelImg)
+* [GAN大盘点，聊聊这些年的生成对抗网络 : LSGAN, WGAN, CGAN, infoGAN, EBGAN, BEGAN, VAE](http://nooverfit.com/wp/%E7%8B%AC%E5%AE%B6%EF%BD%9Cgan%E5%A4%A7%E7%9B%98%E7%82%B9%EF%BC%8C%E8%81%8A%E8%81%8A%E8%BF%99%E4%BA%9B%E5%B9%B4%E7%9A%84%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C-lsgan-wgan-cgan-info/)
+* [Comparison of Generative Models in Tensorflow](https://github.com/kvmanohar22/Generative-Models)
+   >[在TensorFlow中对比两大生成模型：VAE与GAN](http://baijiahao.baidu.com/s?id=1582032084227540823&wfr=spider&for=pc)
+* [开源代码-facebookresearch/FaderNetworks](https://github.com/facebookresearch/FaderNetworks)
+* [资源-ImageNet Pretrained Models](https://github.com/facebookresearch/ResNeXt#imagenet-pretrained-models)
+* []()
+* []()
+* []()
+* []()
+* []()
