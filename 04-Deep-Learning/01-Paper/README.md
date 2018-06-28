@@ -7,3 +7,12 @@
 * [Receiver Operating Characteristic (ROC)](https://docs.oracle.com/cd/B28359_01/datamine.111/b28129/classify.htm#BABIECAJ)
 * [[Why M Heads are Better than One:
 Training a Diverse Ensemble of Deep Networks]](https://arxiv.org/pdf/1511.06314.pdf)
+* [Regression analysis](https://en.wikipedia.org/wiki/Regression_analysis)
+* [Structured support vector machine](https://en.wikipedia.org/wiki/Structured_support_vector_machine)
+* [Structured SVM&半监督SVM](http://blog.163.com/clarence_li/blog/static/251334074201579114615359/)
+* [Hinge_loss](https://en.wikipedia.org/wiki/Hinge_loss)
+* [机器学习中的损失函数 （着重比较：hinge loss vs softmax loss）](https://blog.csdn.net/u010976453/article/details/78488279)
+* []()
+* []()
+* []()
+* []()
