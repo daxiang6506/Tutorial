@@ -20,7 +20,7 @@ Training a Diverse Ensemble of Deep Networks]](https://arxiv.org/pdf/1511.06314.
 * [深度学习时代的目标检测算法综述](http://www.tuan18.org/thread-2482-1-3.html)
 * [CNN中feature map可视化有哪些思路和方法吗](https://www.zhihu.com/question/41529286)
 * [目标检测二十年](http://www.tuan18.org/thread-1353-1-1.html)
-* [卷积神经网络物体检测之感受野大小计算](http://www.cnblogs.com/objectDetect/p/5947169.html)
+* [卷积神经网络物体检测之感受野大小计算](http://www.cnblogs.com/objectDetect/p/5947169.html)
 * [Concepts and Tricks In CNN(长期更新)](http://blog.cvmarcher.cn/posts/2015/05/17/cnn-trick/)
 * [原始图片中的ROI如何映射到到feature map](https://zhuanlan.zhihu.com/p/24780433)
 * [ImageNet: A Large-Scale Hierarchical Image Database](https://sfu-db.github.io/cmpt884-fall16/Lectures/ImageNet.pdf)
