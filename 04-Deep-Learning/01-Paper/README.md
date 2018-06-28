@@ -30,15 +30,15 @@ Training a Diverse Ensemble of Deep Networks]](https://arxiv.org/pdf/1511.06314.
 * [SSD关键源码解析](https://zhuanlan.zhihu.com/p/25100992)
 * [基于mtcnn和facenet的实时人脸检测与识别系统开发](https://zhuanlan.zhihu.com/p/25025596)
 * [怎么形象理解embedding这个概念](https://www.zhihu.com/question/38002635)
-* [开源代码cmusatyalab/openface](https://github.com/cmusatyalab/openface)
-* [[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html)
-* [谷歌人脸识别系统FaceNet解析](https://zhuanlan.zhihu.com/p/24837264)
-* [基于深度学习的人脸识别技术综述](https://zhuanlan.zhihu.com/p/24816781)
-* [开源代码-OpenFace 2.0.0: an open source facial behavior analysis toolkit](https://github.com/TadasBaltrusaitis/OpenFace)
-* [机器视觉 目标检测补习贴之YOLO实时检测](http://nooverfit.com/wp/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E8%A1%A5%E4%B9%A0%E8%B4%B4%E4%B9%8Byolo-you-only-look-once)
-* [工具-LabelImg](https://github.com/tzutalin/labelImg)
-* [GAN大盘点，聊聊这些年的生成对抗网络 : LSGAN, WGAN, CGAN, infoGAN, EBGAN, BEGAN, VAE](http://nooverfit.com/wp/%E7%8B%AC%E5%AE%B6%EF%BD%9Cgan%E5%A4%A7%E7%9B%98%E7%82%B9%EF%BC%8C%E8%81%8A%E8%81%8A%E8%BF%99%E4%BA%9B%E5%B9%B4%E7%9A%84%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C-lsgan-wgan-cgan-info/)
-* [Comparison of Generative Models in Tensorflow](https://github.com/kvmanohar22/Generative-Models)
+* [开源代码cmusatyalab/openface](https://github.com/cmusatyalab/openface)
+* [[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks]](https://kpzhang93.github.io/MTCNN_face_detection_alignment/index.html)
+* [谷歌人脸识别系统FaceNet解析](https://zhuanlan.zhihu.com/p/24837264)
+* [基于深度学习的人脸识别技术综述](https://zhuanlan.zhihu.com/p/24816781)
+* [开源代码-OpenFace 2.0.0: an open source facial behavior analysis toolkit](https://github.com/TadasBaltrusaitis/OpenFace)
+* [机器视觉 目标检测补习贴之YOLO实时检测](http://nooverfit.com/wp/%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89-%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E8%A1%A5%E4%B9%A0%E8%B4%B4%E4%B9%8Byolo-you-only-look-once)
+* [工具-LabelImg](https://github.com/tzutalin/labelImg
+* [GAN大盘点，聊聊这些年的生成对抗网络 : LSGAN, WGAN, CGAN, infoGAN, EBGAN, BEGAN, VAE](http://nooverfit.com/wp/%E7%8B%AC%E5%AE%B6%EF%BD%9Cgan%E5%A4%A7%E7%9B%98%E7%82%B9%EF%BC%8C%E8%81%8A%E8%81%8A%E8%BF%99%E4%BA%9B%E5%B9%B4%E7%9A%84%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C-lsgan-wgan-cgan-info/)
+* [Comparison of Generative Models in Tensorflow](https://github.com/kvmanohar22/Generative-Models)
    >[在TensorFlow中对比两大生成模型：VAE与GAN](http://baijiahao.baidu.com/s?id=1582032084227540823&wfr=spider&for=pc)
 * [开源代码-facebookresearch/FaderNetworks](https://github.com/facebookresearch/FaderNetworks)
 * [资源-ImageNet Pretrained Models](https://github.com/facebookresearch/ResNeXt#imagenet-pretrained-models)
