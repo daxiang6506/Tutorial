@@ -61,7 +61,7 @@ Training a Diverse Ensemble of Deep Networks]](https://arxiv.org/pdf/1511.06314.
 * [开源代码-Realtime Multi-Person Pose Estimation](https://github.com/ZheC/keras_Realtime_Multi-Person_Pose_Estimation)
 * [开源代码-Fast R-CNN](https://github.com/rbgirshick/fast-rcnn)
   >[python版](https://github.com/rbgirshick/py-faster-rcnn)
-* []()
+* [开源代码-Detectron](https://github.com/facebookresearch/Detectron)
 * []()
 * []()
 * []()
