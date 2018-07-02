@@ -45,4 +45,5 @@
   >>prediction_signature = tf.saved_model.signature_def_utils.build_signature_def
 
   >模型保存
-  >>builder = tf.saved_model.builder.SavedModelBuilder(join("./model_name", MODEL_VERSION))
+  >>builder = tf.saved_model.builder.SavedModelBuilder(join("./model_name", MODEL_VERSION))  
+  >>![model](_images/model-2.png)
