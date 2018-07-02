@@ -41,7 +41,7 @@
   )
   builder.save()
   ```
-  >签名
+  >单个签名
   >>prediction_signature = tf.saved_model.signature_def_utils.build_signature_def
 
   >模型保存
