@@ -8,6 +8,10 @@
 * [bitnami/tensorflow-serving](https://hub.docker.com/r/bitnami/tensorflow-serving/)
   >Bitnami Docker Image for TensorFlow Serving
   [https://github.com/bitnami/bitnami-docker-tensorflow-serving](https://github.com/bitnami/bitnami-docker-tensorflow-serving)
+* 报错，需要安装 `pip install grpcio`
+  >![grpcio error](_images/grpcio-error.png)
+* 报错
+  >![tensorflow-serving-api-error](_images/tensorflow-serving-api-error.png)
 
 ### debug
 * 向签名完全不对的server发起请求
