@@ -5,6 +5,9 @@
 ### 注意事项
 * [sineyuan/tensorflow_model_server](https://hub.docker.com/r/sineyuan/tensorflow_model_server/)
   >tensorflow model server built from [https://github.com/tensorflow/serving](https://github.com/tensorflow/serving)
+* [bitnami/tensorflow-serving](https://hub.docker.com/r/bitnami/tensorflow-serving/)
+  >Bitnami Docker Image for TensorFlow Serving
+  [https://github.com/bitnami/bitnami-docker-tensorflow-serving](https://github.com/bitnami/bitnami-docker-tensorflow-serving)
 
 ### debug
 * 向签名完全不对的server发起请求
