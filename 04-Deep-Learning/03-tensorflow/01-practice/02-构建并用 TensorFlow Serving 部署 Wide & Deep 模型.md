@@ -42,4 +42,4 @@
   builder.save()
   ```
   >模型保存
-  >>tf.saved_model.builder.SavedModelBuilder(join("./model_name", MODEL_VERSION))
+  >>builder = tf.saved_model.builder.SavedModelBuilder(join("./model_name", MODEL_VERSION))
