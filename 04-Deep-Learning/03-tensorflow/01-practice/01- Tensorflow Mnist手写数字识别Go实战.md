@@ -17,8 +17,8 @@
   ```
   rpc error: code = Internal desc = Invalid header field value "input to reshape is a tensor with 1260 values, but the requested shape requires a multiple of 588\n\t [[Node: Reshape=Reshape[T=DT_FLOAT,Tshape=DT_INT32,_device=\"/job:localhost/replica:0/task:0/cpu:0\"](Relu_2, Reshape/shape)]]
   ```
-  ### 关键代码
-  * mnist_cnn.py
+### 关键代码
+* mnist_cnn.py
     ```
     # Export model to Tensorflow Serving
     saver = tf.train.Saver()
