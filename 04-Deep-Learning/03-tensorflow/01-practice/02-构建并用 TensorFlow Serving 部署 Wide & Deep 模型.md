@@ -41,5 +41,8 @@
   )
   builder.save()
   ```
+  >签名
+  >>prediction_signature = tf.saved_model.signature_def_utils.build_signature_def
+
   >模型保存
   >>builder = tf.saved_model.builder.SavedModelBuilder(join("./model_name", MODEL_VERSION))
