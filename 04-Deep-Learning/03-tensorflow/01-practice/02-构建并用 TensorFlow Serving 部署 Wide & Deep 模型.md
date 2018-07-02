@@ -18,3 +18,28 @@
   ```
   rpc error: code = Unavailable desc = all SubConns are in TransientFailure
   ```
+### 关键代码
+* WDLRegression.py
+  ```
+  # 将训练好的模型保存在当前的文件夹下
+  builder = tf.saved_model.builder.SavedModelBuilder(join("./model_name", MODEL_VERSION))
+  inputs = {
+      "x_wide": tf.saved_model.utils.build_tensor_info(x_wide),
+      "x_deep": tf.saved_model.utils.build_tensor_info(x_deep)
+  }
+  output = {"output": tf.saved_model.utils.build_tensor_info(prediction)}
+  prediction_signature = tf.saved_model.signature_def_utils.build_signature_def(
+      inputs=inputs,
+      outputs=output,
+      method_name=tf.saved_model.signature_constants.PREDICT_METHOD_NAME
+  )
+
+  builder.add_meta_graph_and_variables(
+      sess,
+      [tf.saved_model.tag_constants.SERVING],
+      {tf.saved_model.signature_constants.DEFAULT_SERVING_SIGNATURE_DEF_KEY: prediction_signature}
+  )
+  builder.save()
+  ```
+  >模型保存
+  >>tf.saved_model.builder.SavedModelBuilder(join("./model_name", MODEL_VERSION))

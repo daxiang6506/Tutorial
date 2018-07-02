@@ -39,6 +39,10 @@
     model_exporter.export(flags.model_dir, tf.constant(flags.model_version), sess)
     ```
     >签名
+    >>test
+    
+    >模型保存
+    >>saver = tf.train.Saver()
 * main.go
   ```
   tp := &tf_framework.TensorProto{
