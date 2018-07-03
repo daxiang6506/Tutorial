@@ -8,11 +8,14 @@
 
 ## 参考
 * [ProtoBuf 与 gRPC 你需要知道的知识](https://blog.csdn.net/yeasy/article/details/52190007)
+* [galang 学习之grpc+ protobuf](https://blog.csdn.net/u010278923/article/details/70130024)
+* [grpc-go example](https://github.com/grpc/grpc-go/tree/master/examples)
+* [Python RPC 之 gRPC](https://blog.csdn.net/coderinfo/article/details/60883030)
 
 ## 代码
 * protoc的命令格式为 protoc [OPTION] PROTO_FILES
   
-* java
+### java
   ```
   protoc --java_out=./java/ ./proto/helloworld.proto
   ```
@@ -20,16 +23,39 @@
 
   >随后我们指定了proto文件的位置 ./proto/helloworld.proto
 
-* go
-  下面几种方式都可以生成
+### go
+* 没有官方支持，需要安装protoc对应的plugin
+  >`go get -u github.com/golang/protobuf/{protoc-gen-go,proto}`
+  >>前者是plugin，后者是go的依赖库
+
+* 下面几种方式都可以生成
   ```
   protoc --go_out = ./go/ ./proto/helloword.proto
   ```
   >和上面java生成方式一样
   ```
   protoc --go_out=./go/ -I proto ./proto/helloworld.proto
+  ```
   >简单来说，就是如果多个proto文件之间有相互依赖，生成某个proto文件时，需要import其他几个proto文件，这时候就要用-I来指定搜索目录。如果没有指定-I参数，则在当前目录进行搜索。
 
-  * gRPC
+### python
+* `pip show grpcio`
+  >![pip show grpcio](_images/pip-show-grpcio.png)
+* `pip show --files grpcio`
+  >![pip-show-files-grpcio.png](_images/pip-show-files-grpcio.png)
+* tensorflow-serving包
+  ```
+  from os.path import join
+
+  from pprint import pprint
+  from grpc.beta import implementations
+  from tensorflow-serving.apis import predict_pb2
+  from tensorflow-serving.apis import prediction_service_pb2
+  ```
+  >![tensorflow-serving](_images/tensorflow-serving.png
+  )
+
+### gRPC
     ```
     protoc --go_out=plugin=grpc:. hello.proto
+    ```
