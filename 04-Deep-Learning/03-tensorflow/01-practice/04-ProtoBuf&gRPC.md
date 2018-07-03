@@ -38,7 +38,8 @@
   ```
   >简单来说，就是如果多个proto文件之间有相互依赖，生成某个proto文件时，需要import其他几个proto文件，这时候就要用-I来指定搜索目录。如果没有指定-I参数，则在当前目录进行搜索。
   ```
-  git clone --recurse-submodules https://github.com/tensorflow/servingcd serving
+  git clone --recurse-submodules https://github.com/tensorflow/serving
+  cd serving
   ###############################################
   #!/bin/sh
   output=${1:-vendor}
