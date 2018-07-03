@@ -1,5 +1,5 @@
 # Tensorflow Serving
-* 有了模型之后我们还要将其做成产品，Tensorflow提供了Tensorflow Serving，可以将训练的模型直接做成一个rpc服务，外部可以通过调用rpc来获取模型输出结果。
+* 有了模型之后我们还要将其做成产品，Tensorflow提供了Tensorflow Serving，可以将训练的模型直接做成一个rpc服务，外部可以通过调用rpc来获取模型输出结果。
 ## 参考
 * [利用Docker和阿里云容器服务轻松搭建TensorFlow Serving集群](https://yq.aliyun.com/articles/60894)
 * [Using TensorFlow Serving via Docker](https://www.tensorflow.org/serving/docker
