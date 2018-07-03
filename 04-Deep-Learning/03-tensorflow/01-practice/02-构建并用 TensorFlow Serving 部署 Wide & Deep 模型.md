@@ -8,6 +8,8 @@
 * [bitnami/tensorflow-serving](https://hub.docker.com/r/bitnami/tensorflow-serving/)
   >Bitnami Docker Image for TensorFlow Serving
   [https://github.com/bitnami/bitnami-docker-tensorflow-serving](https://github.com/bitnami/bitnami-docker-tensorflow-serving)
+  >>`docker run -it -p 5000:9000 -v /home/tf/serving/model_name:/bitnami/model-data bitnami/tensorflow-serving:1.5.0
+`
 * 报错，需要安装 `pip install grpcio`
   >![grpcio error](_images/grpcio-error.png)
 * 报错，需要安装 `pip install tensorflow-serving-api
