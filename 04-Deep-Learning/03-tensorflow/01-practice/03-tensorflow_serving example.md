@@ -1,8 +1,8 @@
 ## tensorflow_serving example
 * [github](https://github.com/tensorflow/serving/tree/master/tensorflow_serving/example)
 ### 参考
-* [tensorflow serving]()
-
+* [tensorflow serving](https://www.cnblogs.com/xuchenCN/p/5888638.html)
+* [TensorFlow Serving 尝尝鲜](https://zhuanlan.zhihu.com/p/23361413)
 
 ### 关键代码
 * inception_saved_model.py
