@@ -67,7 +67,7 @@
   `bazel-bin/tensorflow_serving/model_servers/tensorflow_model_server`
 
 ## bitnami/tensorflow-serving
-*  /opt/bitnami/tensorflow-serving/bin/tensorflow-serving.sh
+* /opt/bitnami/tensorflow-serving/bin/tensorflow-serving.sh
   ```
   #!/bin/bash
   
