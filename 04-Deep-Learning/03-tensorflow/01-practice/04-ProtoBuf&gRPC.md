@@ -4,7 +4,7 @@
 * gRPC 是 Google 开源的 RPC 框架和库，已支持主流计算机语言。底层通信采用 gRPC 协议，比较适合互联网场景。gRPC 在设计上考虑了跟 ProtoBuf 的配合使用。
 
 * 两者分别解决的不同问题，可以配合使用，也可以分开。
-* 典型使用场景是，写好.proto描述文件定义RPC的接口，然后用protoc（带gRPC插件）基于.proto模板自动生成客户端和服务器端的接口代码。
+* 典型使用场景是，写好.proto描述文件定义RPC的接口，然后用protoc（带gRPC插件）基于.proto模板自动生成客户端和服务器端的接口代码。
 
 ## 参考
 * [ProtoBuf 与 gRPC 你需要知道的知识](https://blog.csdn.net/yeasy/article/details/52190007)
@@ -14,7 +14,7 @@
 
 ## 代码
 * protoc的命令格式为 protoc [OPTION] PROTO_FILES
-  
+
 ### java
   ```
   protoc --java_out=./java/ ./proto/helloworld.proto
