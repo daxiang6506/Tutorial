@@ -37,6 +37,20 @@
   protoc --go_out=./go/ -I proto ./proto/helloworld.proto
   ```
   >简单来说，就是如果多个proto文件之间有相互依赖，生成某个proto文件时，需要import其他几个proto文件，这时候就要用-I来指定搜索目录。如果没有指定-I参数，则在当前目录进行搜索。
+  ```
+  git clone --recurse-submodules https://github.com/tensorflow/servingcd serving
+  ###############################################
+  #!/bin/sh
+  output=${1:-vendor}
+  echo $output
+  mkdir -p $output
+  mkdir -p protobuf/src/google/protobufcp $GOPATH/src/github.com/golang/protobuf/ptypes/any/any.proto protobuf/src/google/protobuf/any.protocp $GOPATH/src/github.com/golang/protobuf/ptypes/wrappers/wrappers.proto protobuf/src/google/protobuf/wrappers.proto
+  protoc -I=. -I=./tensorflow -I=./protobuf/src --go_out=plugins=grpc:$output ./tensorflow_serving/apis/*.proto
+  protoc -I=./tensorflow --go_out=plugins=grpc:$output tensorflow/tensorflow/core/example/*.protoprotoc -I=./tensorflow --go_out=plugins=grpc:$output tensorflow/tensorflow/core/framework/*.proto
+  protoc -I=./tensorflow -I=./protobuf/src --go_out=plugins=grpc:$output \tensorflow/tensorflow/core/protobuf/saver.proto \tensorflow/tensorflow/core/protobuf/meta_graph.proto
+  rm -r protobuf
+  ```
+  >完整实例
 
 ### python
 * `pip show grpcio`
