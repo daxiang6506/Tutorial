@@ -6,11 +6,24 @@
 )
 * [bitnami](https://github.com/bitnami/bitnami-docker-tensorflow-serving)
 * [Serving a TensorFlow Model](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/serving_basic.md)
+## 注意
+* tensorflow-serving 1.3以后的版本就和tensorflow版本号同步了
+* tensorflow-serving和tensorflow版本需要对应
+* tensorflow-serving版本和tensorflow不一致运行会出错
+* tensorflow 1.6版本可用，1.7 出现错误 `Illegal instruction (core dumped)`
 ## 命令
 * bitnami
   ```
   docker run -it -p 5000:9000 -v /home/tf/servering/model_name:/bitnami/model-data bitnami/tensorflow-serving
   ```
+* [sineyuan](http://sineyuan.github.io/2017/03/02/tensorflow-mnist-pratice/
+)
+  ```
+  docker run -p 8500:8500 -v /home/tf/sineyuan:/work sineyuan/tensorflow_model_server --model_base_path=/work/model
+  ```
+  >`docker run [OPTION] IMAGE [COMMAND] [ARG...]`
+  >>`docker run -p 8500:8500 -v /home/tf/sineyuan:/work sineyuan/tensorflow_model_server --model_base_path=/work/model`
+  >>>这里没有[COMMAND]，直接给出容器内[COMMAND]的参数
 * bazel 
   ```
   $>bazel build -c opt //tensorflow_serving/model_servers:tensorflow_model_server 
