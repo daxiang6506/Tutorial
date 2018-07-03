@@ -4,3 +4,5 @@
 * [github](https://github.com/googlecodelabs/tensorflow-for-poets-2)
 
 * [tensorflow tutorial image retrain](https://www.tensorflow.org/tutorials/image_retraining)
+
+* [Tensorflow MobileNet移动端迁移学习指南](https://yq.aliyun.com/articles/566213)
