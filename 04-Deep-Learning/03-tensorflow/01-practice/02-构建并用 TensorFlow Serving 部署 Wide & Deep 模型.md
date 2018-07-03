@@ -16,7 +16,7 @@
   >>1.6.0版本已经有生成好的tensorflow-serving-api包，不用自己生成，但需要安装，才能做serving client
   >>>![python packages](_images/python-packages.png)  
 
-  >>1.0.0安装这个包，编译会导致core dumped，因为tensorflow的版本被升级到1.7.0，兼容性问题
+  >>1.0.0安装这个包，编译会导致core dumped，因为tensorflow的版本被升级到1.7.0，兼容性问题,也可能是docker内存没给够的问题
   >>>![core dump](_images/core-dump.png)
 
 ### debug
