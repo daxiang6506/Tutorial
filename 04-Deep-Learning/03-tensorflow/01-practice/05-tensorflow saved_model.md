@@ -17,7 +17,7 @@
      ```
   2. 第二种通过tf.parse_example()来生成
      ```
-     serialized_tf_example = tf.placeholder(tf.string, name='tf_example'
+     serialized_tf_example = tf.placeholder(tf.string, name='tf_example')
      feature_configs = {'image/encoded': tf.FixedLenFeature(shape=[], dtype=tf.string),}
      tf_example = tf.parse_example(serialized_tf_example, feature_configs)
      jpegs = tf_example['image/encoded']
