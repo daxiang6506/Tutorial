@@ -10,8 +10,14 @@
   [https://github.com/bitnami/bitnami-docker-tensorflow-serving](https://github.com/bitnami/bitnami-docker-tensorflow-serving)
 * 报错，需要安装 `pip install grpcio`
   >![grpcio error](_images/grpcio-error.png)
-* 报错
+* 报错，需要安装 `pip install tensorflow-serving-api
+`
   >![tensorflow-serving-api-error](_images/tensorflow-serving-api-error.png)
+  >>1.6.0版本已经有生成好的tensorflow-serving-api包，不用自己生成，但需要安装，才能做serving client
+  >>>![python packages](_images/python-packages.png)  
+
+  >>1.0.0安装这个包，编译会导致core dumped，因为tensorflow的版本被升级到1.7.0，兼容性问题
+  >>>![core dump](_images/core-dump.png)
 
 ### debug
 * 向签名完全不对的server发起请求
