@@ -55,6 +55,19 @@
    jpegs = tf_example['image/encoded']
    tf.saved_model.utils.build_tensor_info(jpegs)
    ```
+* ***make_tensor_proto()***
+  ```
+  client = ProdClient(host, model_name, model_version)
+  
+  req_data = [{'in_tensor_name': 'a', 'in_tensor_dtype': 'DT_INT32', 'data': 2}]
+  
+  prediction = client.predict(req_data, request_timeout=10)
+  ```
+  ```
+  for d in request_data:
+    tensor_proto = make_tensor_proto(d['data'], d['in_tensor_dtype'])
+    request.inputs[d['in_tensor_name']].CopyFrom(tensor_proto)
+  ```
 ## 读取模型
 * 读取已经训练好的Inception-v3模型
   ```
