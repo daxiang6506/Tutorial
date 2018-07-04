@@ -24,7 +24,7 @@
       outputs={operation_name: model_output},
       method_name=signature_constants.PREDICT_METHOD_NAME)
   ```
-* add_meta_graph_and_Variables()
+* ***add_meta_graph_and_Variables()***
   ```
   builder = saved_model_builder.SavedModelBuilder('./models/simple_model/1')
   
