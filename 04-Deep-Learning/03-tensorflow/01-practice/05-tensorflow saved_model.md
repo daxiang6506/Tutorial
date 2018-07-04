@@ -7,9 +7,9 @@
 * [Sending requests to your model](https://medium.com/epigramai/tensorflow-serving-101-pt-2-682eaf7469e7)
 
 ## 关键代码
-* get_tensor_by_name()
-* build_tensor_info()
-* build_signature_def()
+* ***get_tensor_by_name()***
+* ***build_tensor_info()***
+* ***build_signature_def()***
   ```
   # Pick out the model input and output
   a_tensor = sess.graph.get_tensor_by_name(placeholder_name + ':0')
