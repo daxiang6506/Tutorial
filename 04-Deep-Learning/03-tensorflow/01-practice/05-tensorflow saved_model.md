@@ -38,8 +38,7 @@
   # Save the model so we can serve it with a model server :)
   builder.save()
   ```
-* 输入输出定义好，signature_name也要定义好,signature_name可能有多个  
-* 第一种通过placeholder来占位，给出type和shape信息
+* ***build_tensor_info()***
    ```
    x_wide = tf.placeholder(tf.float32, [None, 10])
    tf.saved_model.utils.build_tensor_info(x_wide)
@@ -47,12 +46,17 @@
    serialized_tf_example = tf.placeholder(tf.string, name='tf_example')
    tf.saved_model.utils.build_tensor_info(serialized_tf_example)
    ```
-* 第二种通过tf.parse_example()来生成
+* ***FixedLenFeature()***
+* ***parse_example()***
    ```
    serialized_tf_example = tf.placeholder(tf.string, name='tf_example')
+
    feature_configs = {'image/encoded': tf.FixedLenFeature(shape=[], dtype=tf.string),}
+
    tf_example = tf.parse_example(serialized_tf_example, feature_configs)
+
    jpegs = tf_example['image/encoded']
+
    tf.saved_model.utils.build_tensor_info(jpegs)
    ```
 * ***make_tensor_proto()***
