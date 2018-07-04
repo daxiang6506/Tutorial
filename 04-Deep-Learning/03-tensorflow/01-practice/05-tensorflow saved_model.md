@@ -5,7 +5,8 @@
 * [TensorFlow saved_model 模块](https://blog.csdn.net/thriving_fcl/article/details/75213361)
 * [Saving and serving your model](https://medium.com/epigramai/tensorflow-serving-101-pt-1-a79726f7c103)
 * [Sending requests to your model](https://medium.com/epigramai/tensorflow-serving-101-pt-2-682eaf7469e7)
-
+* [Can python client be independent of tensorflow ?](https://github.com/tensorflow/serving/issues/271)
+>TF Serving now also supports a REST API, for which it's fairly easy to build a client around given the plethora of libraries supporting REST APIs across various languages.
 ## 关键代码
 * ***get_tensor_by_name()***
 * ***build_tensor_info()***
