@@ -5,6 +5,8 @@
   >有时候，我们需要将TensorFlow的模型导出为单个文件（同时包含模型架构定义与权重），方便在其他地方使用（如在C++中部署网络）。`tf.train.write_graph()`默认情况下只导出了网络的定义（没有权重），而`tf.train.Saver().save()`导出的文件`graph def`与权重是分离的。`graph def`文件中没有包含网络中的`Variable`值，如果我们能把`Variable`转换为`Constant`，即可达到使用一个文件同时存储网络架构与权重的目标。
 * [将TensorFlow的网络导出为单个文件](https://tang.su/2017/01/export-TensorFlow-network/)
 * [TensorFlow 保存模型为 PB 文件](https://zhuanlan.zhihu.com/p/32887066)
+* [Use serving without any checkpoint](https://github.com/tensorflow/serving/issues/317)
+* [网络模型的保存和读取](https://blog.csdn.net/lwplwf/article/details/62419087)
 ## 关键代码
 * ***tf.train.Saver()***
   ```
