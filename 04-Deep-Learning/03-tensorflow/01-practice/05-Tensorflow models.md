@@ -2,6 +2,7 @@
 ## 参考
 * [A quick complete tutorial to save and restore Tensorflow models](http://cv-tricks.com/tensorflow-tutorial/save-restore-tensorflow-models-quick-complete-tutorial/)
 * The [freeze_graph.py](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/tools/freeze_graph.py) script, which is part of the TensorFlow repository, now serves as a tool that generates a protocol buffer representing a "frozen" trained model, from an existing TensorFlow GraphDef and a saved checkpoint
+  >有时候，我们需要将TensorFlow的模型导出为单个文件（同时包含模型架构定义与权重），方便在其他地方使用（如在C++中部署网络）。`tf.train.write_graph()`默认情况下只导出了网络的定义（没有权重），而`tf.train.Saver().save()`导出的文件`graph def`与权重是分离的。`graph def`文件中没有包含网络中的`Variable`值，如果我们能把`Variable`转换为`Constant`，即可达到使用一个文件同时存储网络架构与权重的目标。
 ## 关键代码
 * ***tf.train.Saver()***
   ```
