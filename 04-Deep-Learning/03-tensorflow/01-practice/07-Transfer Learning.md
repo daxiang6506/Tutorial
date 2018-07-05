@@ -6,10 +6,12 @@
 * retrain.py
   >`'DecodeJpeg/contents:0'`
    ```
-   bottleneck_tensor, jpeg_data_tensor, resized_input_tensor = (
-     tf.import_graph_def(graph_def, name='', return_elements=[
-         'pool_3/_reshape:0', 'DecodeJpeg/contents:0',
-         'ResizeBilinear:0']))
+   with gfile.FastGFile(model_filename, 'rb') as f:
+     graph_def = tf.GraphDef()
+     graph_def.ParseFromString(f.read())
+     bottleneck_tensor, jpeg_data_tensor, resized_input_tensor = (
+       tf.import_graph_def(graph_def, name='', return_elements=[
+           'pool_3/_reshape:0', 'DecodeJpeg/contents:0','ResizeBilinear:0']))
    ```
   >`final_result`
    ```
