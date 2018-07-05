@@ -7,6 +7,8 @@
 * [TensorFlow 保存模型为 PB 文件](https://zhuanlan.zhihu.com/p/32887066)
 * [Use serving without any checkpoint](https://github.com/tensorflow/serving/issues/317)
 * [网络模型的保存和读取](https://blog.csdn.net/lwplwf/article/details/62419087)
+* [tensorflow 保存模型、再次加载模型等操作](https://blog.csdn.net/liuxiao214/article/details/79048136)
+
 ## 关键代码
 * ***tf.train.Saver()***
   ```

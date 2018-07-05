@@ -5,6 +5,8 @@
 * 张量和计算图上所代表的计算结果是对应的
 张量的命名“node: src_output”
 * 在TensorFlow中，变量的声明函数tf.Variable是一个运算，这个运算的结果就是一个张量，这个张量就是变量，所以变量只是一种特殊的张量
+* [TensorFlow Variables and Constants](https://stackoverflow.com/questions/44745855/tensorflow-variables-and-constants?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+* [What's the difference between tf.placeholder and tf.Variable](https://stackoverflow.com/questions/36693740/whats-the-difference-between-tf-placeholder-and-tf-variable?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 
 ### operation
 * [初步理解 TensorFlow 的 operation](https://zhuanlan.zhihu.com/p/3239903)
