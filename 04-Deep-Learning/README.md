@@ -3,7 +3,7 @@
 * [Mastering TensorFlow 1.x  
   --Advanced machine learning and deep learning concepts using TensorFlow 1.x and Keras](https://e.jd.com/30402029.html)
 * [Tensorflow环境搭建](https://www.2cto.com/kf/201612/580957.html)
-* anaconda(一个开源的Python发行版本)
+* anaconda(一个开源的Python发行版本)
 
 ## 模型演进
 * LeNet5的输入图像为32×32的灰度值图像，后面有3个卷积层，1个全连接层和1个高斯连接层
