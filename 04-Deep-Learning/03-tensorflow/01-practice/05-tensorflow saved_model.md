@@ -29,8 +29,7 @@
   ```
   x_op = sess.graph.get_operation_by_name("Placeholder")
   x = x_op.outputs[0]
-  pred_op = sess.graph.get_operation_by_name("pred")
-  pred = pred_op.outputs[0]
+  pred = sess.graph.get_operation_by_name("pred").output[0]
   ```
 * ***add_meta_graph_and_Variables()***
   ```
