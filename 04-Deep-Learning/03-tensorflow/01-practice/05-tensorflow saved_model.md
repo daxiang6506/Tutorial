@@ -11,6 +11,7 @@
 * ***get_tensor_by_name()***
 * ***build_tensor_info()***
 * ***build_signature_def()***
+* ***get_operation_by_name()***
   ```
   # Pick out the model input and output
   a_tensor = sess.graph.get_tensor_by_name(placeholder_name + ':0')
@@ -25,9 +26,15 @@
       outputs={operation_name: model_output},
       method_name=signature_constants.PREDICT_METHOD_NAME)
   ```
+  ```
+  x_op = sess.graph.get_operation_by_name("Placeholder")
+  x = x_op.outputs[0]
+  pred_op = sess.graph.get_operation_by_name("pred")
+  pred = pred_op.outputs[0]
+  ```
 * ***add_meta_graph_and_Variables()***
   ```
-  builder = saved_model_builder.SavedModelBuilder('./models/simple_model/1')
+  builder = saved_model.builder.SavedModelBuilder('./models/simple_model/1')
   
   builder.add_meta_graph_and_variables(
       sess, [tag_constants.SERVING],
@@ -36,7 +43,6 @@
               signature_definition
       })
   
-  # Save the model so we can serve it with a model server :)
   builder.save()
   ```
 * ***build_tensor_info()***
@@ -73,14 +79,5 @@
     tensor_proto = make_tensor_proto(d['data'], d['in_tensor_dtype'])
     request.inputs[d['in_tensor_name']].CopyFrom(tensor_proto)
   ```
-## 读取模型
-* 读取已经训练好的Inception-v3模型
-  ```
-  with gfile.FastGFile(os.path.join(MODEL_DIR, MODEL_FILE), 'rb') as f:
-       graph_def = tf.GraphDef()
-       graph_def.ParseFromString(f.read())
-  bottleneck_tensor, jpeg_data_tensor = tf.import_graph_deg(graph_def, return_elements=[BOTTLENECK_TENSOR_NAME, JPEG_DATA_TENSOR_NAME])
-  ```
-## 参考
 * [TensorFlow直接读取图片和读写TFRecords速度对比](https://zhuanlan.zhihu.com/p/27481108)
 * [TensorFlow高效读取数据的方法](https://blog.csdn.net/u012759136/article/details/52232266)

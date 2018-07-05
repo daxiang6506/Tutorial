@@ -16,6 +16,51 @@
   ```
   saver = tf.train.Saver(max_to_keep=4, keep_checkpoint_every_n_hours=2)
   ```
+* ***tf.train.write_graph()***
+  ```
+  graph = convert_variables_to_constants(sess, sess.graph_def, ["out"])
+  tf.train.write_graph(graph, '.', 'graph.pb', as_text=False)
+  ```
+  ```
+  tf.train.write_graph(sess.graph_def, "/tmp/load", "test.pb", False)
+  ```
+* ***tf.gfile.FastGFile()***
+  ```
+  constant_graph = graph_util.convert_variables_to_constants(sess, sess.graph_def, ['op_to_store'])
+  with tf.gfile.FastGFile(pb_file_path+'model.pb', mode='wb') as f:
+    f.write(constant_graph.SerializeToString())
+  ```
+* ***tf.saved_model.builder.SavedModelBuilder()***
+  ```
+  builder = tf.saved_model.builder.SavedModelBuilder(pb_file_path+'savemodel')
+  builder.add_meta_graph_and_variables(sess, ['cpu_server_1'])
+  builder.save()  
+  ```
+  ```
+  with sess.graph.as_default():
+      x_op = sess.graph.get_operation_by_name("Placeholder")
+      x = x_op.outputs[0]
+      pred_op = sess.graph.get_operation_by_name("pred")
+      pred = pred_op.outputs[0]
+
+  with sess.graph.as_default():
+      prediction_signature = signature_def_utils.build_signature_def(
+          inputs={
+              "inputs": utils.build_tensor_info(x)
+          },
+          outputs={
+              "pred": utils.build_tensor_info(pred)
+          },
+          method_name=signature_constants.PREDICT_METHOD_NAME
+      )
+      builder = saved_model_builder.SavedModelBuilder(export_path)
+      builder.add_meta_graph_and_variables(
+          sess, [tag_constants.SERVING],
+          signature_def_map={
+              "predict": prediction_signature,
+          })
+      builder.save()
+  ```
 * ***tf.train.import_meta_graph()***
 * ***tf.train.latest_checkpoint()***
   ```
@@ -27,16 +72,6 @@
 * ***graph.get_tensor_by_name()***
   ```
   w1 = graph.get_tensor_by_name("w1:0")
-  ```
-* ***convert_variables_to_constants()***
-* ***tf.train.write_graph()***
-  ```
-  graph = convert_variables_to_constants(sess, sess.graph_def, ["out"])
-  tf.train.write_graph(graph, '.', 'graph.pb', as_text=False)
-  ```
-* ***tf.train.write_graph()***
-  ```
-  tf.train.write_graph(sess.graph_def, "/tmp/load", "test.pb", False)
   ```
 * ***tf.import_graph_def()***
   ```
@@ -70,4 +105,18 @@
           graph_def.ParseFromString(f.read()) 
           output = tf.import_graph_def(graph_def, input_map={'input:0':new_input}, return_elements=['out:0'], name='a') 
           print(sess.run(output, feed_dict={new_input:4}))
+  ```
+* ***tf.saved_model.loader.load()***
+  ```
+  with tf.Session(graph=tf.Graph()) as sess:
+    tf.saved_model.loader.load(sess, ['cpu_1'], pb_file_path+'savemodel')
+    sess.run(tf.global_variables_initializer())
+
+    input_x = sess.graph.get_tensor_by_name('x:0')
+    input_y = sess.graph.get_tensor_by_name('y:0')
+
+    op = sess.graph.get_tensor_by_name('op_to_store:0')
+
+    ret = sess.run(op,  feed_dict={input_x: 5, input_y: 5})
+    print(ret)
   ```
