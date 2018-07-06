@@ -84,5 +84,7 @@
   writer = tf.summary.FileWriter("/root.log.constant_save.log", graph_export)
   writer.close()
   ```
+* `numpy.squeeze()`
+  >在机器学习和深度学习中，通常算法的结果是可以表示向量的数组（即包含两对或以上的方括号形式[[]]，如果直接利用这个数组进行画图可能显示界面为空，我们可以利用 `sqeeze()` 函数将表示向量的数组转换为秩为1的数组，这样利用 `matplotlib` 库画图时，就可以正常的显示结果了。
 ## 模型
 * [TensorFlow 版本 inception v3 网络代码解读](https://zhuanlan.zhihu.com/p/34055904)
