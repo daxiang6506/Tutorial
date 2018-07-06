@@ -46,7 +46,7 @@
   The : notation is python slicing syntax for "leave this dimension alone". This is useful in higher-rank Tensors, as it allows you to access its subvectors, submatrices, and even other subtensors.
 * ![rank](_images/rank.png)  
 ### Shape
-* The shape of a tensor is the number of elements in each dimension. TensorFlow automatically infers shapes during graph construction. These inferred shapes might have known or unknown rank. If the rank is know, the sizes of each dimension might be known or unknown.  
+  * The shape of a tensor is the number of elements in each dimension. TensorFlow automatically infers shapes during graph construction. These inferred shapes might have known or unknown rank. If the rank is know, the sizes of each dimension might be known or unknown.  
 
   The TensorFlow documentation uses three notational conventions to describe tensor dimensionality: `rank, shape, dimension number`. The following table shows these relate to one another:
 
