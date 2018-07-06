@@ -44,7 +44,7 @@
   3. For tensors of rank 2 or higher, the situation is more interesting. For a tf.Tensor of rank 2, passing two numbers returns a scalar, as expected: `my_scalar = my_matrix[1, 2]`  
   Passing a single number, however, returns a subvector of a matrix, as follows: `my_row_vector = my_matrix[2]` `my_column_vector = my_matrix[:, 3]`  
   The : notation is python slicing syntax for "leave this dimension alone". This is useful in higher-rank Tensors, as it allows you to access its subvectors, submatrices, and even other subtensors.
-* ![rank](_images/rank.png)  
+  ![rank](_images/rank.png)  
 ### Shape
   * The shape of a tensor is the number of elements in each dimension. TensorFlow automatically infers shapes during graph construction. These inferred shapes might have known or unknown rank. If the rank is know, the sizes of each dimension might be known or unknown.  
 
