@@ -58,7 +58,17 @@
 
   * `tf.shape(x)`  
     `shape=tf.placeholder(tf.float32, shape=[None, 227, 227, 3])`
-    这样feed数据，如果想在运行的时候想知道 `None` 到底是多少，这时候，只能通过 `tf.shape(x)[0]` 这种方式来获得
+    这样feed数据，如果想在运行的时候想知道 `None` 到底是多少，这时候，只能通过 `tf.shape(x)[0]` 这种方式来获得。
+  * `tensor.get_shape()`
+  * `zeros = tf.zeros(my_matrix.shape[1])`
+    >make a vector of zeros with the same size as the number of columns in a given matrix
+  * The number of elements of a tensor is the product of the sizes of all its shapes. The number of elements of a scalar is always 1. Since there are often many different shapes that have the same number of elements, it's often convinient to be able to change the shape of a `tf.Tensor`, keeping its elments fixed. This can be done with `tf.reshape`.
+    ```
+    rank_three_tensor = tf.ones([3, 4, 5])
+    matirx = tf.reshape(rank_three_tensor, [6, 10])
+    matrixB = tf.reshape(matrix, [3, -1])
+    matrixAlt =  tf.reshape(matrixB, [4, 3, -1])
+    ```
 
 ## 模型
 * [TensorFlow 版本 inception v3 网络代码解读](https://zhuanlan.zhihu.com/p/34055904)
