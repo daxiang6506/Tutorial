@@ -30,6 +30,11 @@
   3. tf.placeholder
   4. tf.SparseTensor  
 * With the exception of `tf.Variable`, the value of a tensor is immutable, which means that in the context of a single execution tensors only have a single value. However, evaluating the same tensor twice can return different values; for example that tensor can be the result of reading data from disk, or generating a random number. 
+* `tf.Variable()`才有`assign()`方法，因为它是mutable tensor
+  ```
+  v = tf.Variable(3, name='v')
+  v2 = v.assign(5)
+  ```
 
 ### operation
 * [初步理解 TensorFlow 的 operation](https://zhuanlan.zhihu.com/p/3239903)
@@ -50,6 +55,10 @@
 
   * The TensorFlow documentation uses three notational conventions to describe tensor dimensionality: `rank, shape, dimension number`. The following table shows these relate to one another:  
   ![shape](_images/shape.png)  
+
+  * `tf.shape(x)`  
+    `shape=tf.placeholder(tf.float32, shape=[None, 227, 227, 3])`
+    这样feed数据，如果想在运行的时候想知道 `None` 到底是多少，这时候，只能通过 `tf.shape(x)[0]` 这种方式来获得
 
 ## 模型
 * [TensorFlow 版本 inception v3 网络代码解读](https://zhuanlan.zhihu.com/p/34055904)
