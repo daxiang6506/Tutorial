@@ -9,14 +9,14 @@
   sar -n DEV 1 1
   ```
   >[Linux查看实时网卡流量的几种方式](https://www.jianshu.com/p/b9e942f3682c)
-* 
+* 查询进程号
   ```
-  
+  pgrep -f "tensorboard"
   ```
   >
-* 
+* kill进程
   ```
-  
+  pkill -f "tensorboard"
   ```
   >
 * 

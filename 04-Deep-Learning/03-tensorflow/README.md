@@ -69,6 +69,20 @@
     matrixB = tf.reshape(matrix, [3, -1])
     matrixAlt =  tf.reshape(matrixB, [4, 3, -1])
     ```
+## 常用命令
+* `tf.summary.FileWriter()`
+  >  
+  ```
+  writer = tf.summary.FileWriter("log", tf.get_default_graph())
+  writer.close()
+  ```
+  ```
+  graph_export = tf.Graph()
 
+  with graph_export.as_default():
+    tf.import_graph_def(output_graph_def, name="")
+  writer = tf.summary.FileWriter("/root.log.constant_save.log", graph_export)
+  writer.close()
+  ```
 ## 模型
 * [TensorFlow 版本 inception v3 网络代码解读](https://zhuanlan.zhihu.com/p/34055904)
