@@ -52,22 +52,5 @@ tensorboard --logdir=log
  ~/Anaconda3-5.1.0/bin/conda
 source  ~/Anaconda3-5.1.0/bin/activate tf
 
-#
-docker run -p 8888:8888 -p 6006:6006 -it --name="Anaconda-tensorflow" -v C:/Users/Administrator/tensorflow\Anaconda-tensorflow/TensorFlow-Tutorials:/root/notebook daxiang6506/anaconda-tensorflow
 
-#必须使用这个版本，默认版本不行
-pip install bleach==1.5.0
-
-jupyter notebook --ip=* --allow-root --port=8888
-tensorboard --logdir=/root/notebook/tb-log
-
-#为了使用opencv，需要安装这些包，之后安装相应的python包，jupytor kernel重启的话，增加docker内存
-apt-get update
-apt-get install libgtk2.0-dev
-
-pip install h5py
-pip install opencv-python
-pip install configobj
-pip install keras
-pip install Cython
 ```
