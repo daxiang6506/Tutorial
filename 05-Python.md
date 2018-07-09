@@ -13,4 +13,4 @@
 * 运行flask程序时，要指定host为0.0.0.0主机才能访问到docker中的内容.
   ![flask](_images/pycharm-flask.png)
 * 运行Django程序的时候，host要指定为0.0.0.0才能访问docker中的内容，端口会自动映射，映射规则就是7002:7002，同端口映射.
-  ![Django](_images/pycharm-Django.pngß)
+  ![Django](_images/pycharm-Django.png)
