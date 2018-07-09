@@ -10,3 +10,5 @@
   ```
 * Pycharm使用docker时，需要配置docker API，windows中配置为主机加端口号，unix配置为 `docker.sock` 文件。
   ![pycharm-docker](_images/pycharm-docker.png)
+* 运行flask程序时，要指定host为0.0.0.0主机才能访问到docker中的内容.
+  ![flask](_images/pycharm-flask.png)
