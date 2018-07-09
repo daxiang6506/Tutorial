@@ -19,10 +19,14 @@
   pkill -f "tensorboard"
   ```
   >
-* 
+* $
   ```
-  
+  # 执行date命令，返回执行结果给变量todaydate
+  todaydate=$(date +%Y%m%d)
   ```
+  ```
+  # 取值并打印
+  echo ${PATH}
   >
 * 
   ```
