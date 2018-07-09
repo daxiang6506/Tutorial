@@ -8,7 +8,7 @@
 * [Use serving without any checkpoint](https://github.com/tensorflow/serving/issues/317)
 * [网络模型的保存和读取](https://blog.csdn.net/lwplwf/article/details/62419087)
 * [tensorflow 保存模型、再次加载模型等操作](https://blog.csdn.net/liuxiao214/article/details/79048136)
-* 保存为 `constant` 的时候必须指定要保存的节点，这个节点相关的所有节点都会被保存，否则不保存，对于保存为变量的情况，则需要在 `session` 里包含 `graph`，所有节点都会被保存。`placeholder` 还是会保存为 `placeholder`
+* 保存为 `constant` 的时候必须指定要保存的节点，这个节点相关的所有节点都会被保存，否则不保存，对于保存为变量的情况，则需要在 `session` 里包含 `graph`，所有节点都会被保存。`placeholder` 还是会保存为 `placeholder`
 
 ## 关键代码
 * ***tf.train.Saver()***
