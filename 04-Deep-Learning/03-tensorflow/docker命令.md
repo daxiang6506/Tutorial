@@ -55,7 +55,7 @@ source  ~/Anaconda3-5.1.0/bin/activate tf
 #
 docker run -p 8888:8888 -p 6006:6006 -it --name="Anaconda-tensorflow" -v C:/Users/Administrator/tensorflow\Anaconda-tensorflow/TensorFlow-Tutorials:/root/notebook daxiang6506/anaconda-tensorflow
 
-#必须使用这个版本，默认版本不行
+#必须使用这个版本，默认版本不行
 pip install bleach==1.5.0
 
 jupyter notebook --ip=* --allow-root --port=8888
