@@ -5,4 +5,5 @@
   >finder下前往任何文件夹，包括隐藏文件夹
 * Option + space
   >打开Alfred，这个需要自己安装Alfred，并设置快捷键
-* 
+* Option + Command + C
+  >复制文件路径
