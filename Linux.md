@@ -27,6 +27,15 @@
   ```
   # 取值并打印
   echo ${PATH}
+  ```
+  ```
+  # 表示所有脚本参数的内容
+  $@
+  ```
+  ```
+  # 表示返回所有脚本参数的个数
+  $#
+  ```
   >
 * touch
   ```
@@ -38,7 +47,8 @@
   echo "Raspberry" > test.txt
   ```
   >覆盖文件原内容并重新输入内容，若文件不存在则创建文件
-* 
+* source
+  >[ref](https://www.cnblogs.com/ThatsMyTiger/p/6865817.html)
   ```
   
   ```

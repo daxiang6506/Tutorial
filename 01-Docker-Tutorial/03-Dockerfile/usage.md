@@ -24,6 +24,7 @@
   ```
   >CMD指令配合使用来指定ENTRYPOINT的默认参数，这时CMD指令不是一个完整的可执行命令，仅仅是参数部份
 * CMD
+  >The main purpose of a CMD is to provide defaults for an executing container. These defaults can include an executable, or they can omit the executable, in which case you must specify an ENTRYPOINT instruction as well.
   ```
   CMD ["executable","param1","param2"] (like an exec, this is the preferred form)
   CMD command param1 param2 (as a shell)
