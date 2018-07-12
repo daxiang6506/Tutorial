@@ -128,3 +128,8 @@
   ```
 * docker stop/kill
   >[docker容器如何优雅的终止](https://www.jb51.net/article/96617.htm)
+* docker logs
+  ```
+  docker logs container_Name/ID
+  ```
+  
