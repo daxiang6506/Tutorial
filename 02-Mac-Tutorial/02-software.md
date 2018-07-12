@@ -36,7 +36,13 @@
   >>> #You may also need to force rebuild `zcompdump`:
   >>> #rm -f ~/.zcompdump; compinit
   >>> ```
-  >>>* [zsh使用](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
+  >>>* [zsh使用](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)  
+  >>****
+  >>sshfs  
+  >>imagemagick  
+  >>graphicsmagick  
+  >>autojump  
+  
 * [Cask](http://caskroom.github.io/)
   >brew cask install
   >>alfred  
@@ -48,3 +54,6 @@
   >>pycharm  
   >>goland  
   >>intellij-idea
+  >>microsoft-office
+  >>osxfuse
+  >>sequel-pro
