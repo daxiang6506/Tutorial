@@ -36,7 +36,7 @@
   >>> #You may also need to force rebuild `zcompdump`:
   >>> #rm -f ~/.zcompdump; compinit
   >>> ```
-  >>>*[zsh使用](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
+  >>>* [zsh使用](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
 * [Cask](http://caskroom.github.io/)
   >brew cask install
   >>alfred  
