@@ -1,9 +1,10 @@
 # Jupyter
 ## 快捷键
-* [链接](http://ce8f04a92771:8888/?token=311799f0d8336a1dd9df25ec197af16c527eddd726c25000&token=311799f0d8336a1dd9df25ec197af16c527eddd726c25000)
+* [链接](https://blog.csdn.net/lawme/article/details/51034543)
   > ```
   > Shift + Enter        运行本单元，选中下个单元
   > Ctrl + Enter         运行本单元
+  > F                    查找替换
   > Y                    单元转入代码状态
   > M                    单元转入markdown状态
   > A                    在上方插入新单元
