@@ -35,13 +35,15 @@
   >>> fpath=(/usr/local/share/zsh-completions $fpath)
   >>> #You may also need to force rebuild `zcompdump`:
   >>> #rm -f ~/.zcompdump; compinit
+  >>>[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
   >>> ```
   >>>* [zsh使用](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)  
   >>****
   >>sshfs  
   >>imagemagick  
   >>graphicsmagick  
-  >>autojump  
+  >>[autojump](https://www.jianshu.com/p/51e71087f732) 
+  >>> `jo xxx` `j xxx` `d`  
   
 * [Cask](http://caskroom.github.io/)
   >brew cask install
