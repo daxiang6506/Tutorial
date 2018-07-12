@@ -11,11 +11,11 @@
   > DD                   删除选中单元
   > X                    剪切选中单元
   > V                    粘贴到上方
-  > Shift + V            粘贴到下方
-  > Shift + Down         扩大选中下方单元
+  > Shift + V            粘贴到下方
+  > Shift + Down         扩大选中下方单元
   > Shift + M            合并选中的单元
   > Z                    恢复删除的最后一个单元
-  > S                    保存修改
+  > S                    保存修改
   > Space                向下滚动
   > Shift + Space        向上滚动
   > 
