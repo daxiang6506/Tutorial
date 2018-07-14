@@ -1,7 +1,7 @@
 # Software
 * [Homebrew](https://brew.sh/)
   >brew install
-  >>macvim --env-std --override-system-vim
+  >>macvim --env-std --override-system-vim  
   >>zsh zsh-completions  
   >>>* shell替换为zsh  
   >>>`chsh -s /bin/zsh`
