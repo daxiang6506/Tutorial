@@ -51,6 +51,8 @@
   >>alfred  
   >>cheatsheet  
   >>iterm2  
+  >>>[github](https://github.com/mbadolato/iTerm2-Color-Schemes)  
+  >>>  
   >>keka  
   >>visual-studio-code  
   >>google-chrome  
