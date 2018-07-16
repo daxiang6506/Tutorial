@@ -1,4 +1,5 @@
 # Software
+* [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases/)
 * [Homebrew](https://brew.sh/)
   >brew install
   >>macvim --env-std --override-system-vim  
