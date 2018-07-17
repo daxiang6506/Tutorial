@@ -8,6 +8,7 @@
   >>>* shell替换为zsh `chsh -s /bin/zsh`  
   >>>* [安装omyzsh](http://ohmyz.sh/)  
   >>>* [配置zsh](.zshrc) ***终端主题***  
+  >>>  `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
   >>>* zsh配置立即生效 `source ~/.zshrc`  
   >>>* [vi-mode插件](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)  
   >>****
