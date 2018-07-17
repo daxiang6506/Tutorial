@@ -9,7 +9,7 @@
   >>>* [安装omyzsh](http://ohmyz.sh/)  
   >>>* [配置zsh](.zshrc)  
   >>>* zsh配置立即生效 `source ~/.zshrc`  
-  >>>* [zsh使用](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)  
+  >>>* [vi-mode插件](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)  
   >>****
   >>sshfs  
   >>imagemagick  
