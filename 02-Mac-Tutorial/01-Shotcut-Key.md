@@ -11,6 +11,7 @@
   >上一级目录
 * Command + Shift + x
   >打开当前文件下的终端  
+* 
 
 ## 设置
 * [当前文件夹打开终端](https://jingyan.baidu.com/article/cdddd41c9d157253cb00e102.html)
