@@ -33,7 +33,23 @@
   CMD ["param1","param2"] (as default parameters to ENTRYPOINT)
   ```
   >当Dockerfile指定了ENTRYPOINT，则使用第三种方式
+## 多阶段构建
+  ```
+  #build stage
+  FROM daxiang6506/tf-demo AS builder
+  WORKDIR /go/src/app
+  COPY . .
+  RUN go install 
 
+  #final stage
+  FROM daxiang6506/tf-demo
+  WORKDIR /app
+  COPY --from=builder /go/bin/app /app/app
+  COPY --from=builder /go/src/app /app/
+  ENTRYPOINT ./app
+  LABEL Name=tensorflow-demo Version=0.0.1
+  EXPOSE 1323
+  ```
 ## 参考
 * [Dockerfile里指定执行命令用ENTRYPOING和用CMD有何不同？](https://segmentfault.com/q/1010000000417103)
 * [Dockerfile创建自定义Docker镜像以及CMD与ENTRYPOINT指令的比较](http://www.cnblogs.com/lienhua34/p/5170335.html)
