@@ -59,7 +59,7 @@ ZSH_THEME="minimal"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git  autojump vi-mode sublime mvn gradle colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting
+  git  autojump vi-mode sublime mvn gradle colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting docker
 )
 
 source $ZSH/oh-my-zsh.sh
