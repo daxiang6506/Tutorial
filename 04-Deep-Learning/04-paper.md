@@ -69,3 +69,4 @@ Training a Diverse Ensemble of Deep Networks]](https://arxiv.org/pdf/1511.06314.
   >dbn4lvcsr-transaslp
 * [论文: Speech Recognition with Deep Recurrent Neural Networks](https://arxiv.org/abs/1303.5778)
   >1303.5778
+* [如何用简单例子讲解 Q - learning 的具体过程？](https://www.zhihu.com/question/26408259)
