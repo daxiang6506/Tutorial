@@ -15,7 +15,7 @@
   >>sshfs  
   >>imagemagick  
   >>graphicsmagick  
-  >>[autojump](https://www.jianshu.com/p/51e71087f732) 
+  >>[autojump](https://yuweiguocn.github.io/command-line-autojump/)
   >>> `jo xxx` `j xxx` `d`  
   
 * [Cask](http://caskroom.github.io/)
