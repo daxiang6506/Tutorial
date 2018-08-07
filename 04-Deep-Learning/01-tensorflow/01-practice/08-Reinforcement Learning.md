@@ -17,6 +17,9 @@
   ```
   docker run -p 8888:8888 -p 6006:6006 -it --restart=always --name="tensorflow-anaconda3-rl" -v $(pwd):/root/notebook daxiang6506/tensorflow:anaconda3-1.0.4 /bin/bashß
   ```
+  ```
+  /run_jupyter.sh --ip=* --allow-root --port=8888
+  ```
 * 下载并安装 `gym`
   ```
   git clone https://github.com/openai/gym.git
