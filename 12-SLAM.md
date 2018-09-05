@@ -3,6 +3,7 @@
 * [virtul box 挂载文件夹](https://blog.csdn.net/a962804835/article/details/72820355)
 * [cmake](https://github.com/TheErk/CMake-tutorial)
 * [ninja](https://www.jianshu.com/p/d118615c1943)
+* [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
 ## action
 ```
 #宿主机改变权限
