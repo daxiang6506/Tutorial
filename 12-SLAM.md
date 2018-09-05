@@ -7,6 +7,7 @@
 * [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
 * [pangolin](https://github.com/stevenlovegrove/Pangolin)
 * [pangolin安装及其使用](https://blog.csdn.net/c602273091/article/details/65441315)
+* [C++里面ostream是干什么的](https://zhidao.baidu.com/question/584182022.html?qbl=relate_question_3&word=ostream%26%20operator)
 
 ## action
 ```
