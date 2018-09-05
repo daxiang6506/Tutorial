@@ -5,6 +5,7 @@
 * [ninja](https://www.jianshu.com/p/d118615c1943)
 * [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
 * [pangolin](https://github.com/stevenlovegrove/Pangolin)
+* [pangolin安装及其使用](https://blog.csdn.net/c602273091/article/details/65441315)
 
 ## action
 ```
