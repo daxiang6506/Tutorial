@@ -1,6 +1,8 @@
 ## 参考
 * [slum book](https://github.com/gaoxiang12/slambook)
 * [virtul box 挂载文件夹](https://blog.csdn.net/a962804835/article/details/72820355)
+* [cmake](https://github.com/TheErk/CMake-tutorial)
+* [ninja](https://www.jianshu.com/p/d118615c1943)
 ## action
 ```
 #宿主机改变权限
