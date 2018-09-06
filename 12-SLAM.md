@@ -1,13 +1,13 @@
 ## 参考
 * [slum book](https://github.com/gaoxiang12/slambook)
 * [virtul box 挂载文件夹](https://blog.csdn.net/a962804835/article/details/72820355)
-* [cmake](https://github.com/TheErk/CMake-tutorial)
   >[CMake如何查找链接库---find_package的使用方法](https://blog.csdn.net/u011092188/article/details/61425924)
 * [ninja](https://www.jianshu.com/p/d118615c1943)
 * [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
 * [pangolin](https://github.com/stevenlovegrove/Pangolin)
 * [pangolin安装及其使用](https://blog.csdn.net/c602273091/article/details/65441315)
 * [C++里面ostream是干什么的](https://zhidao.baidu.com/question/584182022.html?qbl=relate_question_3&word=ostream%26%20operator)
+* [Sophus](https://github.com/strasdat/Sophus)
 
 ## action
 ```
