@@ -1,7 +1,8 @@
 ## 参考
 * [slum book](https://github.com/gaoxiang12/slambook)
 * [virtul box 挂载文件夹](https://blog.csdn.net/a962804835/article/details/72820355)
-  >[CMake如何查找链接库---find_package的使用方法](https://blog.csdn.net/u011092188/article/details/61425924)
+* [CMake如何查找链接库---find_package的使用方法](https://blog.csdn.net/u011092188/article/details/61425924)
+* [CMake实践》笔记二：INSTALL/CMAKE_INSTALL_PREFIX](https://blog.csdn.net/primeprime/article/details/53020147)
 * [ninja](https://www.jianshu.com/p/d118615c1943)
 * [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
 * [pangolin](https://github.com/stevenlovegrove/Pangolin)
