@@ -3,6 +3,7 @@
 * [virtul box 挂载文件夹](https://blog.csdn.net/a962804835/article/details/72820355)
 * [CMake如何查找链接库---find_package的使用方法](https://blog.csdn.net/u011092188/article/details/61425924)
 * [CMake实践》笔记二：INSTALL/CMAKE_INSTALL_PREFIX](https://blog.csdn.net/primeprime/article/details/53020147)
+* [自己创建XXConfig.cmake文件](https://blog.csdn.net/historycomputer/article/details/59121420)
 * [hpp](https://blog.csdn.net/davidhsing/article/details/4222227)
 * [ninja](https://www.jianshu.com/p/d118615c1943)
 * [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
