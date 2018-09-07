@@ -1,4 +1,8 @@
 ## 常用linux命令
+* ubuntu查看apt安装文件位置
+  ```
+  dpkg -L liblapack-dev
+  ```
 * 定位文件
   ```
   locate
