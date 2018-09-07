@@ -6,10 +6,14 @@
 * [hpp](https://blog.csdn.net/davidhsing/article/details/4222227)
 * [ninja](https://www.jianshu.com/p/d118615c1943)
 * [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
+* [eigen](http://eigen.tuxfamily.org/index.php?title-Main_Page)
+  >矩阵库
 * [pangolin](https://github.com/stevenlovegrove/Pangolin)
+  >OpenGL封装库
 * [pangolin安装及其使用](https://blog.csdn.net/c602273091/article/details/65441315)
 * [C++里面ostream是干什么的](https://zhidao.baidu.com/question/584182022.html?qbl=relate_question_3&word=ostream%26%20operator)
 * [Sophus](https://github.com/strasdat/Sophus)
+  >李群库
 * [PCL](http://pointclouds.org)
   >Point Cloud Library
 * [Ceres](https://github.com/ceres-solver/ceres-solver)
