@@ -11,6 +11,9 @@
 * [C++里面ostream是干什么的](https://zhidao.baidu.com/question/584182022.html?qbl=relate_question_3&word=ostream%26%20operator)
 * [Sophus](https://github.com/strasdat/Sophus)
 * [PCL](http://pointclouds.org)
+  >Point Cloud Library
+* [Ceres](https://github.com/ceres-solver/ceres-solver)
+  >通用最小二乘问题求解库
 
 ## action
 ```
