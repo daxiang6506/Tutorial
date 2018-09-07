@@ -14,6 +14,11 @@
 * [C++里面ostream是干什么的](https://zhidao.baidu.com/question/584182022.html?qbl=relate_question_3&word=ostream%26%20operator)
 * [Sophus](https://github.com/strasdat/Sophus)
   >李群库
+  >```
+  > cmake .. -DCMAKE_INSTALL_PREFIX:PATH=$HOME/svslocal
+  > sudo make -j4
+  > sudo make install
+  >```
 * [PCL](http://pointclouds.org)
   >Point Cloud Library
 * [Ceres](https://github.com/ceres-solver/ceres-solver)
