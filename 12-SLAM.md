@@ -44,4 +44,5 @@ sudo umount /mnt/xuc
 #删除目录
 sudo rm -rf /mnt/xuc
 ```
-* ![vbox](_images/vbox.png)
+* ![sharefolder-settings](_images/sharefolder-settings.png)
+* ![network-settings](_images/network-settings.png)
