@@ -57,3 +57,17 @@
 * ![网卡设置](_images/network-adaptor.png)
   >网卡要先删除，在增加，否则不能上网
 * ![网络设置](_images/network-settings.png)
+## 安装ceres
+* 安装依赖包
+  >```
+  >sudo apt-get install libgflags-dev
+  >sudo apt-get install libgoogle-glog-dev
+  >```
+* 安装本尊
+  >```
+  >sudo mkdir build
+  >cd build
+  >sudo cmake ../
+  >sudo make
+  >make install
+  >``` 
