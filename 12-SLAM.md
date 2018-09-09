@@ -25,24 +25,35 @@
 * [Ceres](https://github.com/ceres-solver/ceres-solver)
   >通用最小二乘问题求解库
 
-## action
-```
-#宿主机改变权限
-sudo chmod -R 777 /home/usr/repo/
-#虚拟机创建目录
-sudo mkdir /mnt/xuc
-#改变目录权限
-sudo chmod -R 777 /mnt/xuc
-
-#在virtual box里创建shared folders，见图
-
-#挂载宿主机目录到虚拟机目录
-sudo mount -t vboxsf repo /mnt/xuc
-
-#取消挂载
-sudo umount /mnt/xuc
-#删除目录
-sudo rm -rf /mnt/xuc
-```
-* ![sharefolder-settings](_images/sharefolder-settings.png)
-* ![network-settings](_images/network-settings.png)
+## 虚拟机环境搭建
+使用virtual box建立环境
+* ![设置内存](_images/memory.png)
+  >要设置大一点
+* ![设置显存](_images/video.png)
+  >如果设置小了，虚拟机屏幕分辨率不够
+* ![设置共享文件夹](_images/sharefolder-settings.png)
+  >```
+  >在宿主机上创建文件夹
+  >sudo mkdir /home/usr/repo/
+  >
+  >#改变宿主机权限
+  >sudo chmod -R 777 /home/usr/repo/
+  >
+  >#虚拟机创建目录
+  >sudo mkdir /mnt/xuc
+  >
+  >#改变目录权限
+  >sudo chmod -R 777 /mnt/xuc
+  >
+  >#挂载宿主机目录到虚拟机目录
+  >sudo mount -t vboxsf repo /mnt/xuc
+  >
+  >#取消挂载
+  >sudo umount /mnt/xuc
+  >
+  >#删除目录
+  >sudo rm -rf /mnt/xuc
+  >```
+* ![网卡设置](_images/network-adaptor.png)
+  >网卡要先删除，在增加，否则不能上网
+* ![网络设置](_images/network-settings.png)
