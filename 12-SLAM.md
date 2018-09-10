@@ -27,8 +27,12 @@
 * [g2o](https://github.com/RainerKuemmerle/g2o)
   >通用图优化库
 * [opencv](https://opencv.org)
-  >[github](https://github.com/opencv/opencv/tree/3.1.0)
-  
+  >[github](https://github.com/opencv/opencv/tree/3.0.0)
+  >> 3.1.0 安装报错
+
+## 资源
+* [vscode下载](https://code.visualstudio.com/Download)
+
 ## 虚拟机环境搭建
 使用virtual box建立环境
 * ![设置内存](_images/memory.png)
