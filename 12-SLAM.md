@@ -33,6 +33,8 @@
   >`sudo apt-get install valgrind`  
   >[Linux下性能分析工具和内存泄露检测工具的简介](https://blog.csdn.net/u014717036/article/details/50762252)
   >`valgrind --log-file=./valgrind_report_all --tool=memcheck --leak-check=full --show-leak-kinds=all ./pose_estimation_3d2d 1.png 2.png 1_depth.png 2_depth.png`
+* [C++模板](https://www.cnblogs.com/yutongqing/p/6721323.html)
+
 ## 资源
 * [vscode下载](https://code.visualstudio.com/Download)
 
