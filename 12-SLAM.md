@@ -37,6 +37,8 @@
 * [卡尔曼滤波和维纳滤波](https://blog.csdn.net/sillykog/article/details/78535767)
 * [李群、李代数在计算机视觉中的应用](https://blog.csdn.net/x_r_su/article/details/52749616)
 * [C++智能指针简单剖析](http://www.cnblogs.com/lanxuezaipiao/p/4132096.html)
+* [C++类构造函数初始化列表](http://www.cnblogs.com/BlueTzar/articles/1223169.html)
+
 ## 资源
 * [vscode下载](https://code.visualstudio.com/Download)
 
