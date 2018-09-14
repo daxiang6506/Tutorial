@@ -42,10 +42,14 @@
 * [C++笔记——std::min_element和std::max_element](https://blog.csdn.net/breeze5428/article/details/25918925)
 * [非修改性序列算法之min_element和max_element](https://blog.csdn.net/maoliran/article/details/52205549)
 * [C++11中的匿名函数(lambda函数,lambda表达式)](https://www.cnblogs.com/pzhfei/archive/2013/01/14/lambda_expression.html)
+* [C++拷贝构造函数(深拷贝，浅拷贝)](http://www.cnblogs.com/BlueTzar/articles/1223313.html)
+* [C++移动构造函数以及move语句简单介绍](https://www.cnblogs.com/qingergege/p/7607089.html)
+* [C++类的特殊成员-默认/拷贝/移动构造函数](https://blog.csdn.net/shenwanjiang111/article/details/53576196)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
 
 ## 资源
 * [vscode下载](https://code.visualstudio.com/Download)
+* [meshlab](http://www.meshlab.net/)
 
 ## 虚拟机环境搭建
 使用virtual box建立环境
