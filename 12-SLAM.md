@@ -34,6 +34,7 @@
   >[Linux下性能分析工具和内存泄露检测工具的简介](https://blog.csdn.net/u014717036/article/details/50762252)
   >`valgrind --log-file=./valgrind_report_all --tool=memcheck --leak-check=full --show-leak-kinds=all ./pose_estimation_3d2d 1.png 2.png 1_depth.png 2_depth.png`
 * [C++模板](https://www.cnblogs.com/yutongqing/p/6721323.html)
+* [C++ Template 基础篇（一）：函数模板](https://blog.csdn.net/lezardfu/article/details/56852043)
 * [卡尔曼滤波和维纳滤波](https://blog.csdn.net/sillykog/article/details/78535767)
 * [李群、李代数在计算机视觉中的应用](https://blog.csdn.net/x_r_su/article/details/52749616)
 * [C++智能指针简单剖析](http://www.cnblogs.com/lanxuezaipiao/p/4132096.html)
