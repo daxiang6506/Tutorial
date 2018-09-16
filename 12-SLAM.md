@@ -48,6 +48,7 @@
 * [C++析构函数后加上virtual的原因](https://blog.csdn.net/u014453898/article/details/60402586)
 * [C++强制类型转换操作符 static_cast](http://www.cnblogs.com/QG-whz/p/4509710.html)
 * [C++中结构体与类的区别（struct与class的区别](https://www.cnblogs.com/starfire86/p/5367740.html)
+* [c++中c_str()用法，越详细越好](https://zhidao.baidu.com/question/104592558.html)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
 
 ## 资源
