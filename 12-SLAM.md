@@ -22,6 +22,7 @@
   >```
 * [PCL](http://pointclouds.org)
   >Point Cloud Library
+  >提供点云转换为地图的功能
 * [Ceres](https://github.com/ceres-solver/ceres-solver)
   >通用最小二乘问题求解库
 * [g2o](https://github.com/RainerKuemmerle/g2o)
