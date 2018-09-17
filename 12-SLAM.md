@@ -55,6 +55,10 @@
 * [vscode下载](https://code.visualstudio.com/Download)
 * [meshlab](http://www.meshlab.net/)
   >ubuntu app store里有
+* [DBow](https://github.com/rmsalinas/DBow3)
+  >DBoW3 is an improved version of the DBow2 library, an open source C++ library for indexing and converting images into a bag-of-word representation
+* [BitBucket](http://tech.it168.com/a2017/1026/3176/000003176180.shtml)
+  >集成了jira工具
 
 ## 虚拟机环境搭建
 使用virtual box建立环境
