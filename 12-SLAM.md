@@ -50,6 +50,7 @@
 * [C++中结构体与类的区别（struct与class的区别](https://www.cnblogs.com/starfire86/p/5367740.html)
 * [c++中c_str()用法，越详细越好](https://zhidao.baidu.com/question/104592558.html)
 * [C++using声明和using指示](https://blog.csdn.net/mlyjqx/article/details/74783811)
+* [通过 GCC 学习 OpenMP 框架](https://blog.csdn.net/xceman1997/article/details/10197567)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
 
 ## 资源
