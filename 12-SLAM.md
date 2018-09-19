@@ -57,6 +57,8 @@
 * [C++11 initializer_list详解](https://blog.csdn.net/fengxinlinux/article/details/72614874)
 * [C++: explicit的适用场合以及为什么要使用explicit](https://blog.csdn.net/qq_37233607/article/details/79051075)
 * [C++中的RAII机制](https://blog.csdn.net/wozhengtao/article/details/52187484)
+* [JAVA异常处理 与C++的不同](https://blog.csdn.net/ljlove2008/article/details/3076337)
+* [Does C++ support 'finally' blocks? (And what's this 'RAII' I keep hearing about?)](https://stackoverflow.com/questions/161177/does-c-support-finally-blocks-and-whats-this-raii-i-keep-hearing-about)
 * [通过 GCC 学习 OpenMP 框架](https://blog.csdn.net/xceman1997/article/details/10197567)
 * [Mat 数据类型指针ptr 的使用](https://blog.csdn.net/qq_22637049/article/details/77688452)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
