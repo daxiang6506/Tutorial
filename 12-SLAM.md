@@ -59,6 +59,8 @@
 * [C++中的RAII机制](https://blog.csdn.net/wozhengtao/article/details/52187484)
 * [JAVA异常处理 与C++的不同](https://blog.csdn.net/ljlove2008/article/details/3076337)
 * [Does C++ support 'finally' blocks? (And what's this 'RAII' I keep hearing about?)](https://stackoverflow.com/questions/161177/does-c-support-finally-blocks-and-whats-this-raii-i-keep-hearing-about)
+* [C++ What is stack unwinding?](https://stackoverflow.com/questions/2331316/what-is-stack-unwinding)
+* [深入理解linux下进程和线程的空间分配，进程栈和线程栈的空间分配](https://blog.csdn.net/elfprincexu/article/details/78779158)
 * [通过 GCC 学习 OpenMP 框架](https://blog.csdn.net/xceman1997/article/details/10197567)
 * [Mat 数据类型指针ptr 的使用](https://blog.csdn.net/qq_22637049/article/details/77688452)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
