@@ -92,6 +92,32 @@
 * [深入浅出 Barriers 实现（一）](http://www.cnblogs.com/haippy/archive/2012/12/26/2833554.html)
 * [Linux pthread 障碍同步barrier](https://blog.csdn.net/aspirinvagrant/article/details/24085963)
 * [Avoiding Deadlock](https://docs.oracle.com/cd/E19455-01/806-5257/6je9h0347/index.html)
+* [pthread_join](https://baike.baidu.com/item/pthread_join/2296997?fr=aladdin)
+* [The Happens-Before Relation](https://blog.csdn.net/sparkliang/article/details/52948039)
+* [pthread_once()函数详解](https://www.cnblogs.com/lit10050528/p/4325888.html)
+* [Linux共享内存对象，shm_open,mmap](https://blog.csdn.net/xwc583413343/article/details/55211071)
+* [Linux进程同步机制-Futex](https://blog.csdn.net/nellson/article/details/5400360)
+* [C++11多线程之mutex等锁机制和atomic原子操作对比](https://blog.csdn.net/hspingcc/article/details/54617531)
+* [关于锁和同步（一）原子操作和非原子操作](https://blog.csdn.net/zhangqhn/article/details/80876177)
+* [Memory model synchronization modes](https://gcc.gnu.org/wiki/Atomic/GCCMM/AtomicSync)
+* [C++检测异常assert()函数](https://blog.csdn.net/fx677588/article/details/76408503)
+* [gcc中-pthread和-lpthread的区别](http://chaoslawful.iteye.com/blog/568602)
+* [gcc -pthread 与 -lpthread](https://blog.csdn.net/u012313689/article/details/53290758)
+* [Linux 线程锁,条件变量 信号量的区别](https://blog.csdn.net/sunnyboy_cia/article/details/6278640)
+  >锁必须是同一个线程获取以及释放, 否则会死锁.而条件变量和信号量则不必
+* [Linux 线程锁 条件变量 信号量的区别2](https://blog.csdn.net/sunnyboy_cia/article/details/6278673)
+  >信号量用在多线程多任务同步的
+  >而互斥锁是用在多线程多任务互斥的
+  >在对称多处理器(Symmetric Multi-Processor)结构中就不同了，由于系统中有多个处理器在独立地运行，即使能在单条指令中完成的操作也有可能受到干扰
+* [Linux 线程锁 条件变量 信号量的区别3](https://blog.csdn.net/sunnyboy_cia/article/details/6278684)
+* [How do you handle pthread_mutex_unlock failures?](https://stackoverflow.com/questions/7422316/how-do-you-handle-pthread-mutex-unlock-failures)
+* [读写锁pthread_rwlock_t的使用](https://blog.csdn.net/hpu11/article/details/62077037)
+* [CLOCK_MONOTONIC与CLOCK_REALTIME区别](https://blog.csdn.net/tangchenchan/article/details/47989473)
+* [[Pthread] Linux中的内存管理(一)--Paging](https://blog.csdn.net/javadino/article/details/2891446)
+* [深入理解可重入与线程安全](https://blog.csdn.net/tangaowen/article/details/47856705)
+* [Making Legacy Code Safe in Multi-Threaded Environments](http://www.wesleysteiner.com/professional/MakingLegacyCodeSafe.html)
+* [Threadsafe vs re-entrant](https://stackoverflow.com/questions/856823/threadsafe-vs-re-entrant)
+  >Thread_local可以做到线程安全，但是不一定是可重入，因为同一线程递归调用的话，会产生栈以外的依赖
 
 * [通过 GCC 学习 OpenMP 框架](https://blog.csdn.net/xceman1997/article/details/10197567)
 * [Mat 数据类型指针ptr 的使用](https://blog.csdn.net/qq_22637049/article/details/77688452)

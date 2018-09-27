@@ -14,6 +14,9 @@
 ## 命令
 * valgrind 3.13 supported xtree
 * ```
+  valgrind --tool=drd --show-stack-usage=<yes|no> [default: no]
+  ```
+* ```
   valgrind --tool=helgrind --read-var-info=yes ./octomap_mapping
   ```
 * 内存泄漏输出文件到`kcachegrind`
