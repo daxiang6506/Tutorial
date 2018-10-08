@@ -183,6 +183,10 @@
   >#挂载宿主机目录到虚拟机目录
   >sudo mount -t vboxsf repo /mnt/xuc
   >
+  >在虚拟机查看文件夹权限，然后
+   ![](_images/permission.png)
+  >将用户加入Group所在的组（这里为root）
+  >sudo usermod -aG root $(whoami)
   >#取消挂载
   >sudo umount /mnt/xuc
   >
