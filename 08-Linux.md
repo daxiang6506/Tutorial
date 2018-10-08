@@ -1,4 +1,13 @@
 ## 常用linux命令
+* 软连接
+  ```
+  # 删除软连接
+  rm -rf symbolic_name
+  # 建立软连接
+  ln -s source dist
+  # 建立硬连接
+  ln source dist
+  ```
 * ubuntu查看apt安装文件位置
   ```
   dpkg -L liblapack-dev

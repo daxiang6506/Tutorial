@@ -158,7 +158,8 @@
   cat ~/.ssh/id_rsa.pub
   ```
 * ![配置Stash](_images/Bitbucket_stash.png)
-
+## 输入法
+* [Ubuntu14.04下搜狗输入法安装](https://blog.csdn.net/u011006622/article/details/69281580)
 ## 虚拟机环境搭建
 使用virtual box建立环境
 * ![设置内存](_images/memory.png)
