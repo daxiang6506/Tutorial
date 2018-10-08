@@ -85,3 +85,13 @@ If allocated with new, you must deallocate with delete.
 If allocated with new[], you must deallocate with delete[].
 
 * Cycles are not bad in itself, but tend to make performance analysis of your code harder. This is because inclusive costs for calls inside of a cycle are meaningless. The definition of inclusive cost, i.e. self cost of a function plus inclusive cost of its callees, needs a topological order among functions. For cycles, this does not hold true: callees of a function in a cycle include the function itself. Therefore, KCachegrind does cycle detection and skips visualization of any inclusive cost for calls inside of cycles. Further, all functions in a cycle are collapsed into artificial functions called like Cycle 1
+
+Misuses of the POSIX pthreads API.
+
+Potential deadlocks arising from lock ordering problems.
+
+Data races -- accessing memory without adequate locking or synchronisation.
+是一个用来可视化Callgrind结果的工具。
+GNU General Public License
+Execution TreesCachegrinds
+Cachegrind

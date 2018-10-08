@@ -118,11 +118,29 @@
 * [Making Legacy Code Safe in Multi-Threaded Environments](http://www.wesleysteiner.com/professional/MakingLegacyCodeSafe.html)
 * [Threadsafe vs re-entrant](https://stackoverflow.com/questions/856823/threadsafe-vs-re-entrant)
   >Thread_local可以做到线程安全，但是不一定是可重入，因为同一线程递归调用的话，会产生栈以外的依赖
+* [线程安全与可重入性](https://www.cnblogs.com/west000/p/6863580.html)
+* [程序减肥，strip，eu-strip 及其符号表](https://blog.csdn.net/doniexun/article/details/45043297)
+* [深入理解cache](http://www.360doc.com/content/14/1015/13/10249440_417146850.shtml)
 
 * [通过 GCC 学习 OpenMP 框架](https://blog.csdn.net/xceman1997/article/details/10197567)
 * [Mat 数据类型指针ptr 的使用](https://blog.csdn.net/qq_22637049/article/details/77688452)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
 
+## 命令
+* 解析elf文件
+  ```
+  readelf -S ./octomap_mapping
+  ```
+* 删除elf文件符号表
+  ```
+  strip --strip-debug ./octomap_mapping
+  strip --strip-all ./octomap_mapping
+  eu-strip ./octomap_mapping -f ./octomap_mapping.sym
+  ```
+* 打印elf文件
+  ```
+  nm ./octomap_mapping
+  ```
 ## 资源
 * [vscode下载](https://code.visualstudio.com/Download)
 * [meshlab](http://www.meshlab.net/)
@@ -133,6 +151,14 @@
   >集成了jira工具
 * [OctoMap](https://github.com/OctoMap/octomap)
   >An Efficient Probabilistic 3D Mapping Framework Based on Octrees
+## Bitbucket/Stash
+* 生成key
+  ```
+  ssh-keygen
+  cat ~/.ssh/id_rsa.pub
+  ```
+* ![配置Stash](_images/Bitbucket_stash.png)
+
 ## 虚拟机环境搭建
 使用virtual box建立环境
 * ![设置内存](_images/memory.png)
