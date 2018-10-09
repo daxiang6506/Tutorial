@@ -125,7 +125,8 @@
 * [通过 GCC 学习 OpenMP 框架](https://blog.csdn.net/xceman1997/article/details/10197567)
 * [Mat 数据类型指针ptr 的使用](https://blog.csdn.net/qq_22637049/article/details/77688452)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
-* [How can I profile C++ code running on Linux?](https://stackoverflow.com/questions/375913/how-can-i-profile-c-code-running-on-linux)
+* [How can I profile C++ code running on Linux?](https://stackoverflow.com/questions/375913/how-can-i-profile-c-code-running-on-linux
+)
 
 ## 命令
 * 解析elf文件
