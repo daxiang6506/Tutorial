@@ -60,7 +60,8 @@
 * [析构函数是否必须为虚函数？什么情况下才应该定义析构函数为虚函数？](https://blog.csdn.net/zhangqk2016/article/details/51849535)
 * [C/C++中#pragma once的使用](https://blog.csdn.net/fengbingchun/article/details/78696814)
 * [C++ 中using 的使用](https://blog.csdn.net/shift_wwx/article/details/78742459)
-* [cpp——类——声明 定义 实现](https://blog.csdn.net/mardax/article/details/54948173)
+  >using value_type = _Ty;
+* [cpp类声明 定义 实现](https://blog.csdn.net/mardax/article/details/54948173)
   >类申明只能使用指针引用类型
   >类定义才能使用成员函数（只定义类，不定义成员函数）
 * [声明并定义相同类](https://blog.csdn.net/eclipser1987/article/details/7516968)
@@ -74,3 +75,18 @@
   >inline函数,class和模板类函数被多次包含的情况下，编译器会自动把他们认为是同一个函数，不会发生二次定义的问题。前提是他们一模一样
 * [C/C++: 强符号、弱符号与链接](http://blog.sina.com.cn/s/blog_6e32babb0102v0p9.html)
   >成员函数定义在头文件中的时候,不会导致链接问题(头文件被多个.cpp include, 每个cpp都调用到了这个成员函数,那么相应的每个.o 里都有这个成员函数的二进制代码, link完成后,肯定只能剩下一份, 那么这有好几份,岂不冲突! 正是由于这个强弱性, 所以才没事.)
+* [理解C++的链接：C++内链接与外链接的意义](https://blog.csdn.net/u012999985/article/details/50429769)
+  >外部链接就是让各个.cpp文件能链接到一起，在.cpp文件遇到第一个{}之前，他们的作用域是相同的，拥有外部链接的实体（全局函数，变量等）出现在第一个{}之前，而且名字相同，就是定义重复的错误。
+  >如果是想static int a = 2;这样的定义就会在所有包含他的.cpp文件中生成一个副本，如果被大量源文件include的话，就会占据大量的空间，造成内存浪费
+* [C++中的static关键字 ，外部链接性,内部链接性和无链接性](https://blog.csdn.net/Fire_Sky_Ho/article/details/75303180)
+* [C++之 未命名的名字空间](http://blog.sina.com.cn/s/blog_6ba7867b01016pha.html)
+  >解决static全局函数问题
+* [函数实现不放在头文件的原因，及何时可以放头文件的情况](https://blog.csdn.net/freeboy1015/article/details/8075849)
+  >解决C++ 中全局函数的头文件复用问题
+* [c++的编译过程](https://blog.csdn.net/ferrari_hong/article/details/79629468)
+  >头文件中可以写const对象的定义
+  >头文件中可 以写内联函数（inline）的定义
+  >头文件中可以写类 （class）的定义
+  >这三个例外中的语法元素虽然“可以定义在多个源文件中”，但是“在一个源文件中只能出现一次”
+  >条件编译#ifndef...#endif
+  >#pragma once
