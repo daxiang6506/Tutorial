@@ -106,7 +106,16 @@
   >Using指示相当于增加指定名字空间作为符号查找域
 * [C++基础知识和基本语法](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=50495783#C++%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%92%8C%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E4%B8%B2%E8%AE%B2-1.5GCC%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B)
   >在C++11中，右值由两个概念构成
-  
+
   >一个是将亡值（xvalue，expiring value），将亡值时C++11新增的，与右值引用相关的表达式，比如，将要被移到的对象、T&&函数返回值、std::move返回值和转换为 T&&的类型的转换函数的返回值; 
   
-  >另一个则是纯右值（prvalue，pure rvalue），比如，非引用返回的临时变量、运算表达式产生的临时变量、原始字面量和lambda表达式等都是纯右值。而
+  >另一个则是纯右值（prvalue，pure rvalue），比如，非引用返回的临时变量、运算表达式产生的临时变量、原始字面量和lambda表达式等都是纯右值。
+* [c++ shared_ptr使用的几点注意](https://blog.csdn.net/man_sion/article/details/77196766)
+* [关于Vector的size_type的问题的探讨 C++](https://blog.csdn.net/lkkb24/article/details/6948577)
+* [c++11 多线程（3）atomic 总结](https://www.jianshu.com/p/8c1bb012d5f8)
+* [C++ 输入/输出运算符重载](http://www.runoob.com/cplusplus/input-output-operators-overloading.html)
+* [C++构造函数的default和delete](https://blog.csdn.net/u010591680/article/details/71101737)
+* [C++11 std::unique_lock与std::lock_guard区别及多线程应用实例](https://blog.csdn.net/tgxallen/article/details/73522233)
+* [（C++）关于i++和i++的左值、右值问题](https://www.cnblogs.com/AndyJee/p/4550457.html)
+* [C++ 函数声明后面的const用法](https://blog.csdn.net/u013270326/article/details/78388305?utm_source=blogxgwz0)
+* [C++中const、volatile、mutable的用法](https://www.cnblogs.com/xkfz007/articles/2419540.html)
