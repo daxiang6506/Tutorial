@@ -90,3 +90,23 @@
   >这三个例外中的语法元素虽然“可以定义在多个源文件中”，但是“在一个源文件中只能出现一次”
   >条件编译#ifndef...#endif
   >#pragma once
+* [深入理解C++中的explicit关键字](https://blog.csdn.net/kezunhai/article/details/38417087)
+* [c++构造函数成员初始化中赋值和初始化列表两种方式的区别](https://www.cnblogs.com/simplepaul/p/7635648.html)
+* [C++中struct和class的区别](https://www.cnblogs.com/ccsccs/articles/4025215.html)
+* [C++中模板使用详解](https://www.cnblogs.com/sevenyuan/p/3154346.html)
+  >模版可以分为两类，一个是函数模版，另外一个是类模版
+* [关于C++域作用符详解](https://blog.csdn.net/Bruce_0712/article/details/53955887)
+* [C和C++中的名字空间和作用域](https://www.cnblogs.com/qingergege/p/7512421.html)
+* [C++typedef的详细用法](https://blog.csdn.net/hai008007/article/details/80651886)
+* [C++命名空间namespace的使用规范](https://blog.csdn.net/wsx199397/article/details/52490300)
+* [ADL with typedefs from another namespace](https://stackoverflow.com/questions/4155450/adl-with-typedefs-from-another-namespace)
+* [typedef resolution across namespaces](https://stackoverflow.com/questions/5035504/typedef-resolution-across-namespaces)
+* [Namespaces | Understanding C++ Program Structure](http://www.informit.com/articles/article.aspx?p=31783&seqNum=6)
+  >using声明相当于把指定名字空间中的特定成员直接定义到当前作用域中
+  >Using指示相当于增加指定名字空间作为符号查找域
+* [C++基础知识和基本语法](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=50495783#C++%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%92%8C%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E4%B8%B2%E8%AE%B2-1.5GCC%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B)
+  >在C++11中，右值由两个概念构成
+  
+  >一个是将亡值（xvalue，expiring value），将亡值时C++11新增的，与右值引用相关的表达式，比如，将要被移到的对象、T&&函数返回值、std::move返回值和转换为 T&&的类型的转换函数的返回值; 
+  
+  >另一个则是纯右值（prvalue，pure rvalue），比如，非引用返回的临时变量、运算表达式产生的临时变量、原始字面量和lambda表达式等都是纯右值。而
