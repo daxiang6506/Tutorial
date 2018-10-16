@@ -122,3 +122,22 @@
 * [C++智能指针](https://www.cnblogs.com/diysoul/p/5930396.html)
 * [Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
 * [Should we pass a shared_ptr by reference or by value?](https://stackoverflow.com/questions/3310737/should-we-pass-a-shared-ptr-by-reference-or-by-value)
+* [TOOL:relacy](http://www.1024cores.net/home/lock-free-algorithms/introduction)
+  >****Wait-freedom**** means that each thread moves forward regardless of external factors like contention from other threads, other thread blocking  
+  >
+  >****Lock-freedom**** means that a system as a whole moves forward regardless of anything. Forward progress for each individual thread is not guaranteed (that is, individual threads can starve).  
+  >
+  >****Obstruction-freedom**** guarantee means that a thread makes forward progress only if it does not encounter contention from other threads  
+  >
+  >Waitfree, lockfree and obstruction-free algorithms provide a guarantee of ****termination-safety****  
+  >
+  >****Blocking Algorithms**** It's the weakest guarantee - basically all bets are off, the system as a whole may not make any forward progress. A blocked/interrupted/terminated thread may prevent system-wide forward progress infinitely. Mutex-based algorithms are also amenable to deadlocks, and a deadlocked system clearly makes no forward progress.
+* [Memory Reordering/Memory Model 及其对.NET的影响](http://www.cnblogs.com/sun/archive/2010/02/03/1663064.html#2001829)
+* [C++11的6种内存序总结](https://blog.csdn.net/lvdan1/article/details/54098559)
+* [A Fast General Purpose Lock-Free Queue for C++](http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++)
+  >[github](https://github.com/cameron314/concurrentqueue)
+* [A Fast Lock-Free Queue for C++](http://moodycamel.com/blog/2013/a-fast-lock-free-queue-for-c++)
+  >[github](https://github.com/cameron314/readerwriterqueue)
+* [An Introduction to Lock-Free Programming](https://preshing.com/20120612/an-introduction-to-lock-free-programming/)
+  >多线程，访问共享内存，线程之间不互相阻塞---lock free 编程
+* [C++ new分配内存时的std::bad_alloc异常处理](https://blog.csdn.net/yanggaoqiang2013/article/details/38751313?utm_source=blogxgwz2)
