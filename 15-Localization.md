@@ -119,3 +119,6 @@
 * [（C++）关于i++和i++的左值、右值问题](https://www.cnblogs.com/AndyJee/p/4550457.html)
 * [C++ 函数声明后面的const用法](https://blog.csdn.net/u013270326/article/details/78388305?utm_source=blogxgwz0)
 * [C++中const、volatile、mutable的用法](https://www.cnblogs.com/xkfz007/articles/2419540.html)
+* [C++智能指针](https://www.cnblogs.com/diysoul/p/5930396.html)
+* [Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
+* [Should we pass a shared_ptr by reference or by value?](https://stackoverflow.com/questions/3310737/should-we-pass-a-shared-ptr-by-reference-or-by-value)
