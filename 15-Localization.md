@@ -161,3 +161,10 @@
 * [C++ | boost库 类的序列化](https://www.cnblogs.com/feixiao5566/p/5189246.html)
 * [C++中string::npos的一些用法总结](https://blog.csdn.net/JIEJINQUANIL/article/details/51789682)
 * [setprecision、fixed、showpoint的用法总结](https://blog.csdn.net/u011321546/article/details/9293547)
+* [Limiting execution to certain CPUs](http://www.gnu.org/software/libc/manual/html_node/CPU-Affinity.html)
+* [Pthread affinity before create threads](https://stackoverflow.com/questions/25472441/pthread-affinity-before-create-threads)
+* [Linux CPU数、物理核、逻辑核的查看方法及线程进程的绑定方法](https://www.linuxidc.com/Linux/2018-07/153190.htm)
+  >在top命令下，点击"1"可以查看各个逻辑核的占用情况
+* [[ubuntu] cpu hotplugging](https://ubuntuforums.org/archive/index.php/t-1074167.html)
+* [Can you use thread local variables inside a class or structure](https://stackoverflow.com/questions/10999131/can-you-use-thread-local-variables-inside-a-class-or-structure)
+  >Thread-local storage applies to static variables only. There is no point in making non-static structure or class members thread-local.
