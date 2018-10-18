@@ -118,10 +118,18 @@
 * [C++11 std::unique_lock与std::lock_guard区别及多线程应用实例](https://blog.csdn.net/tgxallen/article/details/73522233)
 * [（C++）关于i++和i++的左值、右值问题](https://www.cnblogs.com/AndyJee/p/4550457.html)
 * [C++ 函数声明后面的const用法](https://blog.csdn.net/u013270326/article/details/78388305?utm_source=blogxgwz0)
+* [const and global](https://stackoverflow.com/questions/9032475/const-and-global)
+  >By default Linkage is external for non-const symbols and static (internal) for const symbols
 * [C++中const、volatile、mutable的用法](https://www.cnblogs.com/xkfz007/articles/2419540.html)
 * [C++智能指针](https://www.cnblogs.com/diysoul/p/5930396.html)
 * [Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
 * [Should we pass a shared_ptr by reference or by value?](https://stackoverflow.com/questions/3310737/should-we-pass-a-shared-ptr-by-reference-or-by-value)
+* [C++11 thread-safe queue](https://stackoverflow.com/questions/15278343/c11-thread-safe-queue)
+* [Implementing a Thread-Safe Queue using Condition Variables](https://www.justsoftwaresolutions.co.uk/threading/implementing-a-thread-safe-queue-using-condition-variables.html)
+* [std::condition_variable::wait_for](https://en.cppreference.com/w/cpp/thread/condition_variable/wait_for)
+  >```
+  >return wait_until(lock, std::chrono::steady_clock::now() + rel_time, std::move(pred));. This overload may be used to ignore spurious awakenings
+  >```
 * [TOOL:relacy](http://www.1024cores.net/home/lock-free-algorithms/introduction)
   >****Wait-freedom**** means that each thread moves forward regardless of external factors like contention from other threads, other thread blocking  
   >
@@ -141,3 +149,15 @@
 * [An Introduction to Lock-Free Programming](https://preshing.com/20120612/an-introduction-to-lock-free-programming/)
   >多线程，访问共享内存，线程之间不互相阻塞---lock free 编程
 * [C++ new分配内存时的std::bad_alloc异常处理](https://blog.csdn.net/yanggaoqiang2013/article/details/38751313?utm_source=blogxgwz2)
+* [C++ lambda表达式与函数对象](https://www.jianshu.com/p/d686ad9de817)
+* [Trying to use lambda functions as predicate for condition_variable wait method](https://stackoverflow.com/questions/24345272/trying-to-use-lambda-functions-as-predicate-for-condition-variable-wait-method)
+* [C++使用虚函数的时候，子类也要使用virtual关键字吗](https://blog.csdn.net/gao1440156051/article/details/45670715?utm_source=blogxgwz0)
+* [C++ stringstream介绍，使用方法与例子](https://blog.csdn.net/joeblackzqq/article/details/7032703)
+* [static_cast、dynamic_cast reinterpret_cast和const_](http://blog.sina.com.cn/s/blog_4a84e45b0100f57m.html)
+* [使用ifstream和getline读取文件内容[c++]](https://www.cnblogs.com/JCSU/articles/1190685.html)
+* [Slippy map tilenames](https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames)
+* [C++ 风格指南](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
+* [C++11 理解 (十八) 之 字串字面值](https://blog.csdn.net/y_xianjun/article/details/10228435?utm_source=blogxgwz2)
+* [C++ | boost库 类的序列化](https://www.cnblogs.com/feixiao5566/p/5189246.html)
+* [C++中string::npos的一些用法总结](https://blog.csdn.net/JIEJINQUANIL/article/details/51789682)
+* [setprecision、fixed、showpoint的用法总结](https://blog.csdn.net/u011321546/article/details/9293547)

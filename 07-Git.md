@@ -15,3 +15,5 @@
   + 代表目标文件 
     working area 是目标文件
   ```
+* [git clone 单个分支项目或者所有项目分支](https://blog.csdn.net/she_lock/article/details/79453484)
+  >git clone 默认是克隆Head指向的branch，默认是master分支
