@@ -1,5 +1,9 @@
 ## 资源
 * [awesome-cpp](https://github.com/fffaraz/awesome-cpp?utm_source=wechat_session&utm_medium=social&utm_oi=568910917765632000#frameworks)
+* [Software optimization resources](https://www.agner.org/optimize/)
+  >Test programs for measuring clock cycles and performance monitoring
+* [TOOL:relacy](http://www.1024cores.net/home/lock-free-algorithms/introduction)
+* [How to Design Programs, Second Edition](https://htdp.org/2018-01-06/Book/)
 
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
