@@ -168,3 +168,8 @@
 * [[ubuntu] cpu hotplugging](https://ubuntuforums.org/archive/index.php/t-1074167.html)
 * [Can you use thread local variables inside a class or structure](https://stackoverflow.com/questions/10999131/can-you-use-thread-local-variables-inside-a-class-or-structure)
   >Thread-local storage applies to static variables only. There is no point in making non-static structure or class members thread-local.
+* [struct和typedef struct](https://www.cnblogs.com/qyaizs/articles/2039101.html)
+  >注意在C和C++里不同
+* [C++ typedef typename 作用](https://blog.csdn.net/zhangxiao93/article/details/50569924)
+* [typename在C++中的用法](https://www.cnblogs.com/wuchanming/p/3765345.html)
+* [C++ 标准库之typeid](https://blog.csdn.net/xuqingict/article/details/25003713?utm_source=blogxgwz0)
