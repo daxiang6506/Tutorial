@@ -4,6 +4,10 @@
   >Test programs for measuring clock cycles and performance monitoring
 * [TOOL:relacy](http://www.1024cores.net/home/lock-free-algorithms/introduction)
 * [How to Design Programs, Second Edition](https://htdp.org/2018-01-06/Book/)
+* [性能测试工具VTune的功能和用法介绍](https://blog.csdn.net/WY_stutdy/article/details/79106501)
+
+`## tips
+* [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
 
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
@@ -180,3 +184,4 @@
 * [typename在C++中的用法](https://www.cnblogs.com/wuchanming/p/3765345.html)
 * [C++ 标准库之typeid](https://blog.csdn.net/xuqingict/article/details/25003713?utm_source=blogxgwz0)
 * [C++学习 std:multimap介绍](https://blog.csdn.net/skdkjzz/article/details/43456225)
+* [https://stackoverflow.com/questions/8341395/what-is-a-subnormal-floating-point-number](https://stackoverflow.com/questions/8341395/what-is-a-subnormal-floating-point-number)
