@@ -185,3 +185,5 @@
 * [C++ 标准库之typeid](https://blog.csdn.net/xuqingict/article/details/25003713?utm_source=blogxgwz0)
 * [C++学习 std:multimap介绍](https://blog.csdn.net/skdkjzz/article/details/43456225)
 * [https://stackoverflow.com/questions/8341395/what-is-a-subnormal-floating-point-number](https://stackoverflow.com/questions/8341395/what-is-a-subnormal-floating-point-number)
+* [Position Independent Code (PIC) in shared libraries](https://blog.csdn.net/astrotycoon/article/details/8456453)
+* [What's the difference between cerr and cout in C++?](https://www.quora.com/Whats-the-difference-between-cerr-and-cout-in-C++)
