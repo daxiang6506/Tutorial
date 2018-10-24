@@ -7,7 +7,7 @@
 * [性能测试工具VTune的功能和用法介绍](https://blog.csdn.net/WY_stutdy/article/details/79106501)
 * [ubuntu14.04安装doxygen](https://blog.csdn.net/qq632544991p/article/details/46642145)
   >sudo apt-get install graphviz
-  
+* [强大的Doxygen工具使用手册](https://blog.csdn.net/leehong2005/article/details/9137889?utm_source=blogxgwz1)
 ## tips
 * [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
 
