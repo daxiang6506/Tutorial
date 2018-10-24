@@ -6,8 +6,9 @@
 * [How to Design Programs, Second Edition](https://htdp.org/2018-01-06/Book/)
 * [性能测试工具VTune的功能和用法介绍](https://blog.csdn.net/WY_stutdy/article/details/79106501)
 * [ubuntu14.04安装doxygen](https://blog.csdn.net/qq632544991p/article/details/46642145)
-
-`## tips
+  >sudo apt-get install graphviz
+  
+## tips
 * [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
 
 ## 建立环境
