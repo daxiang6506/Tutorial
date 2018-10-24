@@ -5,6 +5,7 @@
 * [TOOL:relacy](http://www.1024cores.net/home/lock-free-algorithms/introduction)
 * [How to Design Programs, Second Edition](https://htdp.org/2018-01-06/Book/)
 * [性能测试工具VTune的功能和用法介绍](https://blog.csdn.net/WY_stutdy/article/details/79106501)
+* [ubuntu14.04安装doxygen](https://blog.csdn.net/qq632544991p/article/details/46642145)
 
 `## tips
 * [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
@@ -187,3 +188,9 @@
 * [https://stackoverflow.com/questions/8341395/what-is-a-subnormal-floating-point-number](https://stackoverflow.com/questions/8341395/what-is-a-subnormal-floating-point-number)
 * [Position Independent Code (PIC) in shared libraries](https://blog.csdn.net/astrotycoon/article/details/8456453)
 * [What's the difference between cerr and cout in C++?](https://www.quora.com/Whats-the-difference-between-cerr-and-cout-in-C++)
+  >0, 1, 2...9 are file descriptors in bash. 
+  > 
+  >0 stands for stdin, 1 stands for stdout, 2 stands for stderror. 3~9 is spare for any other temporary usage.  
+  >
+  >Any file descriptor can be redirected to other file descriptor or file by using operator > or >>(append).
+* [I/O Redirection](http://www.tldp.org/LDP/abs/html/io-redirection.html)
