@@ -8,6 +8,8 @@
 * [ubuntu14.04安装doxygen](https://blog.csdn.net/qq632544991p/article/details/46642145)
   >sudo apt-get install graphviz
 * [强大的Doxygen工具使用手册](https://blog.csdn.net/leehong2005/article/details/9137889?utm_source=blogxgwz1)
+* [Ubuntu使用doxygen将源码生成调用关系图](https://blog.csdn.net/ZeroLiko/article/details/78162408)
+* [绘制函数调用图（call graph）（4）：doxygen + graphviz](https://blog.csdn.net/benkaoya/article/details/79763668)
 ## tips
 * [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
 
@@ -195,3 +197,8 @@
   >
   >Any file descriptor can be redirected to other file descriptor or file by using operator > or >>(append).
 * [I/O Redirection](http://www.tldp.org/LDP/abs/html/io-redirection.html)
+* [第一个gtest程序（Linux）](https://www.jianshu.com/p/778f835cc18c)
+* [C++ Type traits](https://www.boost.org/doc/libs/1_31_0/libs/type_traits/c++_type_traits.htm)
+* [c++中 T C::* 是什么类型](https://www.zhihu.com/question/57905739)
+* [C++11容器中新增加的emplace相关函数的使用](https://blog.csdn.net/fengbingchun/article/details/78670376?utm_source=blogxgwz4)
+* [C++中std::allocator的使用](https://blog.csdn.net/fengbingchun/article/details/78943527)
