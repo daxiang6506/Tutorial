@@ -207,3 +207,5 @@
   >The variable is not supposed to retain its value between each loop. In such case, you may need to initialize it every time.
 * [C++11中变量初始化方法汇总](https://blog.csdn.net/q1302182594/article/details/47423347)
   >参考资料[1]P236指出，类通过一个特殊的构造函数来控制默认初始化过程，这个类叫做默认构造函数。默认构造函数无需任何实参。参考资料[1]P637也指出，每个类各自定义其初始化对象的方式（默认构造函数）。例如，std::string，不管是定义于局部还是全局，都会默认初始化为空。
+* [c++ declaration and initialization variables inside while loops
+](https://stackoverflow.com/questions/42534977/c-declaration-and-initialization-variables-inside-while-loops)
