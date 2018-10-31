@@ -218,7 +218,6 @@
 * [ROS2入门教程-基本概念](https://www.ncnynl.com/archives/201801/2251.html)
 * [ROS入门教程-1.1.10 创建ROS消息和ROS服务](https://www.ncnynl.com/archives/201608/508.html)
 * [Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
-* [Is it correct to return null shared_ptr?]
-(https://stackoverflow.com/questions/37234969/is-it-correct-to-return-null-shared-ptr/37235251)
+* [Is it correct to return null shared_ptr?](https://stackoverflow.com/questions/37234969/is-it-correct-to-return-null-shared-ptr/37235251)
   >Yes, it is correct to initialize shared_ptr with nullptr. It is also correct to assign nullptr to shared_ptr
 * [Explicitly deleting a shared_ptr](https://stackoverflow.com/questions/12321949/explicitly-deleting-a-shared-ptr)
