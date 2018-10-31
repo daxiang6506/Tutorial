@@ -207,5 +207,12 @@
   >The variable is not supposed to retain its value between each loop. In such case, you may need to initialize it every time.
 * [C++11中变量初始化方法汇总](https://blog.csdn.net/q1302182594/article/details/47423347)
   >参考资料[1]P236指出，类通过一个特殊的构造函数来控制默认初始化过程，这个类叫做默认构造函数。默认构造函数无需任何实参。参考资料[1]P637也指出，每个类各自定义其初始化对象的方式（默认构造函数）。例如，std::string，不管是定义于局部还是全局，都会默认初始化为空。
-* [c++ declaration and initialization variables inside while loops
-](https://stackoverflow.com/questions/42534977/c-declaration-and-initialization-variables-inside-while-loops)
+* [c++ declaration and initialization variables inside while loops](https://stackoverflow.com/questions/42534977/c-declaration-and-initialization-variables-inside-while-loops)
+* [C++ Constructors and Memory Leaks](http://jsteemann.github.io/blog/2015/11/18/on-exception-handling/)
+* [Destructors (C++)](https://msdn.microsoft.com/en-us/library/6t4fe76c.aspx)
+  >Order of destruction
+* [C++: string 中find函数的用法以及string::npos的含义](https://blog.csdn.net/linwh8/article/details/50752733)
+* [C++Boost序列化（Serialization）库教程](https://www.2cto.com/kf/201610/552182.html)
+* [Eigen库数据结构内存对齐问题](https://blog.csdn.net/rs_huangzs/article/details/50574141)
+* [ROS2入门教程-基本概念](https://www.ncnynl.com/archives/201801/2251.html)
+* [ROS入门教程-1.1.10 创建ROS消息和ROS服务](https://www.ncnynl.com/archives/201608/508.html)
