@@ -202,8 +202,7 @@
 * [c++中 T C::* 是什么类型](https://www.zhihu.com/question/57905739)
 * [C++11容器中新增加的emplace相关函数的使用](https://blog.csdn.net/fengbingchun/article/details/78670376?utm_source=blogxgwz4)
 * [C++中std::allocator的使用](https://blog.csdn.net/fengbingchun/article/details/78943527)
-* [Declaring variables inside loops, good practice or bad practice?
-](https://stackoverflow.com/questions/7959573/declaring-variables-inside-loops-good-practice-or-bad-practice)
+* [Declaring variables inside loops, good practice or bad practice?](https://stackoverflow.com/questions/7959573/declaring-variables-inside-loops-good-practice-or-bad-practice)
   >The variable is not supposed to retain its value between each loop. In such case, you may need to initialize it every time.
 * [C++11中变量初始化方法汇总](https://blog.csdn.net/q1302182594/article/details/47423347)
   >参考资料[1]P236指出，类通过一个特殊的构造函数来控制默认初始化过程，这个类叫做默认构造函数。默认构造函数无需任何实参。参考资料[1]P637也指出，每个类各自定义其初始化对象的方式（默认构造函数）。例如，std::string，不管是定义于局部还是全局，都会默认初始化为空。
@@ -216,3 +215,7 @@
 * [Eigen库数据结构内存对齐问题](https://blog.csdn.net/rs_huangzs/article/details/50574141)
 * [ROS2入门教程-基本概念](https://www.ncnynl.com/archives/201801/2251.html)
 * [ROS入门教程-1.1.10 创建ROS消息和ROS服务](https://www.ncnynl.com/archives/201608/508.html)
+* [Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
+* [Is it correct to return null shared_ptr?](https://stackoverflow.com/questions/37234969/is-it-correct-to-return-null-shared-ptr/37235251)
+  >Yes, it is correct to initialize shared_ptr with nullptr. It is also correct to assign nullptr to shared_ptr
+* [Explicitly deleting a shared_ptr](https://stackoverflow.com/questions/12321949/explicitly-deleting-a-shared-ptr)
