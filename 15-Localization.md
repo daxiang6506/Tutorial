@@ -206,9 +206,11 @@
 * [Declaring variables inside loops, good practice or bad practice?](https://stackoverflow.com/questions/7959573/declaring-variables-inside-loops-good-practice-or-bad-practice)
   >The variable is not supposed to retain its value between each loop. In such case, you may need to initialize it every time.
 * [C++11中变量初始化方法汇总](https://blog.csdn.net/q1302182594/article/details/47423347)
-  >参考资料[1]P236指出，类通过一个特殊的构造函数来控制默认初始化过程，这个类叫做默认构造函数。默认构造函数无需任何实参。参考资料[1]P637也指出，每个类各自定义其初始化对象的方式（默认构造函数）。例如，std::string，不管是定义于局部还是全局，都会默认初始化为空。
+  >参考资料[1]P236指出，类通过一个特殊的构造函数来控制默认初始化过程，这个类叫做默认构造函数。默认构造函数无需任何实参。参考资料[1]P637也指出，每个类各自定义其初始化对象的方式（默认构造函数）。例如，std::string，不管是定义于局部还是全局，都会默认初始化为空。  
+  >类的初始化，定义不管带不带括号都调用默认构造方法
 * [c++ declaration and initialization variables inside while loops](https://stackoverflow.com/questions/42534977/c-declaration-and-initialization-variables-inside-while-loops)
 * [C++ Constructors and Memory Leaks](http://jsteemann.github.io/blog/2015/11/18/on-exception-handling/)
+  >智能指针作为成员变量可以不用在析构函数里调用 delete
 * [Destructors (C++)](https://msdn.microsoft.com/en-us/library/6t4fe76c.aspx)
   >Order of destruction
 * [Constructors (C++)](https://docs.microsoft.com/en-us/cpp/cpp/constructors-cpp?view=vs-2017)
