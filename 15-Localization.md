@@ -1,4 +1,5 @@
 ## 资源
+* [A garbage collector for C and C++](https://www.hboehm.info/gc/)
 * [awesome-cpp](https://github.com/fffaraz/awesome-cpp?utm_source=wechat_session&utm_medium=social&utm_oi=568910917765632000#frameworks)
 * [Software optimization resources](https://www.agner.org/optimize/)
   >Test programs for measuring clock cycles and performance monitoring
@@ -221,3 +222,7 @@
 * [Is it correct to return null shared_ptr?](https://stackoverflow.com/questions/37234969/is-it-correct-to-return-null-shared-ptr/37235251)
   >Yes, it is correct to initialize shared_ptr with nullptr. It is also correct to assign nullptr to shared_ptr
 * [Explicitly deleting a shared_ptr](https://stackoverflow.com/questions/12321949/explicitly-deleting-a-shared-ptr)
+* [C++ 如何让类对象只在堆或栈上创建](https://blog.csdn.net/qq_30835655/article/details/68938861)
+* [成员变量在栈上还是堆上？](https://blog.csdn.net/djb100316878/article/details/52277531)
+* [Classes And Memory Allocation](http://www.icce.rug.nl/documents/cplusplus/cplusplus09.html)
+* [Stack-Allocated Objects](https://people.eecs.ku.edu/~jrmiller/Courses/JavaToC++/StackAllocatedObjects.html)
