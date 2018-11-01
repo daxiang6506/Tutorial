@@ -226,9 +226,11 @@
 * [成员变量在栈上还是堆上？](https://blog.csdn.net/djb100316878/article/details/52277531)
 * [Classes And Memory Allocation](http://www.icce.rug.nl/documents/cplusplus/cplusplus09.html)
   >The move constructor: a constructor creating an object from an anonymous temporary object.  
-  >匿名临时对象是函数的值返回结果，标准未定义放在栈还是堆，但一般放在栈
+  >匿名临时对象是函数的值返回结果,标准未定义放在栈还是堆，但一般放在栈
   >
   >A copy constructor is (almost) always available, even if it isn't declared in the class's interface.  
+  >
+  >Almost always as the declaration of a move constructor suppresses the default availability of the copy constructor. The default copy constructor is also suppressed if a move assignment operator is declared
   >
   >The copy constructor is simpler than the overloaded assignment operator in that it doesn't have to delete previously allocated memory.
 * [Stack-Allocated Objects](https://people.eecs.ku.edu/~jrmiller/Courses/JavaToC++/StackAllocatedObjects.html)
