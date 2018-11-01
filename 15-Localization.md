@@ -225,8 +225,10 @@
 * [C++ 如何让类对象只在堆或栈上创建](https://blog.csdn.net/qq_30835655/article/details/68938861)
 * [成员变量在栈上还是堆上？](https://blog.csdn.net/djb100316878/article/details/52277531)
 * [Classes And Memory Allocation](http://www.icce.rug.nl/documents/cplusplus/cplusplus09.html)
-  >the move constructor: a constructor creating an object from an anonymous temporary object.  
+  >The move constructor: a constructor creating an object from an anonymous temporary object.  
+  >
   >A copy constructor is (almost) always available, even if it isn't declared in the class's interface.  
+  >
   >The copy constructor is simpler than the overloaded assignment operator in that it doesn't have to delete previously allocated memory.
 * [Stack-Allocated Objects](https://people.eecs.ku.edu/~jrmiller/Courses/JavaToC++/StackAllocatedObjects.html)
 * [Strategies for the Allocation of Memory](http://www.modernescpp.com/index.php/strategies-for-the-allocation-of-memory)
