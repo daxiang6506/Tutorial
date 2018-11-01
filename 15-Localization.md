@@ -226,7 +226,7 @@
 * [成员变量在栈上还是堆上？](https://blog.csdn.net/djb100316878/article/details/52277531)
 * [Classes And Memory Allocation](http://www.icce.rug.nl/documents/cplusplus/cplusplus09.html)
   >The move constructor: a constructor creating an object from an anonymous temporary object.  
-  >匿名临时对象是函数的值返回结果,标准未定义放在栈还是堆，但一般放在栈
+  >匿名临时对象是函数的值返回结果,标准未定义放在栈还是堆，但一般放在栈
   >
   >A copy constructor is (almost) always available, even if it isn't declared in the class's interface.  
   >
