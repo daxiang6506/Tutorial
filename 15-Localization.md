@@ -226,3 +226,8 @@
 * [成员变量在栈上还是堆上？](https://blog.csdn.net/djb100316878/article/details/52277531)
 * [Classes And Memory Allocation](http://www.icce.rug.nl/documents/cplusplus/cplusplus09.html)
 * [Stack-Allocated Objects](https://people.eecs.ku.edu/~jrmiller/Courses/JavaToC++/StackAllocatedObjects.html)
+* [Strategies for the Allocation of Memory](http://www.modernescpp.com/index.php/strategies-for-the-allocation-of-memory)
+  >Dynamic allocation  
+  >Stack allocation  
+  >Static allocation  
+  >Memory pool
