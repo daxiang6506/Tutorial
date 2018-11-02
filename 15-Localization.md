@@ -1,4 +1,6 @@
 ## 资源
+* [在线编译](http://coliru.stacked-crooked.com/)
+  >g++-4.9 -std=c++11 -O2 -Wall -pedantic -pthread main.cpp && ./a.out
 * [A garbage collector for C and C++](https://www.hboehm.info/gc/)
 * [awesome-cpp](https://github.com/fffaraz/awesome-cpp?utm_source=wechat_session&utm_medium=social&utm_oi=568910917765632000#frameworks)
 * [Software optimization resources](https://www.agner.org/optimize/)
