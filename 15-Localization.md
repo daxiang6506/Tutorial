@@ -217,6 +217,7 @@
   >智能指针作为成员变量可以不用在析构函数里调用 delete
 * [Destructors (C++)](https://msdn.microsoft.com/en-us/library/6t4fe76c.aspx)
   >Order of destruction
+* [Move Constructors and Move Assignment Operators (C++)](https://docs.microsoft.com/en-us/cpp/cpp/move-constructors-and-move-assignment-operators-cpp?view=vs-2017)
 * [Constructors (C++)](https://docs.microsoft.com/en-us/cpp/cpp/constructors-cpp?view=vs-2017)
   >Order of construction
 * [C++: string 中find函数的用法以及string::npos的含义](https://blog.csdn.net/linwh8/article/details/50752733)
