@@ -255,3 +255,7 @@
   >string(s).swap(s);
 * [What does std::vector look like in memory?](https://stackoverflow.com/questions/52330010/what-does-stdvector-look-like-in-memory)
   >The std::vector instance you have on the stack is a small object containing a pointer to a heap-allocated buffer, plus some extra variables to keep track of the size and and capacity of the vector.
+* [RAII and smart pointers in C++](https://stackoverflow.com/questions/395123/raii-and-smart-pointers-in-c/395158#395158)
+  >RAII This is a strange name for a simple but awesome concept. Better is the name Scope Bound Resource Management (SBRM). 
+* [std::shared_ptr thread safety](https://stackoverflow.com/questions/14482830/stdshared-ptr-thread-safety/14485302#14485302)
+  >It is only the control block itself which is thread-safe.
