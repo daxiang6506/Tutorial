@@ -23,7 +23,7 @@
 
 * [Jfrog CMD Installation & Usage](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=42537772)
 
-* [安装opencl](https://confluence.ygomi.com:8443/display/RRT/How+to+Set+Up+OpenCL+Compilation+Environment+for+FindOpenCL.cmake+in+CMake3.5)
+* [安装opencl](https://confluence.ygomi.com:8443/display/RRT/How+to+Set+Up+OpenCL+Compilation+Environment+for+FindOpenCL.cmake+in+CMake3.5)
 
 * [Introduce sysStar tool](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Introduce+sysStar+tool&spaceKey=RRT)
 
