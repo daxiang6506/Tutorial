@@ -253,3 +253,5 @@
 * [STL中vector的内存分配与正确释放](https://blog.csdn.net/bzhxuexi/article/details/40742161)
   >vector<type>(v).swap(v);  
   >string(s).swap(s);
+* [What does std::vector look like in memory?](https://stackoverflow.com/questions/52330010/what-does-stdvector-look-like-in-memory)
+  >The std::vector instance you have on the stack is a small object containing a pointer to a heap-allocated buffer, plus some extra variables to keep track of the size and and capacity of the vector.
