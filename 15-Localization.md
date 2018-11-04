@@ -1,4 +1,7 @@
 ## 资源
+* [The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
+  >C++ Concurrency In Action  
+* [Heterogeneous Computing with OpenCL 2.0](https://chenxiaowei.gitbooks.io/heterogeneous-computing-with-opencl2-0/content/)  
 * [在线编译](http://coliru.stacked-crooked.com/)
   >g++-4.9 -std=c++11 -O2 -Wall -pedantic -pthread main.cpp && ./a.out
 * [A garbage collector for C and C++](https://www.hboehm.info/gc/)
