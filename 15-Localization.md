@@ -1,4 +1,10 @@
 ## 资源
+* [distributed builds for C, C++ and Objective C](https://github.com/distcc/distcc)
+  >http://manpages.ubuntu.com/manpages/trusty/en/man1/distccd.1.html
+* [现代 C++ 开发(1)：线程安全注解](https://zhuanlan.zhihu.com/p/47837673)
+* [有哪些GitHub项目的README堪称教科书](https://www.zhihu.com/question/299390628/answer/515174697)
+* [c++有什么好的协程支持的易用的高并发库吗](https://www.zhihu.com/question/36150312/answer/500180866)
+* [linux下的高效代码搜索工具-ack](https://blog.csdn.net/kevinx_xu/article/details/20470903)
 * [The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
   >C++ Concurrency In Action 
   >>锁与无锁设计   
@@ -19,6 +25,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [TOOL:relacy](http://www.1024cores.net/home/lock-free-algorithms/introduction)
 * [How to Design Programs, Second Edition](https://htdp.org/2018-01-06/Book/)
 * [性能测试工具VTune的功能和用法介绍](https://blog.csdn.net/WY_stutdy/article/details/79106501)
+* [CodeXL](https://gpuopen.com/codexl-2-6-released/)
 * [ubuntu14.04安装doxygen](https://blog.csdn.net/qq632544991p/article/details/46642145)
   >sudo apt-get install graphviz
 * [强大的Doxygen工具使用手册](https://blog.csdn.net/leehong2005/article/details/9137889?utm_source=blogxgwz1)
