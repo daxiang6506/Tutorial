@@ -261,6 +261,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >
   >The copy constructor is simpler than the overloaded assignment operator in that it doesn't have to delete previously allocated memory.
 * [Stack-Allocated Objects](https://people.eecs.ku.edu/~jrmiller/Courses/JavaToC++/StackAllocatedObjects.html)
+  >java to c++
 * [Strategies for the Allocation of Memory](http://www.modernescpp.com/index.php/strategies-for-the-allocation-of-memory)
   >Dynamic allocation  
   >Stack allocation  
