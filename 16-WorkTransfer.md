@@ -14,3 +14,10 @@
   >
   >./DBConverter -t product -s /data/localization/gm/London/ -e debug -d .
   >```
+* 编译顺序： 
+  >core/common  
+  >core/algorithm_common  
+  >core/algorithm_sam  
+  >core/algorithm_server_3  
+  >core/server  
+  >core/tools
