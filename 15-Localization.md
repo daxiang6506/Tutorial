@@ -285,3 +285,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [特征检测器 FeatureDetectorT](https://www.cnblogs.com/tianyalu/p/5468010.html)
 * [shared_ptr to an array : should it be used?](https://stackoverflow.com/questions/13061979/shared-ptr-to-an-array-should-it-be-used)
 * [SMART POINTERS AND DYNAMIC ARRAYS](https://zepix.wordpress.com/2015/09/21/smart-pointers-and-arrays/)
+* [Opencv的KeyPoint和DMatch数据结构](https://www.cnblogs.com/TransTown/p/7396996.html)
+* [[OpenCV]DMatch类和KeyPoints类：特征点匹配](http://www.mamicode.com/info-detail-2159374.html)
+* [KeyPoint Matching 优化方式](https://blog.csdn.net/yangtrees/article/details/19928191)
+* [vector 实现二维数组](https://blog.csdn.net/liushengxi_root/article/details/78945677)
