@@ -1,6 +1,8 @@
 ## 资源
 * [glogg](http://glogg.bonnefon.org/)
   >日志工具
+* [incredibuild](https://www.incredibuild.com/)
+  >分布式编译
 * [distributed builds for C, C++ and Objective C](https://github.com/distcc/distcc)
   >http://manpages.ubuntu.com/manpages/trusty/en/man1/distccd.1.html
 * [现代 C++ 开发(1)：线程安全注解](https://zhuanlan.zhihu.com/p/47837673)
@@ -280,4 +282,4 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >RAII This is a strange name for a simple but awesome concept. Better is the name Scope Bound Resource Management (SBRM). 
 * [std::shared_ptr thread safety](https://stackoverflow.com/questions/14482830/stdshared-ptr-thread-safety/14485302#14485302)
   >It is only the control block itself which is thread-safe.
-* [特征检测器 FeatureDetector](https://www.cnblogs.com/tianyalu/p/5468010.html)
+* [特征检测器 FeatureDetectorT](https://www.cnblogs.com/tianyalu/p/5468010.html)
