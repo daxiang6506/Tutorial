@@ -283,3 +283,5 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [std::shared_ptr thread safety](https://stackoverflow.com/questions/14482830/stdshared-ptr-thread-safety/14485302#14485302)
   >It is only the control block itself which is thread-safe.
 * [特征检测器 FeatureDetectorT](https://www.cnblogs.com/tianyalu/p/5468010.html)
+* [shared_ptr to an array : should it be used?](https://stackoverflow.com/questions/13061979/shared-ptr-to-an-array-should-it-be-used)
+* [SMART POINTERS AND DYNAMIC ARRAYS](https://zepix.wordpress.com/2015/09/21/smart-pointers-and-arrays/)
