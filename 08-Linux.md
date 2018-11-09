@@ -1,4 +1,10 @@
 ## 常用linux命令
+* scp 源 目的
+  ```
+  scp -r ./roaddb_video roaddb@10.69.141.31:/home/roaddb/wanxianlong/framework/device
+  scp -r test@10.69.140.249:/home/test/Documents/sprint-2018-10-19/London .
+  scp -r usr@10.69.140.183:/home/usr/repo/sophomore/localization/framework/device/roaddb_logger .
+  ```
 * 软连接
   ```
   # 删除软连接

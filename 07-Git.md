@@ -18,3 +18,4 @@
 * [git clone 单个分支项目或者所有项目分支](https://blog.csdn.net/she_lock/article/details/79453484)
   >git clone 默认是克隆Head指向的branch，默认是master分支
 * [Pull Request的正确打开方式](https://blog.csdn.net/zhangdaiscott/article/details/17438153)
+* [git checkout — .](https://stackoverflow.com/questions/41101998/git-checkout-vs-git-checkout)

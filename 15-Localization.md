@@ -291,3 +291,11 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [vector 实现二维数组](https://blog.csdn.net/liushengxi_root/article/details/78945677)
 * [unary_function和binary_function详解](https://www.cnblogs.com/blueoverflow/p/4738964.html)
 * [C++ STL中Map的按Key排序和按Value排序](https://blog.csdn.net/iicy266/article/details/11906189)
+* [eigen与opencv矩阵转换](https://blog.csdn.net/piaoxuezhong/article/details/79110421)
+* [Eigen库数据结构内存对齐问题](https://blog.csdn.net/rs_huangzs/article/details/50574141)
+* [std::allocate_shared](http://www.cplusplus.com/reference/memory/allocate_shared/)
+* [std::advance 给迭代器增加指定偏移量](https://www.cnblogs.com/lc-cnblong/archive/2013/07/17/3196199.html)
+* [overloading friend operator<< for template class](https://stackoverflow.com/questions/4660123/overloading-friend-operator-for-template-class)
+* [模板类中重载<<和>>操作符](https://blog.csdn.net/qq_19528953/article/details/51200741)
+* [Overloaded << operator for a map](https://stackoverflow.com/questions/18757641/overloaded-operator-for-a-map)
+* []
