@@ -282,7 +282,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >RAII This is a strange name for a simple but awesome concept. Better is the name Scope Bound Resource Management (SBRM). 
 * [std::shared_ptr thread safety](https://stackoverflow.com/questions/14482830/stdshared-ptr-thread-safety/14485302#14485302)
   >It is only the control block itself which is thread-safe.
-* [特征检测器 FeatureDetectorT](https://www.cnblogs.com/tianyalu/p/5468010.html)
+* [特征检测器 FeatureDetector](https://www.cnblogs.com/tianyalu/p/5468010.html)
 * [shared_ptr to an array : should it be used?](https://stackoverflow.com/questions/13061979/shared-ptr-to-an-array-should-it-be-used)
 * [SMART POINTERS AND DYNAMIC ARRAYS](https://zepix.wordpress.com/2015/09/21/smart-pointers-and-arrays/)
 * [Opencv的KeyPoint和DMatch数据结构](https://www.cnblogs.com/TransTown/p/7396996.html)
@@ -298,4 +298,8 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [overloading friend operator<< for template class](https://stackoverflow.com/questions/4660123/overloading-friend-operator-for-template-class)
 * [模板类中重载<<和>>操作符](https://blog.csdn.net/qq_19528953/article/details/51200741)
 * [Overloaded << operator for a map](https://stackoverflow.com/questions/18757641/overloaded-operator-for-a-map)
-* []
+* [C++11中std::unordered_map的使用](https://www.cnblogs.com/gvlthu23061/p/7315893.html)
+* [C++ Templates（16）】Trait的实现](https://www.jianshu.com/p/e4799b06499d?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
+* [C++ traits技术浅谈](https://www.cnblogs.com/mangoyuan/p/6446046.html)
+* [[boost::asio学习 03]用ASIO编写UDP通信程序](https://blog.csdn.net/adrian169/article/details/9142611)
+* [C++/C++11中std::deque的使用](https://blog.csdn.net/fengbingchun/article/details/72757856)
