@@ -306,4 +306,5 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [C++/C++11中std::deque的使用](https://blog.csdn.net/fengbingchun/article/details/72757856)
 * [c++函数对象构造函数和operator()执行关系](https://blog.csdn.net/u013105439/article/details/70148866)
 * [c++中std::set自定义去重和排序函数](https://www.cnblogs.com/litaozijin/p/6665595.html)
-* [通过降维加速opencv中的knnMatch图像匹配](https://blog.csdn.net/yhyhbo/article/details/54620178)
+* [通过降维加速opencv中的knnMatch图像匹配](https://blog.csdn.net/yhyhbo/article/details/54620178c++)
+* [C++ 合成默认构造函数的真相](https://www.cnblogs.com/QG-whz/p/4676481.html)
