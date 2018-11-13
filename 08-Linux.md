@@ -1,3 +1,5 @@
+## unbuntu
+* [ubuntu自带截图工具](https://blog.csdn.net/qq_38880380/article/details/78233687)
 ## 常用linux命令
 * scp 源 目的
   ```
