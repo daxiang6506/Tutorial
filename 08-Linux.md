@@ -1,6 +1,8 @@
-## unbuntu
+## ubuntu
 * [ubuntu自带截图工具](https://blog.csdn.net/qq_38880380/article/details/78233687)
 ## 常用linux命令
+* [Linux下找不到动态库解决，添加rpath](https://blog.csdn.net/baidu_17611285/article/details/82427359)
+
 * scp 源 目的
   ```
   scp -r ./roaddb_video roaddb@10.69.141.31:/home/roaddb/wanxianlong/framework/device
