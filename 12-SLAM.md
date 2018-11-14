@@ -196,7 +196,7 @@
   >sudo rm -rf /mnt/xuc
   >```
 * ![网卡设置](_images/network-adaptor.png)
-  >网卡要先删除，在增加，否则不能上网
+  >网卡要先删除，在增加，否则不能上网，因为mac地址会与别人一样
 * ![网络设置](_images/network-settings.png)
 ## 安装ceres
 * 安装依赖包
