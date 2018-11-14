@@ -37,6 +37,25 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [绘制函数调用图（call graph）（4）：doxygen + graphviz](https://blog.csdn.net/benkaoya/article/details/79763668)
 ## tips
 * [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
+* [readelf和ldd分析elf文件](https://blog.csdn.net/unix21/article/details/8466440)
+* [cmake使用示例与整理总结](https://blog.csdn.net/wzzfeitian/article/details/40963457)
+* [CMake 基本使用方法--写CMakeList.txt](http://blog.sina.com.cn/s/blog_679daa6b0101019z.html)
+  >CMake会循环的查找从当前目录到SUBDIRS列出的任何子目录的文件  
+  >使用ADD_SUBDIRECTORY(), SUBDIRS()已经deprecated  
+  >AUX_SOURCE_DIRECTORY表示一个不在当前目录的包含源文件的目录  
+  >
+  >INCLUDE_DIRECTORIES()  
+  >LINK_DIRECTORIES()  
+  >LINK_LIBRARIES()  
+  >TARGET_LINK_LIBRARIES()  
+  >  
+  >CMake依照目录的分层结构来承袭这些命令。如果在顶层的CMakeLists文件中有定义  
+  >>INCLUDE_DIRECTORIES(/usr/include)  
+  >>SUBDIRS（./subdir1)  
+  >>并且在./subdir1/CMakeLists.txt有
+  >>INCLUDE_DIRECTORIES(/tmp/foobar)  
+  >最后网状的结果是:  
+  >INCLUDE_DIRECTORIES(/usr/include /tmp/foobar)
 
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
