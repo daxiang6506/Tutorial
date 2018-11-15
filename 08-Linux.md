@@ -2,9 +2,9 @@
 * [ubuntu自带截图工具](https://blog.csdn.net/qq_38880380/article/details/78233687)
 ## 常用linux命令
 * [Linux下找不到动态库解决，添加rpath](https://blog.csdn.net/baidu_17611285/article/details/82427359)
-* [最常用的也是最容易忘记的Shell知识](https://blog.csdn.net/xifeijian/article/details/9286189(https://blog.csdn.net/jewes/article/details/8247743)
-
-* [Linux Shell脚本编程－－xargs命令详解]
+* [Linux Shell脚本编程－－xargs命令详解](https://blog.csdn.net/xifeijian/article/details/9286189)
+* [最常用的也是最容易忘记的Shell知识](https://blog.csdn.net/jewes/article/details/8247743)
+* [getopts用法](http://blog.chinaunix.net/uid-22566367-id-381953.html)
 
 * awk的用法
   ```
