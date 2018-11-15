@@ -58,7 +58,46 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >最后网状的结果是:  
   >INCLUDE_DIRECTORIES(/usr/include /tmp/foobar)
 * [link_directories, LINK_LIBRARIES, target_link_libraries使用总结](https://blog.csdn.net/arackethis/article/details/43488177)
+* [How do you add Boost libraries in CMakeLists.txt?](https://stackoverflow.com/questions/6646405/how-do-you-add-boost-libraries-in-cmakelists-txt)
+  >find_package( Boost REQUIRED COMPONENTS program_options regex )  
+  >include_directories( ${Boost_INCLUDE_DIRS} )  
+  >add_executable( run main.cpp ) # Example application based on main.cpp
+  ># Alternatively you could use ${Boost_LIBRARIES} here.
+  >target_link_libraries( run ${Boost_PROGRAM_OPTIONS_LIBRARY} ${Boost_REGEX_LIBRARY} )
 
+* [find_package与CMake如何查找链接库详解](https://blog.csdn.net/bytxl/article/details/50637277)
+  >在模块路径中寻找 Find<name>.cmake  
+  >先查看 ${CMAKE_MODULE_PATH} 中的所有目录
+  >再查看 <CMAKE_ROOT>/share/cmake-x.y/Modules/
+  >  
+  >CMAKE_MODULE_PATH = /usr/lib/vtk-5.8/CMake
+  >/usr/share/cmake-2.8/Modules/
+  >
+  >把 FindLibXML++.cmake 文件放到CMake的模块路径（/usr/share/cmake/Modules/）
+  >下面的 find_package 命令是等价的：
+  >
+  >find_package(Qt COMPONENTS QtOpenGL QtXml REQUIRED)
+  >find_package(Qt REQUIRED COMPONENTS QtOpenGL QtXml)
+  >find_package(Qt REQUIRED QtOpenGL QtXml)
+--------------------- 
+作者：bytxl 
+来源：CSDN 
+原文：https://blog.csdn.net/bytxl/article/details/50637277 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+* [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
+  ```
+  /usr/share/cmake-2.8/Modules/
+  /usr/share/opencv
+  /usr/include/opencv
+  /usr/local/include/opencv
+  /usr/lib/x86_64-linux-gnu/libopencv_contrib.so
+  /usr/local/lib/libopencv_ximgproc.so
+  /usr/local/lib/libboost_system.so
+  #Config模式：搜索XXX_DIR指定路径下的XXXConfig.cmake文件
+  ${OpenCV_DIR} = /usr/local/share/OpenCV
+  /usr/local/share/OpenCV/OpenCVConfig.cmake
+  /usr/share/OpenCV/OpenCVConfig.cmake
+  ```
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
 
