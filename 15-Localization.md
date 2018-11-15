@@ -57,6 +57,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>INCLUDE_DIRECTORIES(/tmp/foobar)  
   >最后网状的结果是:  
   >INCLUDE_DIRECTORIES(/usr/include /tmp/foobar)
+* [link_directories, LINK_LIBRARIES, target_link_libraries使用总结](https://blog.csdn.net/arackethis/article/details/43488177)
 
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
