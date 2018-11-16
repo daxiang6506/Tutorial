@@ -86,19 +86,19 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
   >Config模式：  
   >搜索XXX_DIR指定路径下的XXXConfig.cmake文件  
-  >${OpenCV_DIR} = /usr/local/share/OpenCV
-  ```
-  /usr/share/cmake-2.8/Modules/
-  /usr/share/opencv
-  /usr/include/opencv
-  /usr/local/include/opencv
-  /usr/lib/x86_64-linux-gnu/libopencv_contrib.so
-  /usr/local/lib/libopencv_ximgproc.so
-  /usr/local/lib/libboost_system.so
+  >${OpenCV_DIR} = /usr/local/share/OpenCV  
+  >>/usr/local/share/OpenCV/OpenCVConfig.cmake  
+  >>/usr/share/OpenCV/OpenCVConfig.cmake  
+  >
+  >实际存放头文件和库文件的路径：
+  >/usr/include/opencv
+  >/usr/local/include/opencv
+  >/usr/local/lib/
+  >>/usr/local/lib/libopencv_ximgproc.so
+  >>/usr/local/lib/libboost_system.so
+  >
+  >/usr/lib/x86_64-linux-gnu/libopencv_contrib.so
 
-  /usr/local/share/OpenCV/OpenCVConfig.cmake
-  /usr/share/OpenCV/OpenCVConfig.cmake
-  ```
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
 
