@@ -61,7 +61,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>INCLUDE_DIRECTORIES(/usr/include /tmp/foobar)
 * [link_directories, LINK_LIBRARIES, target_link_libraries使用总结](https://blog.csdn.net/arackethis/article/details/43488177)
 * [How do you add Boost libraries in CMakeLists.txt?](https://stackoverflow.com/questions/6646405/how-do-you-add-boost-libraries-in-cmakelists-txt)
-  >下面的 find_package 命令是等价的： 
+  >下面的 find_package 命令是等价的：  
   >find_package( Boost REQUIRED COMPONENTS program_options regex )  
   >find_package( Boost COMPONENTS program_options regex REQUIRED )  
   >find_package( Boost REQUIRED program_options regex )  
