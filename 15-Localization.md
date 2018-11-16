@@ -62,7 +62,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >find_package( Boost REQUIRED COMPONENTS program_options regex )  
   >include_directories( ${Boost_INCLUDE_DIRS} )  
   >add_executable( run main.cpp ) # Example application based on main.cpp
-  ># Alternatively you could use ${Boost_LIBRARIES} here.
+  >#Alternatiely you could use ${Boost_LIBRARIES} here  
   >target_link_libraries( run ${Boost_PROGRAM_OPTIONS_LIBRARY} ${Boost_REGEX_LIBRARY} )
 
 * [find_package与CMake如何查找链接库详解](https://blog.csdn.net/bytxl/article/details/50637277)
