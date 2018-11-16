@@ -80,7 +80,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>再查看 <CMAKE_ROOT>/share/cmake-x.y/Modules/  
   >>>/usr/share/cmake-2.8/Modules/  
   >
-  >把 FindLibXML++.cmake 文件放到CMake的模块路径（/usr/share/cmake/Modules/）
+  >把 FindLibXML++.cmake 文件放到CMake的模块路径（/usr/share/cmake-x.y/Modules/）
 
 * [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
   ```
