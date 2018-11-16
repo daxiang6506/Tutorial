@@ -51,10 +51,10 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >TARGET_LINK_LIBRARIES()  
   >  
   >CMake依照目录的分层结构来承袭这些命令。
-  >>如果在顶层的CMakeLists文件中有定义  
+  >>如果在顶层的CMakeLists文件中有定义:  
   >>INCLUDE_DIRECTORIES(/usr/include)  
   >>SUBDIRS（./subdir1)  
-  >>并且在./subdir1/CMakeLists.txt有  
+  >>并且在./subdir1/CMakeLists.txt有:  
   >>INCLUDE_DIRECTORIES(/tmp/foobar)  
   >>最后网状的结果是:  
   >>INCLUDE_DIRECTORIES(/usr/include /tmp/foobar)
