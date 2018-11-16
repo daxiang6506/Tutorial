@@ -63,9 +63,10 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [How do you add Boost libraries in CMakeLists.txt?](https://stackoverflow.com/questions/6646405/how-do-you-add-boost-libraries-in-cmakelists-txt)
   >find_package( Boost REQUIRED COMPONENTS program_options regex )  
   >include_directories( ${Boost_INCLUDE_DIRS} )  
-  >add_executable( run main.cpp ) # Example application based on main.cpp
-  >#Alternatiely you could use ${Boost_LIBRARIES} here  
+  >add_executable( run main.cpp )  
+  > 
   >target_link_libraries( run ${Boost_PROGRAM_OPTIONS_LIBRARY} ${Boost_REGEX_LIBRARY} )
+  >>#Alternatiely you could use ${Boost_LIBRARIES} here 
 
 * [find_package与CMake如何查找链接库详解](https://blog.csdn.net/bytxl/article/details/50637277)
   >在模块路径中寻找 Find<name>.cmake  
