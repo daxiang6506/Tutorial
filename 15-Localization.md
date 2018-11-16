@@ -74,11 +74,10 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 
 * [find_package与CMake如何查找链接库详解](https://blog.csdn.net/bytxl/article/details/50637277)
   >在模块路径中寻找 Find<name>.cmake  
-  >>先查看 ${CMAKE_MODULE_PATH} 中的所有目录  
-  >>再查看 <CMAKE_ROOT>/share/cmake-x.y/Modules/
-  >  
-  >CMAKE_MODULE_PATH = /usr/lib/vtk-5.8/CMake
-  >/usr/share/cmake-2.8/Modules/
+  >>先查看 ${CMAKE_MODULE_PATH} 中的所有目录 
+  >>>CMAKE_MODULE_PATH = /usr/lib/vtk-5.8/CMake  
+  >>再查看 <CMAKE_ROOT>/share/cmake-x.y/Modules/  
+  >>>/usr/share/cmake-2.8/Modules/  
   >
   >把 FindLibXML++.cmake 文件放到CMake的模块路径（/usr/share/cmake/Modules/）
   >下面的 find_package 命令是等价的：
