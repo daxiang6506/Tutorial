@@ -84,7 +84,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >把 FindLibXML++.cmake 文件放到CMake的模块路径（/usr/share/cmake-x.y/Modules/）
 
 * [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
-  >Config模式：
+  >Config模式： 
   >搜索XXX_DIR指定路径下的XXXConfig.cmake文件  
   >${OpenCV_DIR} = /usr/local/share/OpenCV
   ```
