@@ -73,8 +73,9 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>#Alternatiely you could use ${Boost_LIBRARIES} here 
 
 * [find_package与CMake如何查找链接库详解](https://blog.csdn.net/bytxl/article/details/50637277)
-  >在模块路径中寻找 Find<name>.cmake  
-  >>先查看 ${CMAKE_MODULE_PATH} 中的所有目录 
+  >Module模式:  
+  >在模块路径中寻找 Find<name>.cmake   
+  >>先查看 ${CMAKE_MODULE_PATH} 中的所有目录  
   >>>CMAKE_MODULE_PATH = /usr/lib/vtk-5.8/CMake  
   >>
   >>再查看 <CMAKE_ROOT>/share/cmake-x.y/Modules/  
@@ -83,6 +84,9 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >把 FindLibXML++.cmake 文件放到CMake的模块路径（/usr/share/cmake-x.y/Modules/）
 
 * [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
+  >Config模式：
+  >搜索XXX_DIR指定路径下的XXXConfig.cmake文件  
+  >${OpenCV_DIR} = /usr/local/share/OpenCV
   ```
   /usr/share/cmake-2.8/Modules/
   /usr/share/opencv
@@ -91,8 +95,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   /usr/lib/x86_64-linux-gnu/libopencv_contrib.so
   /usr/local/lib/libopencv_ximgproc.so
   /usr/local/lib/libboost_system.so
-  #Config模式：搜索XXX_DIR指定路径下的XXXConfig.cmake文件
-  ${OpenCV_DIR} = /usr/local/share/OpenCV
+
   /usr/local/share/OpenCV/OpenCVConfig.cmake
   /usr/share/OpenCV/OpenCVConfig.cmake
   ```
