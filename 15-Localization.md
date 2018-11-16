@@ -40,6 +40,9 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
 * [readelf和ldd分析elf文件](https://blog.csdn.net/unix21/article/details/8466440)
 * [cmake使用示例与整理总结](https://blog.csdn.net/wzzfeitian/article/details/40963457)
+  >cmake中一些预定义变量:  
+  >>CMAKE_CURRENT_LIST_FILE 输出调用这个变量的CMakeLists.txt的完整路径
+  >>>get_filename_component(OpenCV_CONFIG_PATH "${CMAKE_CURRENT_LIST_FILE}" PATH CACHE)
 * [CMake 基本使用方法--写CMakeList.txt](http://blog.sina.com.cn/s/blog_679daa6b0101019z.html)
   >CMake会循环的查找从当前目录到SUBDIRS列出的任何子目录的文件  
   >>使用ADD_SUBDIRECTORY(), SUBDIRS()已经deprecated  
