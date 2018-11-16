@@ -103,6 +103,12 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>/usr/local/lib/libboost_system.so
   >
   >/usr/lib/x86_64-linux-gnu/libopencv_contrib.so
+* [find_library](https://cmake.org/cmake/help/v3.1/command/find_library.html)
+  >find_package和find_library指令可以得到库文件的绝对路径  
+  >搜索顺序：  
+  >Search the standard system environment variables.
+  >>执行函数动态链接.so时，如果此文件不在缺省目录下‘/usr/local/lib’ and ‘/usr/lib’.  
+  >>那么就需要指定环境变量LD_LIBRARY_PATH
 
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
