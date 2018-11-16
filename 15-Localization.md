@@ -42,7 +42,8 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [cmake使用示例与整理总结](https://blog.csdn.net/wzzfeitian/article/details/40963457)
 * [CMake 基本使用方法--写CMakeList.txt](http://blog.sina.com.cn/s/blog_679daa6b0101019z.html)
   >CMake会循环的查找从当前目录到SUBDIRS列出的任何子目录的文件  
-  >使用ADD_SUBDIRECTORY(), SUBDIRS()已经deprecated  
+  >>使用ADD_SUBDIRECTORY(), SUBDIRS()已经deprecated  
+  >  
   >AUX_SOURCE_DIRECTORY表示一个不在当前目录的包含源文件的目录  
   >
   >INCLUDE_DIRECTORIES()  
