@@ -79,11 +79,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >find_package(Qt COMPONENTS QtOpenGL QtXml REQUIRED)
   >find_package(Qt REQUIRED COMPONENTS QtOpenGL QtXml)
   >find_package(Qt REQUIRED QtOpenGL QtXml)
---------------------- 
-作者：bytxl 
-来源：CSDN 
-原文：https://blog.csdn.net/bytxl/article/details/50637277 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
 * [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
   ```
   /usr/share/cmake-2.8/Modules/
