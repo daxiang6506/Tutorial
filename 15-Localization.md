@@ -81,11 +81,6 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>>/usr/share/cmake-2.8/Modules/  
   >
   >把 FindLibXML++.cmake 文件放到CMake的模块路径（/usr/share/cmake/Modules/）
-  >下面的 find_package 命令是等价的：
-  >
-  >find_package(Qt COMPONENTS QtOpenGL QtXml REQUIRED)
-  >find_package(Qt REQUIRED COMPONENTS QtOpenGL QtXml)
-  >find_package(Qt REQUIRED QtOpenGL QtXml)
 
 * [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
   ```
