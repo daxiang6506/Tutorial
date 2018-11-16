@@ -2,7 +2,7 @@
 * [glogg](http://glogg.bonnefon.org/)
   >日志工具
 * [incredibuild](https://www.incredibuild.com/)
-  >分布式编译
+  >分布式编译工具
 * [distributed builds for C, C++ and Objective C](https://github.com/distcc/distcc)
   >http://manpages.ubuntu.com/manpages/trusty/en/man1/distccd.1.html
 * [现代 C++ 开发(1)：线程安全注解](https://zhuanlan.zhihu.com/p/47837673)
