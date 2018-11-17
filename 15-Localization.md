@@ -113,6 +113,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >
   >/usr/lib/x86_64-linux-gnu/libopencv_contrib.so
 * [find_library](https://cmake.org/cmake/help/v3.1/command/find_library.html)
+* [find_package](https://cmake.org/cmake/help/v3.1/command/find_package.html)
   >find_package和find_library指令可以得到库文件的绝对路径  
   >If NO_DEFAULT_PATH is specified, then no additional paths are added to the search.  
   >If NO_DEFAULT_PATH is not specified, the search process is as follows:  
