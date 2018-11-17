@@ -75,7 +75,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >add_executable( run main.cpp )  
   >  
   >target_link_libraries( run ${Boost_PROGRAM_OPTIONS_LIBRARY} ${Boost_REGEX_LIBRARY} )
-  >>#Alternatiely you could use ${Boost_LIBRARIES} here 
+  >>#Alternatiely you could use ${Boost_LIBRARIES} here  
 
 * [find_package与CMake如何查找链接库详解](https://blog.csdn.net/bytxl/article/details/50637277)
   >Module模式:  
@@ -95,41 +95,45 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >           PATH_SUFFIXES ${_boost_PATH_SUFFIXES}  
   > )  
   
-
 * [CMake之find_package](https://www.jianshu.com/p/46e9b8a6cb6a)
-  >Config模式： 
+  >OpenCV_DIR可以单独设置，也会在找到后自动设置  
+  >Config模式：  
   >XXXConfig.cmake是库文件安装时自己安装的，将自己的路径硬编码到其中  
   >搜索XXX_DIR指定路径下的XXXConfig.cmake文件  
   >${OpenCV_DIR} = /usr/local/share/OpenCV  
   >>/usr/local/share/OpenCV/OpenCVConfig.cmake  
   >>/usr/share/OpenCV/OpenCVConfig.cmake  
   >
-  >实际存放头文件和库文件的路径：
-  >/usr/include/opencv
-  >/usr/local/include/opencv
-  >/usr/local/lib/
-  >>/usr/local/lib/libopencv_ximgproc.so
-  >>/usr/local/lib/libboost_system.so
-  >
-  >/usr/lib/x86_64-linux-gnu/libopencv_contrib.so
+  >实际存放头文件和库文件的路径:  
+  >/usr/include/opencv  
+  >/usr/local/include/opencv  
+  >>/usr/local/lib/libopencv_ximgproc.so  
+  >>/usr/local/lib/libboost_system.so  
+  >>/usr/lib/x86_64-linux-gnu/libopencv_contrib.so  
 * [find_library](https://cmake.org/cmake/help/v3.1/command/find_library.html)
 * [find_package](https://cmake.org/cmake/help/v3.1/command/find_package.html)
   >find_package和find_library指令可以得到库文件的绝对路径  
   >If NO_DEFAULT_PATH is specified, then no additional paths are added to the search.  
   >If NO_DEFAULT_PATH is not specified, the search process is as follows:  
-  >搜索顺序：  
-  >Search the standard system environment variables.
+  >搜索位置:  
+  > <prefix>/                                               (W)  
+  > <prefix>/(cmake|CMake)/                                 (W)  
+  > <prefix>/<name>*/                                       (W)  
+  > <prefix>/<name>*/(cmake|CMake)/                         (W)  
+  > <prefix>/(lib/<arch>|lib|share)/cmake/<name>*/          (U)  
+  > <prefix>/(lib/<arch>|lib|share)/<name>*/                (U)  
+  > <prefix>/(lib/<arch>|lib|share)/<name>*/(cmake|CMake)/  (U)  
+  >默认PREFIX之一:  
   >>CMAKE_SYSTEM_PREFIX_PATH = ‘/usr/local; /usr; /’  
-  >
-  >执行函数动态链接.so时，如果此文件不在缺省目录下：  
-  >那么就需要指定环境变量LD_LIBRARY_PATH
+  >>CMAKE_LIBRARY_ARCHITECTURE = 'x86_64-linux-gnu'  
+
 * cmake查找库和头文件的方式有两种:  
   >1. 是config的方式，通过定位config.cmake文件所在位置，根据已知的目录结构关系来定位头文件位置，库文件一般都放在默认路径下（usr/local/lib）,config.cmake内只需要通过已知的库文件名字搜索即可。
   >2. 是module方式，第三方写的findxxx.cmake文件，以某个已知的特定文件名来定位头文件位置，库文件和config一样，搜索默认路径。
   >  
   >opencv是config方式，有自己的config.cmake文件 OpenCV_DIR 路径指向 usr/local/share/OpenCV/  
   >boost是module方式，cmake提供了findboost.cmake文件，通过关键字来查找。
-* [CMake: Of what use is find_package() if you need to specify CMAKE_MODULE_PATH anyway?](https://stackoverflow.com/questions/20746936/cmake-of-what-use-is-find-package-if-you-need-to-specify-cmake-module-path-an)
+
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
 
