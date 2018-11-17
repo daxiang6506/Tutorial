@@ -118,16 +118,17 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >If NO_DEFAULT_PATH is not specified, the search process is as follows:  
   >搜索顺序：  
   >Search the standard system environment variables.
-  >>‘/usr/local/lib’ and ‘/usr/lib’  
+  >>CMAKE_SYSTEM_PREFIX_PATH = ‘/usr/local; /usr; /’  
   >
   >执行函数动态链接.so时，如果此文件不在缺省目录下：  
   >那么就需要指定环境变量LD_LIBRARY_PATH
 * cmake查找库和头文件的方式有两种:  
-  >1. 是config的方式，通过定位config.cmake文件所在位置，根据已知的目录结构关系来定位头文件位置，库文件一般都放在默认路径下（usr/local/lib）,只需要通过已知的库文件名字搜索即可。
+  >1. 是config的方式，通过定位config.cmake文件所在位置，根据已知的目录结构关系来定位头文件位置，库文件一般都放在默认路径下（usr/local/lib）,config.cmake内只需要通过已知的库文件名字搜索即可。
   >2. 是module方式，第三方写的findxxx.cmake文件，以某个已知的特定文件名来定位头文件位置，库文件和config一样，搜索默认路径。
   >  
   >opencv是config方式，有自己的config.cmake文件 OpenCV_DIR 路径指向 usr/local/share/OpenCV/  
   >boost是module方式，cmake提供了findboost.cmake文件，通过关键字来查找。
+* [CMake: Of what use is find_package() if you need to specify CMAKE_MODULE_PATH anyway?](https://stackoverflow.com/questions/20746936/cmake-of-what-use-is-find-package-if-you-need-to-specify-cmake-module-path-an)
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
 
