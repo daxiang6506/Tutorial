@@ -72,11 +72,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>TARGET_LINK_LIBRARIES(myProject hello)，连接libhello.so库  
   >>TARGET_LINK_LIBRARIES(myProject libhello.a)  
   >>TARGET_LINK_LIBRARIES(myProject libhello.so)  
---------------------- 
-作者：arackethis 
-来源：CSDN 
-原文：https://blog.csdn.net/arackethis/article/details/43488177 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
 * [How do you add Boost libraries in CMakeLists.txt?](https://stackoverflow.com/questions/6646405/how-do-you-add-boost-libraries-in-cmakelists-txt)
   >下面的 find_package 命令是等价的：  
   >find_package( Boost REQUIRED COMPONENTS program_options regex )  
