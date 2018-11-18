@@ -116,14 +116,14 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >If NO_DEFAULT_PATH is specified, then no additional paths are added to the search.  
   >If NO_DEFAULT_PATH is not specified, the search process is as follows:  
   >搜索位置:  
-  > <prefix>/                                               (W)  
-  > <prefix>/(cmake|CMake)/                                 (W)  
-  > <prefix>/<name>*/                                       (W)  
-  > <prefix>/<name>*/(cmake|CMake)/                         (W)  
-  > <prefix>/(lib/<arch>|lib|share)/cmake/<name>*/          (U)  
-  > <prefix>/(lib/<arch>|lib|share)/<name>*/                (U)  
-  > <prefix>/(lib/<arch>|lib|share)/<name>*/(cmake|CMake)/  (U)  
-  >默认PREFIX之一:  
+  > < prefix >/                                                   (W)  
+  > < prefix >/(cmake|CMake)/                                     (W)  
+  > < prefix >/< name >*/                                         (W)  
+  > < prefix >/< name >*/(cmake|CMake)/                           (W)  
+  > < prefix >/(lib/< arch >|lib|share)/cmake/< name >*/          (U)  
+  > < prefix >/(lib/< arch >|lib|share)/< name >*/                (U)  
+  > < prefix >/(lib/< arch >|lib|share)/< name >*/(cmake|CMake)/  (U)  
+  >默认PREFIX之一:    
   >>CMAKE_SYSTEM_PREFIX_PATH = ‘/usr/local; /usr; /’  
   >>CMAKE_LIBRARY_ARCHITECTURE = 'x86_64-linux-gnu'  
 
