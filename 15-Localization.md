@@ -123,6 +123,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >find_package和find_library指令可以得到库文件的绝对路径  
   >If NO_DEFAULT_PATH is specified, then no additional paths are added to the search.  
   >If NO_DEFAULT_PATH is not specified, the search process is as follows:  
+  >/opt/ros/install_isolated/share/catkin/cmake/catkinConfig.cmake   
   >搜索位置:  
   > < prefix >/                                                   (W)  
   > < prefix >/(cmake|CMake)/                                     (W)  
@@ -141,7 +142,11 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >  
   >opencv是config方式，有自己的config.cmake文件 OpenCV_DIR 路径指向 usr/local/share/OpenCV/  
   >boost是module方式，cmake提供了findboost.cmake文件，通过关键字来查找。
-
+* target  
+  >set_target_properties(${PROJECT_NAME} PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${ALGO_VEHICLE_PATH}/dist/x64/lib)  
+  >set(EXECUTABLE_OUTPUT_PATH < your_specified_path >)  
+  >set(LIBRARY_OUTPUT_PATH < your_specified_path >)  
+  >deprecated  
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
 
