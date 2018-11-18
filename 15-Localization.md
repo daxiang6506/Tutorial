@@ -65,6 +65,18 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >>最后网状的结果是:  
   >>INCLUDE_DIRECTORIES(/usr/include /tmp/foobar)
 * [link_directories, LINK_LIBRARIES, target_link_libraries使用总结](https://blog.csdn.net/arackethis/article/details/43488177)
+  >LINK_DIRECTORIES（添加需要链接的库文件目录)  
+  >LINK_LIBRARIES　（添加需要链接的库文件路径，注意这里是全路径）  
+  >TARGET_LINK_LIBRARIES （设置要链接的库文件的名称）  
+  >>比如（以下写法（包括备注中的）都可以）：   
+  >>TARGET_LINK_LIBRARIES(myProject hello)，连接libhello.so库  
+  >>TARGET_LINK_LIBRARIES(myProject libhello.a)  
+  >>TARGET_LINK_LIBRARIES(myProject libhello.so)  
+--------------------- 
+作者：arackethis 
+来源：CSDN 
+原文：https://blog.csdn.net/arackethis/article/details/43488177 
+版权声明：本文为博主原创文章，转载请附上博文链接！
 * [How do you add Boost libraries in CMakeLists.txt?](https://stackoverflow.com/questions/6646405/how-do-you-add-boost-libraries-in-cmakelists-txt)
   >下面的 find_package 命令是等价的：  
   >find_package( Boost REQUIRED COMPONENTS program_options regex )  
