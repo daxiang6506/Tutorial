@@ -1,4 +1,5 @@
 ## 资源
+* [dukto](http://www.msec.it/blog/?page_id=11)
 * [glogg](http://glogg.bonnefon.org/)
   >日志工具
 * [incredibuild](https://www.incredibuild.com/)
