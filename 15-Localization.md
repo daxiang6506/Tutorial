@@ -142,11 +142,23 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >  
   >opencv是config方式，有自己的config.cmake文件 OpenCV_DIR 路径指向 usr/local/share/OpenCV/  
   >boost是module方式，cmake提供了findboost.cmake文件，通过关键字来查找。
-* target  
+* 为target设置输出结果位置：  
+  >add_library(${PROJECT_NAME}  SHARED ${SRC_LIST})  
   >set_target_properties(${PROJECT_NAME} PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${ALGO_VEHICLE_PATH}/dist/x64/lib)  
+  >下面这种方式已经deprecated  
   >set(EXECUTABLE_OUTPUT_PATH < your_specified_path >)  
   >set(LIBRARY_OUTPUT_PATH < your_specified_path >)  
-  >deprecated  
+* 输出include：
+  >1. cmake方式：  
+  >file(INSTALL ${ALGO_VEHICLE_COMMON_PATH}/include/LocDbDataType.h DESTINATION ${ALGO_VEHICLE_PATH}/dist/x64/include/common)  
+  >2. #sh方式：  
+  >script_dir=$(dirname `readlink -f $0`)
+  >module_include_dir=$script_dir/include
+  >dist_include_dir=$script_dir/dist/x64  
+  >cp -r $module_include_dir $dist_include_dir  
+  >cp -r $third_part_dir/boostThread $dist_include_dir/include  
+  >cp -r $third_part_dir/LOC_eigen $dist_include_dir/include/thirdParty/LOC_eigen
+
 ## 建立环境
 * [指导书](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Manual+Page+of+Localization+Refactor+May+31th+2018&spaceKey=RRT)
 
