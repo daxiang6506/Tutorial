@@ -159,6 +159,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
   >cp -r $third_part_dir/boostThread $dist_include_dir/include  
   >cp -r $third_part_dir/LOC_eigen $dist_include_dir/include/thirdParty/LOC_eigen
   >3. cmake方式2:
+  >${CMAKE_COMMAND} = /usr/local/bin/cmake    
   >set(COPYITEM include)
   >add_custom_command(OUTPUT COPY_RES COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}/${COPYITEM} ${INCLUDE_OUTPUT_PATH}/${COPYITEM}/VehiceDBAPI)  
   >add_custom_target(CopyTaskVehicle ALL DEPENDS COPY_RES  
