@@ -1,4 +1,6 @@
 # Software
+* [ssh](https://blog.csdn.net/resilient/article/details/80832170)
+* [dukto](http://www.msec.it/blog/?page_id=11)
 * [ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG/releases/)
   > [monocloud](https://monocloud.com.au)
 * [Homebrew](https://brew.sh/)
