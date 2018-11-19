@@ -6,6 +6,8 @@
 * [最常用的也是最容易忘记的Shell知识](https://blog.csdn.net/jewes/article/details/8247743)
 * [getopts用法](http://blog.chinaunix.net/uid-22566367-id-381953.html)
 
+* ps -e | grep ssh
+
 * awk的用法
   ```
   lscpu | grep "^CPU(s):" | awk '{print $2}'
@@ -98,6 +100,7 @@
 * ubuntu查看apt安装文件位置
   ```
   dpkg -L liblapack-dev
+  dpkg -l | grep ssh
   ```
 * 定位文件
   ```
