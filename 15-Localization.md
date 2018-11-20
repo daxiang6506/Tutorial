@@ -203,9 +203,11 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 
 ## docker环境
 * 命令
-  >```
-  >docker run -it --name master-build -v "${PWD}":/data -w /data dockerhub.ygomi.com/rdb:latest bash
-  >```
+
+  ```bash
+  docker run -it --name master-build -v "${PWD}":/data -w /data dockerhub.ygomi.com/rdb:latest bash
+  ```
+
 * 解决依赖问题
   >```
   ># 需要重新编译data-receiver
@@ -404,7 +406,7 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [Difference in make_shared and normal shared_ptr in C++](https://stackoverflow.com/questions/20895648/difference-in-make-shared-and-normal-shared-ptr-in-c)
   >share_ptr 管理两个实体，都在堆上
 * [STL中vector的内存分配与正确释放](https://blog.csdn.net/bzhxuexi/article/details/40742161)
-  >vector<type>(v).swap(v);  
+  >vector< type >(v).swap(v);  
   >string(s).swap(s);
 * [What does std::vector look like in memory?](https://stackoverflow.com/questions/52330010/what-does-stdvector-look-like-in-memory)
   >The std::vector instance you have on the stack is a small object containing a pointer to a heap-allocated buffer, plus some extra variables to keep track of the size and and capacity of the vector.
