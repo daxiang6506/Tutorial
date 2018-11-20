@@ -440,3 +440,4 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [c++中std::set自定义去重和排序函数](https://www.cnblogs.com/litaozijin/p/6665595.html)
 * [通过降维加速opencv中的knnMatch图像匹配](https://blog.csdn.net/yhyhbo/article/details/54620178c++)
 * [C++ 合成默认构造函数的真相](https://www.cnblogs.com/QG-whz/p/4676481.html)
+* [boost库之多线程高级特性](https://my.oschina.net/lingluonianhua/blog/220389)
