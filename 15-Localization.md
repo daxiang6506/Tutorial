@@ -442,3 +442,5 @@
 * [boost库之多线程高级特性](https://my.oschina.net/lingluonianhua/blog/220389)
 * [linux中signal函数的简单用法](https://blog.csdn.net/weixin_41656968/article/details/79232979)
 * [linux下使用gettimeofday获取当前时间的注意事项](https://blog.csdn.net/qiuchangyong/article/details/68945482)
+* [std::unique](https://www.cnblogs.com/heyonggang/p/3243477.html)
+* [linux创建线程之pthread_create](http://www.cnblogs.com/amanlikethis/p/5537175.html)
