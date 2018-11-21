@@ -441,3 +441,4 @@
 * [C++ 合成默认构造函数的真相](https://www.cnblogs.com/QG-whz/p/4676481.html)
 * [boost库之多线程高级特性](https://my.oschina.net/lingluonianhua/blog/220389)
 * [linux中signal函数的简单用法](https://blog.csdn.net/weixin_41656968/article/details/79232979)
+* [linux下使用gettimeofday获取当前时间的注意事项](https://blog.csdn.net/qiuchangyong/article/details/68945482)
