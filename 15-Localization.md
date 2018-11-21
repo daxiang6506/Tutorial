@@ -441,3 +441,4 @@ smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attach
 * [通过降维加速opencv中的knnMatch图像匹配](https://blog.csdn.net/yhyhbo/article/details/54620178c++)
 * [C++ 合成默认构造函数的真相](https://www.cnblogs.com/QG-whz/p/4676481.html)
 * [boost库之多线程高级特性](https://my.oschina.net/lingluonianhua/blog/220389)
+* [linux中signal函数的简单用法](https://blog.csdn.net/weixin_41656968/article/details/79232979)
