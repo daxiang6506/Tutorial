@@ -11,16 +11,15 @@
 * [c++有什么好的协程支持的易用的高并发库吗](https://www.zhihu.com/question/36150312/answer/500180866)
 * [linux下的高效代码搜索工具-ack](https://blog.csdn.net/kevinx_xu/article/details/20470903)
 * [The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
-  >C++ Concurrency In Action 
-  >>锁与无锁设计   
+  >C++ Concurrency In Action  
+  >>锁与无锁设计  
   >>流水线设计  
 
   >Effective_Modern_C++  
   >More Effective C++中文版  
 * [Heterogeneous Computing with OpenCL 2.0](https://chenxiaowei.gitbooks.io/heterogeneous-computing-with-opencl2-0/content/)  
   >GPU体系结构
-* [Manage memory efficiently in your C++ code with
-smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attachments/1552323/2439274/Pointers_SAiola.pdf)
+* [Manage memory efficiently in your C++ code with smart pointers](https://indico.cern.ch/event/666222/contributions/2722821/attachments/1552323/2439274/Pointers_SAiola.pdf)
 * [在线编译](http://coliru.stacked-crooked.com/)
   >g++-4.9 -std=c++11 -O2 -Wall -pedantic -pthread main.cpp && ./a.out
 * [A garbage collector for C and C++](https://www.hboehm.info/gc/)
