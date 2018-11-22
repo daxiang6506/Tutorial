@@ -3,7 +3,12 @@
 * run simulator
 
   ```bash
-  sudo /home/roaddb/code/framework/device/rdb-tools-debug-tools/dist/x64/bin/rosplay-simulator -d p20p1 -f /home/roaddb/shiyu/696_data/696rosbag/2018-05-13_T_13-57-25.182_GMT_L2R_C_L4_R.bag -t 10.69.140.181 -m d0:4c:c1:02:4e:2a -k
+  sudo /home/roaddb/code/framework/device/rdb-tools-debug-tools/dist/x64/bin/rosplay-simulator
+  -d p20p1
+  -f /home/roaddb/shiyu/696_data/696rosbag/2018-05-13_T_13-57-25.182_GMT_L2R_C_L4_R.bag
+  -t 10.69.140.181
+  -m d0:4c:c1:02:4e:2a
+  -k
   ```
 
   ```bash
