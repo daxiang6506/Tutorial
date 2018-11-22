@@ -24,10 +24,10 @@
   #!/bin/sh
   pids=`ps -ef | grep -v grep | grep "MultiThreadsLoc" | sed -E "/[A-Za-z]* *([0-9]*).*/s//\\1/"`
   for pid in $pids
-  do
-   sudo kill -2 $pid
-   sudo kill -3 $pid
-  done
+    do
+     sudo kill -2 $pid
+     sudo kill -3 $pid
+    done
   sleep 1
   ret=`ps -ef | grep -v grep | grep "MultiThreadsLoc" | sed -E "/[A-Za-z]* *([0-9]*).*/s//\\1/"`
   echo "$ret"
