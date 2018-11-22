@@ -18,7 +18,9 @@
   > 10.69.140.220 一般强哥会用  
   > 10.69.140.197  做demo 不能动  
   > 10.69.143.161 三个组的测试在用
+
 ## 信息
+
 * [Localization Software Version Test and Acceptance Standard](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Localization+Software+Version+Test+and+Acceptance+Standard&spaceKey=RRT)
 * [Paper Reading - Weekly Reading - 2018 November Week1~2](https://confluence.ygomi.com:8443/display/RRT/Paper+Reading+-+Weekly+Reading+-+2018+November+Week1~2)
 * [Manual Page for Localization develop branches](https://confluence.ygomi.com:8443/display/RRT/Manual+Page+for+Localization+develop+branches)
