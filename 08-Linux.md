@@ -5,6 +5,33 @@
 * [Linux Shell脚本编程－－xargs命令详解](https://blog.csdn.net/xifeijian/article/details/9286189)
 * [最常用的也是最容易忘记的Shell知识](https://blog.csdn.net/jewes/article/details/8247743)
 * [getopts用法](http://blog.chinaunix.net/uid-22566367-id-381953.html)
+* [ssh-copy-id三步实现SSH无密码登录和ssh常用命令](https://blog.csdn.net/liu_qingbo/article/details/78383892)
+
+* ssh
+
+  ```bash
+  REMOTE_IP=$1
+  if [ ! -f ~/.ssh/id_rsa.pub ];then
+    ssh-keygen
+  fi
+  ssh-copy-id -i ~/.ssh/id_rsa.pub  roaddb@${REMOTE_IP}
+  scp run_loc.sh roaddb@${REMOTE_IP}:/home/roaddb
+  scp stop_loc.sh roaddb@${REMOTE_IP}:/home/roaddb
+  sudo echo "roaddb ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+  ```
+
+  ```bash
+  #!/bin/sh
+  pids=`ps -ef | grep -v grep | grep "MultiThreadsLoc" | sed -E "/[A-Za-z]* *([0-9]*).*/s//\\1/"`
+  for pid in $pids
+  do
+   sudo kill -2 $pid
+   sudo kill -3 $pid
+  done
+  sleep 1
+  ret=`ps -ef | grep -v grep | grep "MultiThreadsLoc" | sed -E "/[A-Za-z]* *([0-9]*).*/s//\\1/"`
+  echo "$ret"
+  ```
 
 * ps -e | grep ssh
 
