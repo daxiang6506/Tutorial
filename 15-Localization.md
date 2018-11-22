@@ -444,3 +444,5 @@
 * [linux下使用gettimeofday获取当前时间的注意事项](https://blog.csdn.net/qiuchangyong/article/details/68945482)
 * [std::unique](https://www.cnblogs.com/heyonggang/p/3243477.html)
 * [linux创建线程之pthread_create](http://www.cnblogs.com/amanlikethis/p/5537175.html)
+* [Python——cmd调用（os.system阻塞处理）](https://www.cnblogs.com/MrRead/p/7832786.html)
+* [Python_cmd的各种实现方法及优劣（subprocess.Popen, os.system和commands.getstatusoutput）](https://blog.csdn.net/yygydjkthh/article/details/37566155)
