@@ -7,6 +7,25 @@
 * [getopts用法](http://blog.chinaunix.net/uid-22566367-id-381953.html)
 * [ssh-copy-id三步实现SSH无密码登录和ssh常用命令](https://blog.csdn.net/liu_qingbo/article/details/78383892)
 
+* kill
+
+  ```c++
+  void loc_panel::stop_loc(const std::string &procName)
+  {
+    kill_proc(procName, 9, true);
+    std::stringstream ss;
+    ss.str("");
+    ss << "cd /home/roaddb; "
+       << "sudo ./stop_loc.sh > /dev/null 2>&1;";
+
+    std::vector<std::string> ret = con->do_cmd(ss.str(), true, true);
+    if(ret.size() == 0)
+        ui->status->setText("stop localization success.");
+    else
+        ui->status->setText("stop localization fail.");
+  }
+  ```
+
 * ssh
 
   ```bash
