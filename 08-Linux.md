@@ -6,7 +6,7 @@
 * [最常用的也是最容易忘记的Shell知识](https://blog.csdn.net/jewes/article/details/8247743)
 * [getopts用法](http://blog.chinaunix.net/uid-22566367-id-381953.html)
 * [ssh-copy-id三步实现SSH无密码登录和ssh常用命令](https://blog.csdn.net/liu_qingbo/article/details/78383892)
-
+* [2>/dev/null和>/dev/null 2>&1和2>&1>/dev/null](https://blog.csdn.net/zhongqi2513/article/details/78613768)
 * kill
 
   ```c++

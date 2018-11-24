@@ -1,5 +1,6 @@
 * Abox
-  ```
+
+  ```bash
   ssh roaddb@10.69.140.220
   Test1234
   test1234
@@ -8,6 +9,7 @@
 
   pull_code_build_new_framework_debug.sh
   ```
+
 * [Linhong's Work](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Linhong%27s+Work&spaceKey=RRT)
   >[Segment Detailed Design](https://confluence.ygomi.com:8443/display/RRT/Segment+Detailed+Design)  
   >
