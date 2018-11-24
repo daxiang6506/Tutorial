@@ -16,6 +16,16 @@
   ```
   ggVG     全选
   .        重复上次命令
+  u        撤销上次操作
+  ctrl + r 重做撤销操作 
+  J        删除换行符,可以选中多行
+  xp       交换光标位置和之后位置字符
+  ddp      交换光标位置行和下一行
+  ~        将光标处字符大小写反转
+  g~aw     将光标所在单词大小写反转
+  guaw     将光标所在单词小写
+  guu/UU   将光标所在行小写/大写
+
   ```
 * 移动
   ```
@@ -31,6 +41,8 @@
   gg       第一行
   G        最后一行
   10G      到第10行
+  ( / ）   移动到句首/句尾
+  { / }    移动到段首/段尾
   H        光标移动到这个屏幕的最上方那一行的第一个字符
   M        光标移动到这个屏幕的中央那一行的第一个字符
   L        光标移动到这个屏幕的最下方那一行的第一个字符
@@ -45,10 +57,10 @@
   10-      前10行行首
   h/j/k/l  左/下/上/右
   10j      向下移动10行
-  w/W      下一个单词（字符串）第一个字符
-  e/E      下一个单词（字符串）最后一个字符
-  b/B      前一个单词（字符串）第一个字符
-  ge/gE    前一个单词（字符串）最后一个字符
+  b/B      go to the [b]eginning of this word/String
+  e/E      go to the [e]nd of this word/String
+  w/W      go to the start of the following [w]ord/String
+  ge/gE    [g]o back to the [e]nd of the previous word/String
   ```
 * 删除/剪切
   ```
@@ -72,7 +84,6 @@
   4diw          删除4个单词
   nx            连续向后删除n个字符
   X             删除当前光标左边字符
-  J             删除换行符,可以选中多行
   ```
 * 选中
   ```
@@ -89,6 +100,9 @@
   viw           选中一个word，空白算一个word
   vaw           选中一个word，空白不算一个word
   v4aw          选中4个word
+  v3W           向后选中第3个字符串的第一个字符
+  v3E           向后选中第3个字符串的最后一个字符
+  v3B           向前选中第三个字符串的第一个字符
   Ctrl-v + s    选中矩形区域并按字符删除修改
   Ctrl-v + r    选中矩形区域并按字符修改
   Ctrl-v + C/S  选中矩形区域并按行删除修改 
@@ -174,3 +188,5 @@
   >当前行空格替换为回车
   
 * [vim 空格和换行的删除和替换](https://www.cnblogs.com/clphp/p/5502026.html)
+* [技巧：快速提高 Vi/Vim 使用效率的原则与途径](https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/)
+* [vim 命令(全)](https://blog.csdn.net/zg_hover/article/details/1232018)
