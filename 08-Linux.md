@@ -7,7 +7,7 @@
 * [getopts用法](http://blog.chinaunix.net/uid-22566367-id-381953.html)
 * [ssh-copy-id三步实现SSH无密码登录和ssh常用命令](https://blog.csdn.net/liu_qingbo/article/details/78383892)
 * [2>/dev/null和>/dev/null 2>&1和2>&1>/dev/null](https://blog.csdn.net/zhongqi2513/article/details/78613768)
-
+* [Linux Source命令及脚本的执行方式解析](https://www.cnblogs.com/ThatsMyTiger/p/6865817.html)
 * kill
 
   ```c++
@@ -246,6 +246,6 @@
   echo "Raspberry" > test.txt
   ```
 
-  >覆盖文件原内容并重新输入内容，若文件不存在则创建文件
+  >source命令通常用于重新执行刚修改的初始化文件，使之立即生效，而不必注销并重新登录
 * source
   >[ref](https://www.cnblogs.com/ThatsMyTiger/p/6865817.html)
