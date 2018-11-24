@@ -86,9 +86,9 @@
   v5l           选中当前字符以及右边5个字符
   v$            选中到行尾
   v%            选中当前括号匹配内容
-  viw           选中一个word，不包括空白
-  vaw           选中一个word，包括空白
-  v4aw          选中4个word，包括空白
+  viw           选中一个word，空白算一个word
+  vaw           选中一个word，空白不算一个word
+  v4aw          选中4个word
   Ctrl-v + s    选中矩形区域并按字符删除修改
   Ctrl-v + r    选中矩形区域并按字符修改
   Ctrl-v + C/S  选中矩形区域并按行删除修改 
