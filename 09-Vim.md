@@ -23,6 +23,7 @@
   :set nonumber       关闭行号
   :set hlsearch       高亮匹配
   :set nohlsearch     关闭高亮匹配
+  :nohlsearch         关闭当前高亮匹配
   ggVG                全选
   .                   重复上次命令
   u                   撤销上次操作
