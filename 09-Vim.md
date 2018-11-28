@@ -1,4 +1,13 @@
+# GIT
+
+## reference
+
+* [vim 命令(全)](https://blog.csdn.net/zg_hover/article/details/1232018)
+* [vim 空格和换行的删除和替换](https://www.cnblogs.com/clphp/p/5502026.html)
+* [技巧：快速提高 Vi/Vim 使用效率的原则与途径](https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/)
+
 ## 宏
+
 * 查看宏
   ```
   :reg a         查看宏a的内容
@@ -211,6 +220,3 @@
   ```
   >当前行空格替换为回车
   
-* [vim 空格和换行的删除和替换](https://www.cnblogs.com/clphp/p/5502026.html)
-* [技巧：快速提高 Vi/Vim 使用效率的原则与途径](https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/)
-* [vim 命令(全)](https://blog.csdn.net/zg_hover/article/details/1232018)
