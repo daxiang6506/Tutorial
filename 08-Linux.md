@@ -1,6 +1,11 @@
 ## ubuntu
+
 * [ubuntu自带截图工具](https://blog.csdn.net/qq_38880380/article/details/78233687)
-## 常用linux命令
+
+## reference
+
+* [sed 命令](https://www.ibm.com/support/knowledgecenter/zh/ssw_aix_71/com.ibm.aix.cmds5/sed.htm)
+* [Linux sed命令](http://www.runoob.com/linux/linux-comm-sed.html)
 * [Linux下找不到动态库解决，添加rpath](https://blog.csdn.net/baidu_17611285/article/details/82427359)
 * [Linux Shell脚本编程－－xargs命令详解](https://blog.csdn.net/xifeijian/article/details/9286189)
 * [最常用的也是最容易忘记的Shell知识](https://blog.csdn.net/jewes/article/details/8247743)
@@ -8,6 +13,9 @@
 * [ssh-copy-id三步实现SSH无密码登录和ssh常用命令](https://blog.csdn.net/liu_qingbo/article/details/78383892)
 * [2>/dev/null和>/dev/null 2>&1和2>&1>/dev/null](https://blog.csdn.net/zhongqi2513/article/details/78613768)
 * [Linux Source命令及脚本的执行方式解析](https://www.cnblogs.com/ThatsMyTiger/p/6865817.html)
+
+## 常用linux命令
+
 * kill
 
   ```c++
