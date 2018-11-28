@@ -2,6 +2,7 @@
 
 ## referece
 
+* [Resources to learn Git](http://try.github.io/)
 * [git stash命令](https://www.yiibai.com/git/git_stash.html)
 * [git add命令](https://www.yiibai.com/git/git_add.html)
 * [learngitbranching](https://learngitbranching.js.org/)
