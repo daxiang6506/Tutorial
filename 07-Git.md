@@ -2,6 +2,9 @@
 
 ## referece
 
+* [Git for beginners: The definitive practical guide](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
+* [Difference between “git add -A” and “git add .”](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add)
+* [Difference between stash vs stage files in GIT](https://stackoverflow.com/questions/31596869/difference-between-stash-vs-stage-files-in-git)
 * [Resources to learn Git](http://try.github.io/)
 * [git stash命令](https://www.yiibai.com/git/git_stash.html)
 * [git add命令](https://www.yiibai.com/git/git_add.html)

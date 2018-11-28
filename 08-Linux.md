@@ -4,6 +4,7 @@
 
 ## reference
 
+* [【Linux】lsof 命令，记一次端口占用查询](https://www.cnblogs.com/liuyongcn/p/5433139.html)
 * [sed 命令](https://www.ibm.com/support/knowledgecenter/zh/ssw_aix_71/com.ibm.aix.cmds5/sed.htm)
 * [Linux sed命令](http://www.runoob.com/linux/linux-comm-sed.html)
 * [Linux下找不到动态库解决，添加rpath](https://blog.csdn.net/baidu_17611285/article/details/82427359)
