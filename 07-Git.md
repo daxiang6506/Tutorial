@@ -2,6 +2,18 @@
 
 ## referece
 
+* [learngitbranching](https://learngitbranching.js.org/)
+* [git: 提交前查看修改 git diff，HEAD^, HEAD~i](https://blog.csdn.net/gw569453350game/article/details/46998395)
+* [Git 工具 - 储藏（Stashing）](https://git-scm.com/book/zh/v1/Git-%E5%B7%A5%E5%85%B7-%E5%82%A8%E8%97%8F%EF%BC%88Stashing%EF%BC%89)
+* [git add -A 和 git add . 的区别](https://www.cnblogs.com/skura23/p/5859243.html)
+* [git如何删除已经 add 的文件 (如何撤销已放入缓存区文件的修改)](https://blog.csdn.net/Kiss_The_sky/article/details/77921206)
+* [git 取消文件add](https://blog.csdn.net/wukai_std/article/details/79025130)
+  >git reset HEAD + 文件名
+* [玩转GIT之看清 git stash 的本质](https://blog.csdn.net/AndyNikolas/article/details/79906132)
+  >当你新建文件修改了代码，如果没有git add 那么你用 git stash 是不能保存修改到暂存区的，但是如果你没有新建文件，只是在原有文件里进行修改，那么是可以在没有git add 的情况下保存到修改到暂存区的。
+
+## command
+
 * HEAD
 
   ```bash
