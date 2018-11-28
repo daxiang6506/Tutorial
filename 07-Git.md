@@ -11,7 +11,16 @@
   >git reset HEAD + 文件名
 * [玩转GIT之看清 git stash 的本质](https://blog.csdn.net/AndyNikolas/article/details/79906132)
   >当你新建文件修改了代码，如果没有git add 那么你用 git stash 是不能保存修改到暂存区的，但是如果你没有新建文件，只是在原有文件里进行修改，那么是可以在没有git add 的情况下保存到修改到暂存区的。
-
+  >```
+  >// 正撸A项目的时候,被拉去做B项目，这个时候 stash 就要上场了
+  >// 先把A项目的已经写好的代码 git add 一下
+  >git add .
+  >// 然后将A项目保存到暂存区
+  >git stash
+  >// 然后写B项目代码，写完并且commit完，准备回来开发A项目，再执行
+  >git stash apply
+  >// 这样就将之前开发A项目的代码从暂存区拿了出来，就可以继续A项目的开发了
+  >```
 ## command
 
 * HEAD
