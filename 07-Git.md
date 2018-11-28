@@ -2,6 +2,8 @@
 
 ## referece
 
+* [git stash命令](https://www.yiibai.com/git/git_stash.html)
+* [git add命令](https://www.yiibai.com/git/git_add.html)
 * [learngitbranching](https://learngitbranching.js.org/)
 * [git: 提交前查看修改 git diff，HEAD^, HEAD~i](https://blog.csdn.net/gw569453350game/article/details/46998395)
 * [Git 工具 - 储藏（Stashing）](https://git-scm.com/book/zh/v1/Git-%E5%B7%A5%E5%85%B7-%E5%82%A8%E8%97%8F%EF%BC%88Stashing%EF%BC%89)
