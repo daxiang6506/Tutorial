@@ -17,3 +17,12 @@
 
 ## matplotlib
 * [colormaps_reference](https://matplotlib.org/examples/color/colormaps_reference.html)
+
+## reference
+
+* [Python使用struct处理二进制](https://www.cnblogs.com/gala/archive/2011/09/22/2184801.html)
+* [python 按二维数组的某行或列排序 (numpy lexsort)](https://www.cnblogs.com/liyuxia713/p/7082091.html)
+* [Python中numpy的where()函数](http://www.cnblogs.com/oxxxo/p/6129294.html)
+* [Numpy where function multiple conditions](https://stackoverflow.com/questions/16343752/numpy-where-function-multiple-conditions)
+* [Box plot with min, max, average and standard deviation](https://stackoverflow.com/questions/33328774/box-plot-with-min-max-average-and-standard-deviation)
+* [Python format 格式化函数](http://www.runoob.com/python/att-string-format.html)
