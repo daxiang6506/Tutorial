@@ -29,6 +29,13 @@
   >```
 ## command
 
+* key_gen
+
+  ```bash
+  ssh-keygen
+  cat ~/.ssh/id_rsa.pub
+  ```
+
 * HEAD
 
   ```bash
