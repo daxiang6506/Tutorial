@@ -36,6 +36,17 @@
   cat ~/.ssh/id_rsa.pub
   ```
 
+* git config
+
+  ```bash
+  git config --global user.name "Chong Xu"
+  git config --global user.email "Chong.Xu@ygomi.com"
+  git config --global --list
+  git commit --amend
+  git commit --amend --reset-author
+  git commit -m "RDB-35131 more"
+  ```
+
 * HEAD
 
   ```bash
