@@ -26,18 +26,28 @@
   > 10.69.140.197  做demo 不能动  
   > 10.69.143.161 三个组的测试在用
 
-## 工具
+## 工具使用
+
+* [Klocwork Test Manual](https://confluence.ygomi.com:8443/display/RRT/Klocwork+Test++Manual)
+  >Klockwork:
+  >kw_user6   sys2017!  10.69.130.170  
+  >[Klocwork Filters](https://confluence.ygomi.com:8443/display/RQA/Klocwork+Filters)
 
 * [How to use Qt5.9 to build TimeStampMonitor](https://confluence.ygomi.com:8443/pages/viewpage.action?title=How+to+use+Qt5.9+to+build+TimeStampMonitor&spaceKey=RRT)
+
 ## 信息
 
-* [Localization Software Version Test and Acceptance Standard](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Localization+Software+Version+Test+and+Acceptance+Standard&spaceKey=RRT)
-
-* [Paper Reading - Weekly Reading - 2018 November Week1~2](https://confluence.ygomi.com:8443/display/RRT/Paper+Reading+-+Weekly+Reading+-+2018+November+Week1~2)
+* [System High-level Design for EKF Based RT Localisation](https://confluence.ygomi.com:8443/pages/viewpage.action?title=System+High-level+Design+for+EKF+Based+RT+Localisation&spaceKey=RRT)
 
 * [Manual Page for Localization develop branches](https://confluence.ygomi.com:8443/display/RRT/Manual+Page+for+Localization+develop+branches)
 
-* 目前我们正在考虑如何测试 Next Generation Data Collection Solution， 对输入数据的质量检查可以采用工具Multi-SensorFusionPre 来做。会检查RTV帧数，IMU GPS 时偏，IMU GPS 相关性，帧率，最小帧间间隔，最大帧间间隔，RTV IMU 频偏，RTV IMU 时偏，RTV IMU 相关性，IMU RTV 比率。
+* [How to download dependency repository artifacts?](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=51676609)
+
+## 杂项
+
+* [Localization Software Version Test and Acceptance Standard](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Localization+Software+Version+Test+and+Acceptance+Standard&spaceKey=RRT)
+
+* Next Generation Data Collection Solution， 对输入数据的质量检查可以采用工具Multi-SensorFusionPre 来做。会检查RTV帧数，IMU GPS 时偏，IMU GPS 相关性，帧率，最小帧间间隔，最大帧间间隔，RTV IMU 频偏，RTV IMU 时偏，RTV IMU 相关性，IMU RTV 比率。
 
 * pybind11封装C++数据库解析接口，调试编译成Python可调用的动态库，目前动态库已生成，可导入python
 
@@ -47,7 +57,14 @@
 
 ## 任务
 
+* 
 * DB选点问题
+  >提取关键帧方位角信息，与当前帧比较，选择方向一致（100度以内）  
+  >>数据库内关键帧包含的R为世界坐标系（W）  
+  >>关键函数`transferCoordinateG2B()`世界坐标系（W）转IMU坐标系（B）  
+  >>关键函数`Rbn2angC(B系下R，输出（方向角,...)` R转方向角  
+  >
+  >得到的位姿与DB中的高度与航向角差异大，则reset
 
 * NaN问题
 
@@ -63,3 +80,4 @@
 * roadDBCore::LockFreeLoopQueue
 * roadDBCore::pushSyncEvent(RawDataAlignEvent_t(spPackedObject->frameIdx));
 * LocDbAlgorithm::filterKeyframeByBatchID
+
