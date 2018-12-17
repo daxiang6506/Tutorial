@@ -71,8 +71,21 @@
   ```c++
   ImuGpsFusion.cpp
 
-  LOG_TRACE << "[INS] Update, P_bG:"<<insState_.P_bG_<<"  V_bG:"<<insState_.V_bG_;
+  LOG_TRACE << "[INS] Update, P_bG:"<<insState_.P_bG_<<"  V_bG:"<<insState_.V_bG_;  
   ```
+
+## 任务（suspend）
+
+* bin file分析工具
+  >feature/RDB-35131-pmba-multi-thread-loc-performance-analysis-tools  
+  >localization/core/tools/others/ThreadLocPA
+  >已经合并入master  
+  >已经有更新  
+  >>统计了线程中mod先后的模式，默认选择出现次数最多的模式画stack图，修改了一个统计项的bug  
+  >>尝试将所有线程起始到结束画在一个图中，还是由于end点可能有多个的问题难以表达清楚，还是得切分为frame再处理  
+  >>尝试用`bokeh`画交互图  
+  >>>[bokeh](https://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html)  
+  >>>[github](https://github.com/bokeh/bokeh-notebooks)
 
 ## 线索
 
