@@ -1,4 +1,14 @@
 # Jupyter
+
+## reference
+
+* [27个Jupyter Notebook小提示与技巧](https://blog.csdn.net/simple_the_best/article/details/52821136)
+  >matplotlib， 使用%matplotlib inline进行激活。
+  >%matplotlib notebook提供了一些交互性，不过可能会有点慢，因为渲染由服务器端完成。
+  >mpld3为matplotlib代码提供了另一个渲染器(使用d3)。非常漂亮，不过尚未完整。
+  >bokeh是构建交互性绘图的一个更好的选择。
+  >plot.ly也可以生成漂亮的绘图，不过是付费服务。
+
 ## 快捷键
 * [链接](https://blog.csdn.net/lawme/article/details/51034543)
   > ```
