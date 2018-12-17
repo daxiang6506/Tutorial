@@ -44,7 +44,7 @@
   git config --global --list
   git commit --amend
   git commit --amend --reset-author
-  git commit -m "RDB-35131 more"
+  git commit -m "RDB-xxxx more"
   ```
 
 * HEAD
