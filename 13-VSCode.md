@@ -16,3 +16,4 @@
 ## 插件
 * Git History (git log)
 * Git Lens
+* [How can you export VS Code extension list](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
