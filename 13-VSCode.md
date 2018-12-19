@@ -17,6 +17,11 @@
 * [vs Code打开新的文件会覆盖窗口中的,怎么改](https://segmentfault.com/q/1010000006131199?_ea=1023522)
 
 ## 插件
+
+* Settings Sync
+  >GitHub Token: 7c1052bee488122b68020d5ce1d13d465442820d
+  >7c1052bee488122b68020d5ce1d13d465442820d
+  >GitHub Gist: 6b3cd2b1f1907ee0e1fafb4333d1fed4
 * Git History (git log)
 * Git Lens
 * [How can you export VS Code extension list](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
