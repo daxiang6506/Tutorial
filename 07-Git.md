@@ -69,6 +69,7 @@
   git rebase master          master作为base, 隐含当前分支
   git rebase bugFix          同一分支, 只是移动
   git rebase master bugfix   前面那个作为base
+  git rebase -i HEAD~3       将包括HEAD在内的之前的3个commit点合并，之后需要`git log` 查看，`git push origin "分支名" -f`
   ```
 
 * git merge
