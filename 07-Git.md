@@ -1,7 +1,9 @@
 # Git
 
 ## referece
-
+* [Git使用（4）修改提交结果、版本回退与冲突解决](https://blog.csdn.net/Kevin_cc98/article/details/78313113)
+* [Git - 分支间更新、同步与提交小技巧](https://www.jianshu.com/p/86fdfc4fc114?utm_source=oschina-app)
+* [Git-rebase 黑魔法之打磨 commit 颗粒度](https://blog.csdn.net/qq_32452623/article/details/79475057)
 * [Resources to learn Git](http://try.github.io/)
 * [Git for beginners: The definitive practical guide](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide)
 * [Difference between “git add -A” and “git add .”](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add)
@@ -31,6 +33,7 @@
   >git stash apply
   >// 这样就将之前开发A项目的代码从暂存区拿了出来，就可以继续A项目的开发了
   >```
+* [git reset](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E7%BD%AE%E6%8F%AD%E5%AF%86)
 ## command
 
 * key_gen
@@ -42,15 +45,15 @@
 
 * git reset
   ```
-  git reset -soft (暂存区->工作区)
-  git reset -mixed  (版本区->暂存区)
-  git reset -hard (版本区->暂存区->工作区)
+  git reset --soft ()
+  git reset --mixed  (版本区->暂存区)默认
+  git reset --hard (版本区->暂存区->工作区)
   ```
 * git diff
   ```
   git diff (工作区vs暂存区)
   git diff HEAD (工作区vs版本区)
-  git diff -cached （暂存区vd版本区）
+  git diff --cached （暂存区vd版本区）
   ```
 
 * git remote add
