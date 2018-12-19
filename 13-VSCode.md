@@ -1,6 +1,6 @@
 ## 快捷键
 
-  ```
+  ```bash
   Ctrl + Alt + -    back一个浏览位置(linux)
   Ctrl + Shift + -  forward一个浏览位置(linux)
   Ctrl + -          back一个浏览位置(mac)
@@ -10,6 +10,9 @@
   Ctrl + p          找文件
   Alt  + o          切换.cpp/.h
   ```
+
+* Type Shift+Enter in the search box to insert a newline, and the search box will grow to show your full multiline query. You can also copy and paste a multiline selection from the editor into the search box.
+
 * [VS Code C++开发常用文件过滤设置](https://blog.csdn.net/caoshiying/article/details/78165066)
 * [vs Code打开新的文件会覆盖窗口中的,怎么改](https://segmentfault.com/q/1010000006131199?_ea=1023522)
 
