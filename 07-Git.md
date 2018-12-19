@@ -15,6 +15,10 @@
 * [git如何删除已经 add 的文件 (如何撤销已放入缓存区文件的修改)](https://blog.csdn.net/Kiss_The_sky/article/details/77921206)
 * [git 取消文件add](https://blog.csdn.net/wukai_std/article/details/79025130)
   >git reset HEAD + 文件名
+
+* [手把手带你玩git之 git stash](https://www.jianshu.com/p/0884ee3caa08)
+  >一个是git stash，表示把索引区的内容转存到stash栈里面，同时工作区跟索引区保持一致（实际上工作区中的untracked的内容依然存在，不会被清除）
+
 * [玩转GIT之看清 git stash 的本质](https://blog.csdn.net/AndyNikolas/article/details/79906132)
   >当你新建文件修改了代码，如果没有git add 那么你用 git stash 是不能保存修改到暂存区的，但是如果你没有新建文件，只是在原有文件里进行修改，那么是可以在没有git add 的情况下保存到修改到暂存区的。
   >```
@@ -34,6 +38,32 @@
   ```bash
   ssh-keygen
   cat ~/.ssh/id_rsa.pub
+  ```
+
+* git reset
+  ```
+  git reset -soft (暂存区->工作区)
+  git reset -mixed  (版本区->暂存区)
+  git reset -hard (版本区->暂存区->工作区)
+  ```
+* git diff
+  ```
+  git diff (工作区vs暂存区)
+  git diff HEAD (工作区vs版本区)
+  git diff -cached （暂存区vd版本区）
+  ```
+
+* git remote add
+  
+  ```
+  git remote add upstream <https://>
+  ```
+
+* git remote
+
+  ```bash
+  git remote -v
+  git remote set-url origin <https://>
   ```
 
 * git config
@@ -87,6 +117,7 @@
   git branch -f master HEAD~3
   git branch -f three commit
   git branch -f master bugFix
+  git branch -m
   ```
 
 * git pull
