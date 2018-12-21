@@ -27,9 +27,7 @@
 roaddb@10.69.25.60:/home/roaddb/test_data/tianfuroad/db/sam_1212                       db
                    /home/roaddb/test_data/tianfuroad/tianfuroad_turn_rtv
 Test1234
-sftp roadDB@cdsftp.ygomi.net:/tools/sparrow
-dDcwMh0sXj
-get *.* .
+
 ```
 
 * ABOX
@@ -47,6 +45,14 @@ get *.* .
 
 ## 工具使用
 
+* sparrow
+
+  ```bash
+  sftp roadDB@cdsftp.ygomi.net:/tools/sparrow
+  dDcwMh0sXj
+  get *.* .
+  ```
+  
 * 可视化
   >rdb-loc-visualization
 
