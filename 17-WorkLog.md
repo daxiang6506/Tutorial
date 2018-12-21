@@ -47,6 +47,9 @@ get *.* .
 
 ## 工具使用
 
+* 可视化
+  >rdb-loc-visualization
+
 * [Klocwork Test Manual](https://confluence.ygomi.com:8443/display/RRT/Klocwork+Test++Manual)
   >Klockwork:
   >kw_user6   sys2017!  10.69.130.170  
