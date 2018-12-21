@@ -20,11 +20,30 @@
 
 ## 资源
 
+* DATA
+
+```bash
+
+roaddb@10.69.25.60:/home/roaddb/test_data/tianfuroad/db/sam_1212                       db
+                   /home/roaddb/test_data/tianfuroad/tianfuroad_turn_rtv
+Test1234
+sftp roadDB@cdsftp.ygomi.net:/tools/sparrow
+dDcwMh0sXj
+get *.* .
+```
+
 * ABOX
-  > 10.69.140.181   一般标哥和xiangqi会用  
+
+220 和 193 都新增了一个500G的固态硬盘，路径是/home/roaddb/extendDisk
+大家把需要的但是不经常用的数据可以放在该目录下。
+1.近期会把roaddb目录下的数据做一次清理，将公共测试集规范。类似如下图，每个目录下有各自固定的相机参数、数据库、semi-dense文件以及测试用的case。
+2.大家原先自己的代码和数据统一移动到/home/roaddb/others目录下。所以自己运行的时候按照自己需求重新编译代码。
+3.在那个目录下创建个人目录的规范样例是/home/roaddb/others/xxx/.
+![case list](_images/case_list.png)
+![case structure](_images/case_structure.png)
+
   > 10.69.140.220 一般强哥会用  
-  > 10.69.140.197  做demo 不能动  
-  > 10.69.143.161 三个组的测试在用
+  > 10.69.140.193  
 
 ## 工具使用
 
