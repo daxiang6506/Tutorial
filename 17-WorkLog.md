@@ -90,6 +90,7 @@ Test1234
   >[Klocwork Test Manual](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Klocwork+Test++Manual&spaceKey=RRT)
 
 * DB选点问题
+  >利用Kf的朝向判断反向车道，以及利用kf的朝向和高度差reset
   >提取关键帧方位角信息，与当前帧比较，选择方向一致（100度以内）  
   >>数据库内关键帧包含的R为世界坐标系（W）  
   >>关键函数`transferCoordinateG2B()`世界坐标系（W）转IMU坐标系（B）  
