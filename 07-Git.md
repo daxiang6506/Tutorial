@@ -1,6 +1,7 @@
 # Git
 
 ## referece
+* [git回退到某个历史版本](https://www.cnblogs.com/duanweishi/p/7834364.html)
 * [Git使用（4）修改提交结果、版本回退与冲突解决](https://blog.csdn.net/Kevin_cc98/article/details/78313113)
 * [Git - 分支间更新、同步与提交小技巧](https://www.jianshu.com/p/86fdfc4fc114?utm_source=oschina-app)
 * [Git-rebase 黑魔法之打磨 commit 颗粒度](https://blog.csdn.net/qq_32452623/article/details/79475057)
