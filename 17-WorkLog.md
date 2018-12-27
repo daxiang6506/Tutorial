@@ -90,9 +90,27 @@ Test1234
   >[Klocwork Test Manual](https://confluence.ygomi.com:8443/pages/viewpage.action?title=Klocwork+Test++Manual&spaceKey=RRT)
 
 * DB选点问题
+  >增加基于gps的停车状态下的db选点功能
+  >>gps速度小，则不做方向判断，直接使用之前的方向（防止低速下gps随机跳变）
+  >
+  >配置初始化与状态初始化分离  
+  ```c++
+  LocalizationThread.cpp
+    roadDBCore::Singleton<roadDBCore::BarrierManager>::getInstance().wait(roadDBCore::BARRIER_KEY_START_E);
+
+    status = systemInit(spMatch3DOut, vspPackObjects, spCurObject);
+
+    uint32_t result = msckfMgr_.init(spCurObject->frameIdx, spCurObject->gps, spKalData);
+  
+  MSCKFManager.cpp
+  uint32_t MsckfManager::init(int32_t frameId, const Point3d_t& gps, KalDataPtr_t kalData)
+                    std::call_once(s_buildFlag_, initMsckfConfig);
+  ```
+
   >利用Kf的朝向判断反向车道，以及利用kf的朝向和高度差reset
   >提取关键帧方位角信息，与当前帧比较，选择方向一致（100度以内）  
-  >>数据库内关键帧包含的R为世界坐标系（W)   
+  >>数据库内关键帧包含的R为世界坐标系（W)  
+
   >>关键函数`transferCoordinateG2B()`世界坐标系（W）转IMU坐标系（B）  
   >>关键函数`Rbn2angC(B系下R，输出（方向角,...)` R转方向角  
   >
