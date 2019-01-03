@@ -94,6 +94,7 @@ Test1234
   >>gps速度小，则不做方向判断，直接使用之前的方向（防止低速下gps随机跳变）
   >
   >配置初始化与状态初始化分离  
+
   ```c++
   LocalizationThread.cpp
     roadDBCore::Singleton<roadDBCore::BarrierManager>::getInstance().wait(roadDBCore::BARRIER_KEY_START_E);

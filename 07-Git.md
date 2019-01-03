@@ -1,6 +1,8 @@
 # Git
 
 ## referece
+
+* [git push](https://www.atlassian.com/git/tutorials/syncing/git-push)
 * [git回退到某个历史版本](https://www.cnblogs.com/duanweishi/p/7834364.html)
 * [Git使用（4）修改提交结果、版本回退与冲突解决](https://blog.csdn.net/Kevin_cc98/article/details/78313113)
 * [Git - 分支间更新、同步与提交小技巧](https://www.jianshu.com/p/86fdfc4fc114?utm_source=oschina-app)
@@ -137,6 +139,7 @@
 
   ```bash
   git push origin --delete tag <tagname>
+  git push  <REMOTENAME> <BRANCHNAME>
   ```
 
 * [chmod影响](https://blog.csdn.net/ai2000ai/article/details/79628896)
