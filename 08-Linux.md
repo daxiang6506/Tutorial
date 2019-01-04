@@ -1,7 +1,7 @@
 ## ubuntu
 
 * [ubuntu自带截图工具](https://blog.csdn.net/qq_38880380/article/details/78233687)
-
+* [Ubuntu安装钉钉](https://blog.csdn.net/gozs_cs_dn/article/details/80230935)
 ## reference
 
 * [【Linux】lsof 命令，记一次端口占用查询](https://www.cnblogs.com/liuyongcn/p/5433139.html)
