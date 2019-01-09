@@ -36,8 +36,6 @@
 * [Ubuntu使用doxygen将源码生成调用关系图](https://blog.csdn.net/ZeroLiko/article/details/78162408)
 * [绘制函数调用图（call graph）（4）：doxygen + graphviz](https://blog.csdn.net/benkaoya/article/details/79763668)
 ## tips
-* [gdb调试的基本使用](https://blog.csdn.net/zdy0_2004/article/details/80102076)
-* [如何在docker中进行gdb调试](https://www.jianshu.com/p/1c4476c3d0ee?from=groupmessage)
 * [ubuntu下使用CPU频率控制](https://blog.csdn.net/sunnypotter/article/details/18506727?utm_source=blogxgwz0)
 * [readelf和ldd分析elf文件](https://blog.csdn.net/unix21/article/details/8466440)
 * [cmake使用示例与整理总结](https://blog.csdn.net/wzzfeitian/article/details/40963457)
