@@ -202,7 +202,8 @@
 * 命令
 
   ```bash
-  docker run -it --name master-build -v "${PWD}":/data -w /data dockerhub.ygomi.com/rdb:latest bash
+  docker run -it --name master-build -v "${PWD}":/data -w /data dockerhub.ygomi.com/rdb:latest  
+  docker run --rm -it -p 8888:8888 -v $(pwd):/notebooks daxiang6506/localization:1.8.0-bokeh   
   ```
 
 * 解决依赖问题
