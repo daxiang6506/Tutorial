@@ -1,3 +1,5 @@
+# GDB
+
 ## ref
 
 * [gdb调试的基本使用](https://blog.csdn.net/zdy0_2004/article/details/80102076)
@@ -61,7 +63,7 @@ watch i != 10                               检测表达式变化则停住(这�
 ```bash
 break                                       设置断点
 info b                                      查询所有断点
-b 10                                        设置断点，在源程序第10行 
+b 10                                        设置断点，在源程序第10行  
 b func                                      设置断点，在func函数入口处
    class::function或function(type,type)      指定函数名
    filename:linenum                         在源文件filename的linenum行处停住
