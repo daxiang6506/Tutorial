@@ -1,3 +1,9 @@
+# VSCODE
+
+## reource
+
+* [vscode下载](https://code.visualstudio.com/Download)
+
 ## 快捷键
 
   ```bash

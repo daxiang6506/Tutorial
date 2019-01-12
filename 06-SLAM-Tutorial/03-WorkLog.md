@@ -22,14 +22,6 @@
 
 * DATA
 
-```bash
-
-roaddb@10.69.25.60:/home/roaddb/test_data/tianfuroad/db/sam_1212                       db
-                   /home/roaddb/test_data/tianfuroad/tianfuroad_turn_rtv
-Test1234
-
-```
-
 * ABOX
 
 220 和 193 都新增了一个500G的固态硬盘，路径是/home/roaddb/extendDisk
@@ -95,7 +87,7 @@ Test1234
   >
   >配置初始化与状态初始化分离  
 
-  ```c++
+  ```cpp
   LocalizationThread.cpp
     roadDBCore::Singleton<roadDBCore::BarrierManager>::getInstance().wait(roadDBCore::BARRIER_KEY_START_E);
 
@@ -111,7 +103,6 @@ Test1234
   >利用Kf的朝向判断反向车道，以及利用kf的朝向和高度差reset
   >提取关键帧方位角信息，与当前帧比较，选择方向一致（100度以内）  
   >>数据库内关键帧包含的R为世界坐标系（W)  
-
   >>关键函数`transferCoordinateG2B()`世界坐标系（W）转IMU坐标系（B）  
   >>关键函数`Rbn2angC(B系下R，输出（方向角,...)` R转方向角  
   >
@@ -144,4 +135,3 @@ Test1234
 * roadDBCore::LockFreeLoopQueue
 * roadDBCore::pushSyncEvent(RawDataAlignEvent_t(spPackedObject->frameIdx));
 * LocDbAlgorithm::filterKeyframeByBatchID
-

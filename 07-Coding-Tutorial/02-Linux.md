@@ -1,3 +1,5 @@
+# Linux
+
 ## ubuntu
 
 * [ubuntu自带截图工具](https://blog.csdn.net/qq_38880380/article/details/78233687)
@@ -20,7 +22,7 @@
 
 * kill
 
-  ```c++
+  ```cpp
   void loc_panel::stop_loc(const std::string &procName)
   {
     kill_proc(procName, 9, true);
@@ -35,7 +37,7 @@
     else
         ui->status->setText("stop localization fail.");
   }
-  ```
+  ```cpp
 
 * ssh
 

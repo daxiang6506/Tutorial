@@ -1,22 +1,36 @@
+# VALGIND
+
 ## 工具
+
 * [kcachegrind](http://kcachegrind.sourceforge.net/html/Home.html)
   >Callgrind uses runtime instrumentation via the Valgrind framework for its cache simulation and call-graph generation
   >源码安装失败
   >sudo apt-get install kcachegrind
+
 ## 参考
+
 * [应用 Valgrind 发现 Linux 程序的内存问题](https://www.ibm.com/developerworks/cn/linux/l-cn-valgrind/index.html)
 * [内存调试技巧](https://www.ibm.com/developerworks/cn/aix/library/au-memorytechniques.html)
 * [如何在linux下检测内存泄漏](https://www.ibm.com/developerworks/cn/linux/l-mleak/)
 * [解释“Conditional jump or move depends on uninitialised value(s)”](https://www.sharcnet.ca/help/index.php/VALGRIND)
 * [valgrind的callgrind工具进行多线程性能分析](https://www.cnblogs.com/zengkefu/p/5642991.html)
+
 ## 安装
+
 * [valgrind安装与使用](https://www.cnblogs.com/defen/p/5560926.html)
+* [valgrind](http://www.valgrind.org/)
+  >`sudo apt-get install valgrind`  
+  >[Linux下性能分析工具和内存泄露检测工具的简介](https://blog.csdn.net/u014717036/article/details/50762252)
+  >`valgrind --log-file=./valgrind_report_all --tool=memcheck --leak-check=full --show-leak-kinds=all ./pose_estimation_3d2d 1.png 2.png 1_depth.png 2_depth.png`
+
 ## 命令
+
 * valgrind 3.13 supported xtree
-* ```
+* ```bash
   valgrind --tool=drd --show-stack-usage=<yes|no> [default: no]
   ```
-* ```
+
+* ```bash
   valgrind --tool=helgrind --read-var-info=yes ./octomap_mapping
   ```
 * 内存泄漏输出文件到`kcachegrind`
