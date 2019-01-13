@@ -2,6 +2,7 @@
 
 ## 参考
 
+* [Perspective-n-Point](https://en.wikipedia.org/wiki/Perspective-n-Point)
 * [通过降维加速opencv中的knnMatch图像匹配](https://blog.csdn.net/yhyhbo/article/details/54620178c++)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)
 * [slam book](https://github.com/gaoxiang12/slambook)
