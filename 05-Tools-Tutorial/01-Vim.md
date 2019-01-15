@@ -5,6 +5,7 @@
 * [vim 命令(全)](https://blog.csdn.net/zg_hover/article/details/1232018)
 * [vim 空格和换行的删除和替换](https://www.cnblogs.com/clphp/p/5502026.html)
 * [技巧：快速提高 Vi/Vim 使用效率的原则与途径](https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/)
+* [Linux vim如何实现文件中多行或者所有行相同列插入相同的字符串](https://blog.csdn.net/zz7zz7zz/article/details/45478273)
 
 ## 宏
 
@@ -190,7 +191,7 @@
   %       以匹配一个括号为目的移动
   50%     光标定位在文件的中间
   ```
-* 替换
+* 替换（行模式下也可使用）
   ```
   :s/word1/word2/
   ```
