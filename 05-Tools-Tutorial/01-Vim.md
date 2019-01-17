@@ -6,20 +6,26 @@
 * [vim 空格和换行的删除和替换](https://www.cnblogs.com/clphp/p/5502026.html)
 * [技巧：快速提高 Vi/Vim 使用效率的原则与途径](https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/)
 * [Linux vim如何实现文件中多行或者所有行相同列插入相同的字符串](https://blog.csdn.net/zz7zz7zz/article/details/45478273)
+* [vi撤销命令（u和U），撤销上一次的操作](http://c.biancheng.net/view/558.html)
 
 ## 宏
 
 * 查看宏
-  ```
+
+  ```bash
   :reg a         查看宏a的内容
   ```
+
 * 录制宏
-  ```
+
+  ```bash
   qa 'action' q  录制宏a
   ```
+
 * 使用宏
-  ```
-  9@a            重复9次宏a 
+
+  ```bash
+  9@a            重复9次宏a  
   ```
 
 ## 命令
@@ -41,8 +47,8 @@
   :nohlsearch         关闭当前高亮匹配
   ggVG                全选
   .                   重复上次命令
-  u                   撤销上次操作
-  ctrl + g            在文件中都位置
+  u/U                 撤销上次操作/所有操作
+  ctrl + g            在文件中的位置
   ctrl + r            重做撤销操作
   J                   删除换行符,可以选中多行
   xp                  交换光标位置和之后位置字符
@@ -51,6 +57,8 @@
   g~aw                将光标所在单词大小写反转
   guaw                将光标所在单词小写
   guu/UU              将光标所在行小写/大写
+  >/>>                左移行，左移当前行
+  imj                 表示把第 i 行移至第 j 行的下方
   ```
 
 * 跳转
