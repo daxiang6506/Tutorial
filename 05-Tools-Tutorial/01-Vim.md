@@ -7,6 +7,8 @@
 * [技巧：快速提高 Vi/Vim 使用效率的原则与途径](https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/)
 * [Linux vim如何实现文件中多行或者所有行相同列插入相同的字符串](https://blog.csdn.net/zz7zz7zz/article/details/45478273)
 * [vi撤销命令（u和U），撤销上一次的操作](http://c.biancheng.net/view/558.html)
+* [Vim 常用命令大全](https://www.jianshu.com/p/ebace108dd82)
+* [超过 130 个你需要了解的 vim 命令](https://www.oschina.net/news/43167/130-essential-vim-commands)
 
 ## 宏
 
@@ -52,13 +54,20 @@
   ctrl + r            重做撤销操作
   J                   删除换行符,可以选中多行
   xp                  交换光标位置和之后位置字符
-  ddp                 交换光标位置行和下一行
+  ddp/ddkP            交换光标位置行和下一行/光标位置行和上一行
   ~                   将光标处字符大小写反转
   g~aw                将光标所在单词大小写反转
   guaw                将光标所在单词小写
   guu/UU              将光标所在行小写/大写
   >/>>                左移行，左移当前行
-  imj                 表示把第 i 行移至第 j 行的下方
+  +y                  复制到系统剪贴板
+  +p                  粘贴到系统剪贴板
+  [[: 跳转到上一个函数块开始，需要有单独一行的{。
+  ]]: 跳转到下一个函数块开始，需要有单独一行的{。
+  []: 跳转到上一个函数块结束，需要有单独一行的}。
+  ][: 跳转到下一个函数块结束，需要有单独一行的}。
+  [{: 跳转到当前块开始处；
+  ]}: 跳转到当前块结束处；
   ```
 
 * 跳转
