@@ -10,6 +10,7 @@
 * [欧拉角](https://blog.csdn.net/csxiaoshui/article/details/65437633)
 * [eigen](http://eigen.tuxfamily.org/index.php?title-Main_Page)
   >矩阵库
+* [Eigen Memory Issues](https://github.com/ethz-asl/eigen_catkin/wiki/Eigen-Memory-Issues)
 * [pangolin](https://github.com/stevenlovegrove/Pangolin)
   >OpenGL封装库
 * [pangolin安装及其使用](https://blog.csdn.net/c602273091/article/details/65441315)
