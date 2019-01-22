@@ -2,6 +2,7 @@
 
 ## referece
 
+* [Git知识总览(五) Git中的merge、rebase、cherry-pick以及交互式rebase](https://www.cnblogs.com/ludashi/p/8213550.html)
 * [Resetting, Checking Out & Reverting](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)
 * [Git: “Cannot 'squash' without a previous commit” error while rebase](https://stackoverflow.com/questions/39595034/git-cannot-squash-without-a-previous-commit-error-while-rebase)
 * [git push](https://www.atlassian.com/git/tutorials/syncing/git-push)
