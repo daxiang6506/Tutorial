@@ -29,7 +29,8 @@
 
 * [玩转GIT之看清 git stash 的本质](https://blog.csdn.net/AndyNikolas/article/details/79906132)
   >当你新建文件修改了代码，如果没有git add 那么你用 git stash 是不能保存修改到暂存区的，但是如果你没有新建文件，只是在原有文件里进行修改，那么是可以在没有git add 的情况下保存到修改到暂存区的。
-  >```
+  >
+  >```bash
   >// 正撸A项目的时候,被拉去做B项目，这个时候 stash 就要上场了
   >// 先把A项目的已经写好的代码 git add 一下
   >git add .
