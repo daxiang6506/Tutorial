@@ -40,6 +40,7 @@
   >// 这样就将之前开发A项目的代码从暂存区拿了出来，就可以继续A项目的开发了
   >```
 * [git reset](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E7%BD%AE%E6%8F%AD%E5%AF%86)
+
 ## command
 
 * key_gen
@@ -48,26 +49,32 @@
   ssh-keygen
   cat ~/.ssh/id_rsa.pub
   ```
+
 * git commit
-  ```
+
+  ```bash
   git commit --amend
   ```
+
 * git reset
-  ```
+
+  ```bash
   git reset --soft HEAD~ (撤销上次的commit,只改变版本区，不改变暂存区和工作区)
   git reset --mixed  (版本区->暂存区)默认
   git reset --hard (版本区->暂存区->工作区)
   ```
+
 * git diff
-  ```
+
+  ```bash
   git diff (工作区vs暂存区)
   git diff HEAD (工作区vs版本区)
   git diff --cached （暂存区vd版本区）
   ```
 
 * git remote add
-  
-  ```
+
+  ```bash
   git remote add upstream <https://>
   ```
 
