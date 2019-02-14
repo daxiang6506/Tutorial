@@ -9,7 +9,7 @@
 
 ```bash
 start                                       run to main
-clear                                       delete all breakpoints
+clear                                       删除所在行的所有断点
 watch/rwatch/awatch                         当写/读的时候断点，属于断点，可以用info break查看
 c                                           继续运行程序直接运行到下一个断点
 x/<n/f/u> <addr>                            以指定格式显示指定地址内容
