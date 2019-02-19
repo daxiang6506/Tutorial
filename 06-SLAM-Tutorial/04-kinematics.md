@@ -1,5 +1,11 @@
 # 动力学
 
+## 文档
+
+* Quaternion kinematics for the error-state Kalman
+  >ordinary differential equation (ODE)
+  >we can very well call $\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$ the vector of instantaneous angular velocities
+
 ## 资源
 
 * [ESKF(error-state Kalman Filter)总结](https://blog.csdn.net/wubaobao1993/article/details/84327700)
