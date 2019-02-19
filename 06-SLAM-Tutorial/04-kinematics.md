@@ -3,8 +3,9 @@
 ## 文档
 
 * Quaternion kinematics for the error-state Kalman
-  >ordinary differential equation (ODE)
-  >we can very well call $\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$ the vector of instantaneous angular velocities
+  >ordinary differential equation (ODE)  
+  >we can very well call the vector of instantaneous angular velocities  
+  >\alpha
 
 ## 资源
 
