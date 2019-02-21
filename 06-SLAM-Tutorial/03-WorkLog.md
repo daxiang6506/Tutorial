@@ -37,6 +37,20 @@
 
 ## 工具使用
 
+* log-tools
+
+  ```bash
+  chmod +x ./Anaconda3-2018.12-Linux-x86_64.sh
+  ./Anaconda3-2018.12-Linux-x86_64.sh
+  source ~/.bashrc
+  conda update -n base conda
+  conda create --name log-tools python=3.6
+  conda activate log-tools
+  pyqt5、pyqt5-sip、pyqtgraph、pygame、paramiko
+  vim requirements.txt
+  pip install -r requirements.txt
+  ```
+
 * sparrow
 
   ```bash

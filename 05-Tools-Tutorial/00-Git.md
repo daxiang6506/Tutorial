@@ -122,6 +122,29 @@
   git rebase -i HEAD~3       将包括HEAD在内的之前的3个commit点合并，之后需要`git log` 查看，`git push origin "分支名" -f`
   ```
 
+* git conflict resolve (use git rebase)
+
+  ```bash
+  #先切换到对应分支
+  git checkout bugfix/RDB-36933
+  #将新feature rebase为一个commmit
+  rebase -i 605bed65ffe11be78479589b895d4198074a6214
+  #强制更新远程库
+  push -f origin bugfix/RDB-36933
+  #确保两边同步
+  git pull
+  #rebase master
+  git rebase origin/master
+  #resolve conflict  
+  #解决之后需要 git add
+  #查看冲突解决情况
+  git status
+  #继续完成 rebase
+  git rebase --continue
+  #强制更新远程库  
+  git push -f origin bugfix/RDB-36933
+  ```
+
 * git merge
 
   ```bash
