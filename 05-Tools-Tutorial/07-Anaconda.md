@@ -34,3 +34,8 @@ python3 mainCaseRun.py
 python3 mainLog.py
 ```
 
+```bash
+conda env list
+conda create -n your_env_name python=X.X
+source activate your_env_name
+```
