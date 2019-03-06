@@ -122,7 +122,7 @@
   git rebase -i HEAD~3       将包括HEAD在内的之前的3个commit点合并，之后需要`git log` 查看，`git push origin "分支名" -f`
   ```
 
-* git conflict resolve (use git rebase)
+* Pull Request rebase how to resolve conflict
 
   ```bash
   #先切换到对应分支
@@ -143,6 +143,29 @@
   git rebase --continue
   #强制更新远程库  
   git push -f origin bugfix/RDB-36933
+  ```
+
+* git cherry-pick
+
+  ```bash
+  #选择要commit点
+  git cherry-pick 1f268d483ea
+  #查看状态，是否有conflict
+  git status
+  #手动解决conflict
+  vim common/CMakeLists.txt
+  vim  components/system/DBDataManager/source/LocDbDataManager.cpp
+  #查看是否冲突是否解决完毕
+  git status
+  #讲解决冲突后的文件add进暂存区
+  git add common/CMakeLists.txt components/system/DBDataManager/source/LocDbDataManager.cpp
+  #完成 cherry-pick
+  git cherry-pick --continue
+  #核实状态是否正常
+  git status
+  #无冲突的 cherry-pick
+  git cherry-pick 174990b8f28
+  git status
   ```
 
 * git merge
