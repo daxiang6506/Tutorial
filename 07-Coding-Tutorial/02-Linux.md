@@ -17,6 +17,7 @@
 * [ssh-copy-id三步实现SSH无密码登录和ssh常用命令](https://blog.csdn.net/liu_qingbo/article/details/78383892)
 * [2>/dev/null和>/dev/null 2>&1和2>&1>/dev/null](https://blog.csdn.net/zhongqi2513/article/details/78613768)
 * [Linux Source命令及脚本的执行方式解析](https://www.cnblogs.com/ThatsMyTiger/p/6865817.html)
+* [git try](http://try.github.io/)
 
 ## 常用linux命令
 
@@ -25,6 +26,7 @@
   ```cpp
   void loc_panel::stop_loc(const std::string &procName)
   {
+
     kill_proc(procName, 9, true);
     std::stringstream ss;
     ss.str("");
@@ -37,6 +39,7 @@
     else
         ui->status->setText("stop localization fail.");
   }
+
   ```cpp
 
 * ssh

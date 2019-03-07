@@ -24,6 +24,9 @@
 
 ## 插件
 
+* [vim](https://blog.csdn.net/kealennieh/article/details/83592751)
+  >vim和系统采用的不是相同的剪切板，所以不能直接利用ctrl+c和ctrl+v。需要进一步进行设置
+
 * Settings Sync
   >GitHub Token: 7c1052bee488122b68020d5ce1d13d465442820d
   >7c1052bee488122b68020d5ce1d13d465442820d

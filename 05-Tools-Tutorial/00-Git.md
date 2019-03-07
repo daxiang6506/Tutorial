@@ -137,6 +137,7 @@
   git rebase origin/master
   #resolve conflict  
   #解决之后需要 git add
+  #不需要解决的 git rm
   #查看冲突解决情况
   git status
   #继续完成 rebase
