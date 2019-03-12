@@ -42,6 +42,16 @@
   >```
 * [git reset](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E9%87%8D%E7%BD%AE%E6%8F%AD%E5%AF%86)
 
+## setup
+
+* 更新
+
+```bash
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+```
+
 ## command
 
 * key_gen
