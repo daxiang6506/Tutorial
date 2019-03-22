@@ -9,6 +9,7 @@
 
 ## 参考
 
+* [原理](http://valgrind.org/docs/valgrind2007.pdf)
 * [应用 Valgrind 发现 Linux 程序的内存问题](https://www.ibm.com/developerworks/cn/linux/l-cn-valgrind/index.html)
 * [内存调试技巧](https://www.ibm.com/developerworks/cn/aix/library/au-memorytechniques.html)
 * [如何在linux下检测内存泄漏](https://www.ibm.com/developerworks/cn/linux/l-mleak/)
