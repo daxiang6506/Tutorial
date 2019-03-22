@@ -1,5 +1,9 @@
 # python
 
+## 资源
+
+* [Python 3 教程](http://www.runoob.com/python3/python3-tutorial.html)
+
 ## pycharm
 
 * [Docker-Compose: Getting Flask up and running](https://blog.jetbrains.com/pycharm/2017/03/docker-compose-getting-flask-up-and-running/)

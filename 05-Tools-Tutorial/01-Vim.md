@@ -228,45 +228,46 @@
 
 * 替换（行模式下也可使用）
 
-  ```bash
-  :s/word1/word2/
-  ```
-
   >当前行寻找第一个word1这个字符串，并将该字符串取代为word2
 
   ```bash
-  :s/word1/word2/g
+  :s/word1/word2/
   ```
 
   >当前行寻找所有word1这个字符串，并将该字符串取代为word2
 
   ```bash
-  :%s/word1/word2/g  
+  :s/word1/word2/g
   ```
 
   >当前文件寻找所有word1这个字符串，并将该字符串取代为word2
 
   ```bash
-  :n1,n2s/word1/word2/g  
+  :%s/word1/word2/g  
   ```
 
   >在第n1与n2行之间寻找word1这个字符串，并将该字符串取代为word2
 
   ```bash
-  :1,$s/word1/word2/g
+  :n1,n2s/word1/word2/g  
   ```
 
   >从第一行到最后一行寻找 word1 字符串，并将该字符串取代为word2
 
   ```bash
-  :'<,'>s/word1/word2/g
+  :1,$s/word1/word2/g
   ```
 
   >选区，在Visual模式下选择区域后输入:，Vim即可自动补全为 :'<,'>
 
   ```bash
-  :s/ +/\r/g
+  :'<,'>s/word1/word2/g
   ```
 
   >当前行空格替换为回车
+
+  ```bash
+  :s/ +/\r/g
+  ```
+
   
