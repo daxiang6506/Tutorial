@@ -21,6 +21,8 @@
 
 ## 常用linux命令
 
+* `./build.sh -a 1>log.log 2>&1`
+
 * kill
 
   ```cpp

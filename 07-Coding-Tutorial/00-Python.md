@@ -42,3 +42,15 @@
 * [Matplotlib(二) — 常见的图表](https://blog.csdn.net/love667767/article/details/79250510)
 * [Python中一个for循环循环多个变量](https://blog.csdn.net/theonegis/article/details/49404809)
 * [Most efficient way to reverse a numpy array](https://stackoverflow.com/questions/6771428/most-efficient-way-to-reverse-a-numpy-array)
+
+## pandas
+
+* [Pandas通过reset_index()函数可以将groupby()的分组结果转换成DataFrame对象](https://www.cnblogs.com/princessd8251/articles/7658577.html)
+
+* [pandas contact 之后，一定要记得用reset_index去处理index,不然容易出现莫名的逻辑错误](https://blog.csdn.net/lujiandong1/article/details/52929090)
+
+* [pandas通过loc生成新的列](https://blog.csdn.net/qq_36523839/article/details/80502574)
+
+* [Pandas 操作多个列进行运算，并生成新列的方法](https://blog.csdn.net/weixin_42493346/article/details/80744159)
+
+* [pandas 的 行、列重排序 reindex()](https://www.jianshu.com/p/07e7d9710773)
