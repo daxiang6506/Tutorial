@@ -2,6 +2,7 @@
 
 ## ubuntu
 
+* [ubuntu16.04如何安装搜狗输入法](https://jingyan.baidu.com/article/642c9d341b3ccb644a46f7ac.html)
 * [ubuntu自带截图工具](https://blog.csdn.net/qq_38880380/article/details/78233687)
 * [Ubuntu安装钉钉](https://blog.csdn.net/gozs_cs_dn/article/details/80230935)
 
