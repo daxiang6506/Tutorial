@@ -1,4 +1,42 @@
 ## 安装
+
+### ubuntu
+
+* Install
+
+```bash
+sudo apt-get install apt-transport-https ca-certificates curl
+curl -sSL https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu $(lsb_release -sc) stable" | sudo tee /etc/apt/sources.list.d/docker.list
+sudo apt-get update
+sudo apt-get install -y docker-ce
+```
+
+* Update the config file
+
+```bash
+sudo bash -c 'cat << EOF > /etc/docker/daemon.json
+{
+"dns": ["10.69.0.100","10.69.0.101"],
+"registry-mirrors": ["https://registry.docker-cn.com"],
+"insecure-registries": ["dockerhub.ygomi.com"]
+}
+EOF'
+```
+* join the current user into docker group if you need to run docker command without sudo(reboot needed)
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+```
+
+* restart the docker
+
+```bash
+sudo /etc/init.d/docker restart
+
+```
+
 ### CentOS
 1. 查看操作系统版本  
    ```
