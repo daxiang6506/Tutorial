@@ -35,6 +35,8 @@ c/c++
 C++ Intellisense
 ```
 
+* [VS Code代码高亮颜色设置](https://blog.csdn.net/xuejinglingai/article/details/84937933)
+
 * vim 放大/缩小字体
   >ctrl+=/-
 

@@ -29,6 +29,7 @@
 
 ## reference
 
+* [python 字符串格式化](https://www.cnblogs.com/xxby/p/5571620.html)  
 * [Python使用struct处理二进制](https://www.cnblogs.com/gala/archive/2011/09/22/2184801.html)
 * [python 按二维数组的某行或列排序 (numpy lexsort)](https://www.cnblogs.com/liyuxia713/p/7082091.html)
 * [Python中numpy的where()函数](http://www.cnblogs.com/oxxxo/p/6129294.html)
@@ -45,6 +46,8 @@
 
 ## pandas
 
+* [How to Add Incremental Numbers to a New Column Using Pandas](https://stackoverflow.com/questions/38862293/how-to-add-incremental-numbers-to-a-new-column-using-pandas)
+
 * [Pandas通过reset_index()函数可以将groupby()的分组结果转换成DataFrame对象](https://www.cnblogs.com/princessd8251/articles/7658577.html)
 
 * [pandas contact 之后，一定要记得用reset_index去处理index,不然容易出现莫名的逻辑错误](https://blog.csdn.net/lujiandong1/article/details/52929090)
@@ -54,3 +57,9 @@
 * [Pandas 操作多个列进行运算，并生成新列的方法](https://blog.csdn.net/weixin_42493346/article/details/80744159)
 
 * [pandas 的 行、列重排序 reindex()](https://www.jianshu.com/p/07e7d9710773)
+
+## ROC
+
+* [ROC和AUC介绍以及如何计算AUC](http://www.360doc.com/content/16/0508/21/32866621_557382331.shtml)
+
+* [分类性能度量指标 : ROC曲线、AUC值、正确率、召回率、敏感度、特异度](https://blog.csdn.net/tanzuozhev/article/details/79109311)
