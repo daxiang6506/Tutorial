@@ -24,13 +24,22 @@
 
 ## 插件
 
+* 常用
+
+```bash
+git history
+git lens
+vim
+cmake tools
+c/c++
+C++ Intellisense
+```
+
+* vim 放大/缩小字体
+  >ctrl+=/-
+
 * [vim](https://blog.csdn.net/kealennieh/article/details/83592751)
   >vim和系统采用的不是相同的剪切板，所以不能直接利用ctrl+c和ctrl+v。需要进一步进行设置
+  >`vim.useSystemClipboard": true`
 
-* Settings Sync
-  >GitHub Token: 7c1052bee488122b68020d5ce1d13d465442820d
-  >7c1052bee488122b68020d5ce1d13d465442820d
-  >GitHub Gist: 6b3cd2b1f1907ee0e1fafb4333d1fed4
-* Git History (git log)
-* Git Lens
 * [How can you export VS Code extension list](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
