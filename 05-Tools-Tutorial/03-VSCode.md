@@ -37,6 +37,16 @@ C++ Intellisense
 
 * [VS Code代码高亮颜色设置](https://blog.csdn.net/xuejinglingai/article/details/84937933)
 
+ ```bash
+ {
+     "vim.useSystemClipboard": true,
+     "window.zoomLevel": 1,
+     "workbench.colorCustomizations": {
+         "editor.selectionHighlightBackground": "#ff0000"
+     }
+ }
+ ```
+
 * vim 放大/缩小字体
   >ctrl+=/-
 
