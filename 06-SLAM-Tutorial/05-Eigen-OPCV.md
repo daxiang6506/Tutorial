@@ -1,5 +1,36 @@
 # Eigen and Open CV
 
+## openCV
+
+* [OpenCV: 矩阵等对象的文件存取方式](https://blog.csdn.net/eswai/article/details/53009077)
+  >FileStorage fs("test.xml", FileStorage::WRITE);
+  >// "data" is the label name of (I) in test.xml
+  > write(fs, "data", I);
+  >fs.release();
+  >
+  >Mat I;
+  >FileStorage fs("test.xml", FileStorage::READ);
+  >read(fs["data"], I);
+  >fs.release();
+  
+* [openCV入门教程](create()函数创建对象)
+  >除了在构造函数中可以创建图像，也可以使用 Mat 类的 create()函数创建图 像。如果 create()函数指定的参数与图像之前的参数相同，则不进行实质的内存 申请操作;如果参数不同，则减少原始数据内存的索引，并重新申请内存
+
+* [OpenCV学习笔记（五十六）——InputArray和OutputArray的那些事core](https://blog.csdn.net/yang_xian521/article/details/7755101)
+  >可以用_OutputArray：：needed（）来检测输出的矩阵是否需要被计算。有时候传进去的参不是空就不需要计算
+
+* [Create a memory continuous cv::Mat, any api could do that](http://answers.opencv.org/question/22742/create-a-memory-continuous-cvmat-any-api-could-do-that/)
+  > keypoints_.convertTo(keypoints_, CV_32F);
+
+* [图像矩阵是如何存储在内存之中的？](http://www.opencv.org.cn/opencvdoc/2.3.2/html/doc/tutorials/core/how_to_scan_images/how_to_scan_images.html#howtoscanimagesopencv)
+
+* [checkVector()](https://docs.opencv.org/3.4/d3/d63/classcv_1_1Mat.html)
+
+* [opencv中的reshape函数](https://blog.csdn.net/s941015n/article/details/79698627)
+* [OpenCV reshape函数需要注意的细节](https://blog.csdn.net/guyuealian/article/details/80252853)
+  >cv::Mat mat = cv::Mat(v).clone()
+
+
 ## 参考
 
 * [Eigen库中的Map类到底是做什么的](https://blog.csdn.net/baoxiao7872/article/details/80242452)
