@@ -9,6 +9,8 @@
 
 ```bash
 start                                       run to main
+delete                                      删除所有断点
+finish                                      执行完当前函数返回到调用它的函数
 clear                                       删除所在行的所有断点
 watch/rwatch/awatch                         当写/读的时候断点，属于断点，可以用info break查看
 c                                           继续运行程序直接运行到下一个断点
@@ -18,7 +20,6 @@ j N                                         跳转执行程序到第N行(如果�
 s                                           单步进入
 n N                                         执行N次下一步
 u                                           把光标停止在循环的头部，然后输入u这样就自动执行全部的循环
-finish                                      执行完当前函数返回到调用它的函数
 pwd                                         显示当前的所在目录
 cd                                          相当于shell的cd命令
 kill                                        终止一个正在调试的程序
