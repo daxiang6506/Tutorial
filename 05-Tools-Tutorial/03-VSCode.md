@@ -24,6 +24,44 @@
 
 ## 插件
 
+* [在vs code中使用ftp-sync插件实现客户端与服务器端代码的同步](https://blog.csdn.net/dotuian/article/details/51119650)
+  > 不同的目录需要打开不同的窗口，重新初始化，否则会找到当前workspace的配置文件  
+  > 操作步骤应该是在ABOX上拉代码，然后在本机上同步ABOX上的代码(保证代码权限正确，从本机上传到ABOX文件权限会有问题)
+  > (删除`\\.git`，将git配置传到本机，保证本机可以push代码)
+  > ，在本机上修改代码，然后选择将`当前文件同步`到ABOX上，这样可以保证各方面的同步
+  
+```bash
+{
+    "remotePath": "/home/roaddb/others/xuc/code_loc_dev_pmba/core/algorithm_vehicle_localization",
+    "host": "10.69.140.235",
+    "username": "roaddb",
+    "password": "Test1234",
+    "port": 22,
+    "secure": false,
+    "protocol": "sftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "build",
+        "dist",
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
+```
+
 * 常用
 
 ```bash

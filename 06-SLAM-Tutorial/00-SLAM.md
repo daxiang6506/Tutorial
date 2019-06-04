@@ -2,6 +2,9 @@
 
 ## 参考
 
+* [DSO: Direct Sparse Odometry](https://vision.in.tum.de/research/vslam/dso)
+* [Quaternion from two vector pairs](https://stackoverflow.com/questions/19445934/quaternion-from-two-vector-pairs)
+* [quaternion from two vectors](http://lolengine.net/blog/2013/09/18/beautiful-maths-quaternion-from-vectors)
 * [Perspective-n-Point](https://en.wikipedia.org/wiki/Perspective-n-Point)
 * [通过降维加速opencv中的knnMatch图像匹配](https://blog.csdn.net/yhyhbo/article/details/54620178c++)
 * [图像处理中，outlier和inlier分别指什么](https://blog.csdn.net/daigualu/article/details/73866250)

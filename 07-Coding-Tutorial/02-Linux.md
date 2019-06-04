@@ -2,6 +2,8 @@
 
 ## ubuntu
 
+* [du-查看文件夹大小-并按大小进行排序](https://blog.csdn.net/jiaobuchong/article/details/50272761cd)
+* [ubuntu系统下安装ftp相关客户端工具之Filezilla](https://blog.csdn.net/weixin_42835066/article/details/87628691)
 * [How to install massif-visualizer on Ubuntu 16.04](https://www.howtoinstall.co/en/ubuntu/xenial/massif-visualizer)
 * [How to install kcachegrind on Ubuntu 16.04](https://www.howtoinstall.co/en/ubuntu/xenial/kcachegrind)
 * [ubuntu16.04如何安装搜狗输入法](https://jingyan.baidu.com/article/642c9d341b3ccb644a46f7ac.html)
@@ -23,6 +25,10 @@
 * [git try](http://try.github.io/)
 
 ## 常用linux命令
+
+* df -h
+
+* du -sh *
 
 * 支持scp，ssh server
   >`sudo apt-get install openssh-server`

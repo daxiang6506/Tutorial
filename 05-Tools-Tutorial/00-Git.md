@@ -61,6 +61,8 @@ sudo apt-get install git
   cat ~/.ssh/id_rsa.pub
   ```
 
+* git revert commit id
+
 * git rm --cached file
 
 * git commit
