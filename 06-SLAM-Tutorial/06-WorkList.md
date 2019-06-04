@@ -8,6 +8,8 @@
   
 ## confluence
 
+* [LOC Mission Review Sprint_20190524](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=LOC+Mission+Review+Sprint_20190524)
+
 * [Paper Reading - Weekly Reading - 2019 June Week1~4](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=Paper+Reading+-+Weekly+Reading+-+2019+June+Week1~4)
 
 * [Kyln Localization待优化和解决的问题](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=Problems+of+Kyln+in+2019+May)
