@@ -1,9 +1,14 @@
 # WorkList
 
+* air sim
+  > git branch: RDB-39528-feature-extraction-with-spacial-uniformity-and-re-projection-area-priority  
+  >> 没有build脚本，需要手动cmake指令  
+  >> 本机数据位置 `/home/user/repo/air_sim`  
+  > [AirSim数据集](https://confluence.ygomi.com:8443/display/RRT/DataSet)
+  
 ## confluence
-* [Paper Reading - Weekly Reading - 2019 June Week1~4](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=Paper+Reading+-+Weekly+Reading+-+2019+June+Week1~4)
 
-* [AirSim数据集](https://confluence.ygomi.com:8443/display/RRT/DataSet)
+* [Paper Reading - Weekly Reading - 2019 June Week1~4](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=Paper+Reading+-+Weekly+Reading+-+2019+June+Week1~4)
 
 * [Kyln Localization待优化和解决的问题](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=Problems+of+Kyln+in+2019+May)
 
