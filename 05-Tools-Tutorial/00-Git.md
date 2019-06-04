@@ -61,6 +61,9 @@ sudo apt-get install git
   cat ~/.ssh/id_rsa.pub
   ```
 
+* git clean -fd
+  > 删除untracked file 及其目录
+  
 * git revert commit id
 
 * git rm --cached file
