@@ -24,11 +24,18 @@
 * [Linux Source命令及脚本的执行方式解析](https://www.cnblogs.com/ThatsMyTiger/p/6865817.html)
 * [git try](http://try.github.io/)
 
+## 常用linux软件
+
+* 录屏软件`sudo apt-get install kazam`
+
+
 ## 常用linux命令
 
-* df -h
+* `awk -F',' -v OFS=',' '{print "GPS:"$7,$2,$3,$4,$5,$6,$7}' 2019-02-21_T_08-20-45.759_GMT4.gps > 1.txt`
 
-* du -sh *
+* `df -h`
+
+* `du -sh *`
 
 * 支持scp，ssh server
   >`sudo apt-get install openssh-server`
