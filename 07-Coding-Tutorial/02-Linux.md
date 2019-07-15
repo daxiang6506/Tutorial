@@ -28,7 +28,6 @@
 
 * 录屏软件`sudo apt-get install kazam`
 
-
 ## 常用linux命令
 
 * `awk -F',' -v OFS=',' '{print "GPS:"$7,$2,$3,$4,$5,$6,$7}' 2019-02-21_T_08-20-45.759_GMT4.gps > 1.txt`
