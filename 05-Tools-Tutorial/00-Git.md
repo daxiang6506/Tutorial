@@ -80,6 +80,7 @@ sudo apt-get install git
   git reset --soft HEAD~ (撤销上次的commit,只改变版本区，不改变暂存区和工作区)
   git reset --mixed  (版本区->暂存区)默认
   git reset --hard (版本区->暂存区->工作区)
+  git reset 版本号 文件名（直接回退文件到某个版本，相当于--hard）
   ```
 
 * git diff
