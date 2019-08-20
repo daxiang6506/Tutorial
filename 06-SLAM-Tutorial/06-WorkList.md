@@ -10,6 +10,24 @@
   
 ## confluence
 
+### demo
+
+##### honda
+
+* [Localization Report Protocol Definition - for both Offline and Online Accuracy Evaluation in Honda](https://confluence.ygomi.com:8443/display/RRT/Localization+Report+Protocol++Definition+-+for+both+Offline+and+Online+Accuracy+Evaluation+in+Honda)
+
+* [How to Enable Dedicated GPU on Ubuntu 14.04](https://confluence.ygomi.com:8443/display/RRT/How+to+Enable+Dedicated+GPU+on+Ubuntu+14.04)
+
+* [硬件连接及数据基本检查历史问题汇总](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=73841937)
+
+* [Generate Bootable USB](https://confluence.ygomi.com:8443/display/RDC/Generate+Bootable+USB)
+
+### 环境
+
+* [Localization in RDB 4.0](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=83970572)
+
+### dfdfdf
+
 * [Localization System Coordinate](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=L2.1.3+Localization+System+Coordinate)
 
 * [SM Checklist](https://confluence.ygomi.com:8443/display/RRT/Localization+team+SM+Checklist#LocalizationteamSMChecklist-JIRAchecklist%E6%A8%A1%E6%9D%BF%E5%8F%8A%E6%B5%81%E7%A8%8B)
