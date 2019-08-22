@@ -14,6 +14,8 @@
 
 ##### honda
 
+* [Honda Project Requirements Clarification](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=LOC%3A+2019-08-06+Meeting+notes+-+Honda+Project+Requirements+Clarification)
+
 * [Localization Report Protocol Definition - for both Offline and Online Accuracy Evaluation in Honda](https://confluence.ygomi.com:8443/display/RRT/Localization+Report+Protocol++Definition+-+for+both+Offline+and+Online+Accuracy+Evaluation+in+Honda)
 
 * [How to Enable Dedicated GPU on Ubuntu 14.04](https://confluence.ygomi.com:8443/display/RRT/How+to+Enable+Dedicated+GPU+on+Ubuntu+14.04)
