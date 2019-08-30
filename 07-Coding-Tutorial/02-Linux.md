@@ -2,6 +2,8 @@
 
 ## ubuntu
 
+* [Linux系统 apt-get 命令的使用：安装、更新、卸载软件包](https://blog.csdn.net/xietansheng/article/details/80044644)
+* [ubuntu下的apt-get内网本地源的搭建](https://www.cnblogs.com/czalinux/p/6188938.html)
 * [du-查看文件夹大小-并按大小进行排序](https://blog.csdn.net/jiaobuchong/article/details/50272761cd)
 * [ubuntu系统下安装ftp相关客户端工具之Filezilla](https://blog.csdn.net/weixin_42835066/article/details/87628691)
 * [How to install massif-visualizer on Ubuntu 16.04](https://www.howtoinstall.co/en/ubuntu/xenial/massif-visualizer)

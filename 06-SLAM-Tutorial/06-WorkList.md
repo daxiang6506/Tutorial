@@ -14,6 +14,14 @@
 
 ##### honda
 
+* [SBG-IMU, Problem of Mount with Sensing and Suggested Solution](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=L2.1.7+SBG-IMU%2C+Problem+of+Mount+with+Sensing+and+Suggested+Solution)
+
+* [Imu & DGPS Interval Problem Test](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=83983795)
+
+* [4.0 Test Report and Code Branch of 20190901 Honda Evaluation](https://confluence.ygomi.com:8443/display/RPM/4.0+Test+Report+and+Code+Branch+of+20190901+Honda+Evaluation)
+
+* [6.0 Release Notes of 20190901 Honda Evaluation](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RPM&title=6.0+Release+Notes+of+20190901+Honda+Evaluation)
+
 * [Honda Project Requirements Clarification](https://confluence.ygomi.com:8443/pages/viewpage.action?spaceKey=RRT&title=LOC%3A+2019-08-06+Meeting+notes+-+Honda+Project+Requirements+Clarification)
 
 * [Localization Report Protocol Definition - for both Offline and Online Accuracy Evaluation in Honda](https://confluence.ygomi.com:8443/display/RRT/Localization+Report+Protocol++Definition+-+for+both+Offline+and+Online+Accuracy+Evaluation+in+Honda)
@@ -25,6 +33,8 @@
 * [Generate Bootable USB](https://confluence.ygomi.com:8443/display/RDC/Generate+Bootable+USB)
 
 ### 环境
+
+* [How to use repo to download code and how to build by script](https://confluence.ygomi.com:8443/display/RRT/How+to+use+repo+to+download+code+and+how+to+build+by+script)
 
 * [Localization in RDB 4.0](https://confluence.ygomi.com:8443/pages/viewpage.action?pageId=83970572)
 
