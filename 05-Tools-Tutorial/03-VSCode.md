@@ -16,6 +16,7 @@
   Cmd  + p          找文件
   Opt  + o          切换.cpp/.h
   Cmd  + Shift + o  显示大纲
+  Cmd  + Shift + p  显示命令面板
 
   * For Linux
   Ctrl + Alt + -    back一个浏览位置
