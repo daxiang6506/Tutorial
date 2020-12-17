@@ -7,14 +7,24 @@
 ## 快捷键
 
   ```bash
-  Ctrl + Alt + -    back一个浏览位置(linux)
-  Ctrl + Shift + -  forward一个浏览位置(linux)
-  Ctrl + -          back一个浏览位置(mac)
-  Ctrl + Shift + -  forward一个浏览位置(mac)
+  * For Mac
+  Ctrl + -          back一个浏览位置
+  Ctrl + Shift + -  forward一个浏览位置
+  F12               跳转到定义
+  Ctrl + Tab        切换选项卡
+  Cmd  + p          找文件
+  Opt  + o          切换.cpp/.h
+  Cmd  + Shift + o  显示大纲
+
+  * For Linux
+  Ctrl + Alt + -    back一个浏览位置
+  Ctrl + Shift + -  forward一个浏览位置
   F12               跳转到定义
   Ctrl + Tab        切换选项卡
   Ctrl + p          找文件
   Alt  + o          切换.cpp/.h
+  Ctrl + Shift + o  显示大纲
+
   ```
 
 * Type Shift+Enter in the search box to insert a newline, and the search box will grow to show your full multiline query. You can also copy and paste a multiline selection from the editor into the search box.
