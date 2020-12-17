@@ -3,6 +3,7 @@
 ## reource
 
 * [vscode下载](https://code.visualstudio.com/Download)
+* [vscode使用github](https://code.visualstudio.com/docs/editor/github)
 
 ## 快捷键
 
