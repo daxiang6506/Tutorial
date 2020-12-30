@@ -12,11 +12,23 @@
   Ctrl + -          back一个浏览位置
   Ctrl + Shift + -  forward一个浏览位置
   F12               跳转到定义
-  Ctrl + Tab        切换选项卡
-  Cmd  + p          找文件
-  Opt  + o          切换.cpp/.h
-  Cmd  + Shift + o  显示大纲
+  Cmd  + P          找文件
+  Cmd  + F          查找当前文件
+  Cmd  + K  Cmd + F 格式化当前选择
+  Cmd  + K  Cmd + X 删除尾部空格
+  Cmd  + K  Z       进入zen模式
+  Cmd  + K  R       在资源管理器中显示活动文件
+  Cmd  + K  O       新窗口打开当前文件
+  Opt  + O          切换.cpp/.h
+  Cmd  + Shift + O  显示大纲
   Cmd  + Shift + p  显示命令面板
+  Ctrl + Cmd   + L  选择所有当前选择
+  Opt  + Shift + F  格式化当前文件
+  Opt  + Shift + A  添加移除块注释
+  Cmd  + Shift + H  所有文件内替换
+  Ctrl + Tab        打开下一个
+  Ctrl + Shift + Tab 打开上一个
+  Opt + 点击         插入多个光标
 
   * For Linux
   Ctrl + Alt + -    back一个浏览位置
