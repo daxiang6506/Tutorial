@@ -214,6 +214,8 @@ sudo apt-get install git
 * [git删除远程分支和tag相关命令](https://blog.csdn.net/wulove52/article/details/52357108)
 
   ```bash
+  git branch -d <BranchName>               //删除本地分支
+  git push origin --delete <BranchName>    //删除远程分支
   git push origin --delete tag <tagname>
   git push  <REMOTENAME> <BRANCHNAME>
   ```
@@ -231,11 +233,11 @@ sudo apt-get install git
   + 代表目标文件
     working area 是目标文件
   ```
-* [git show]
+* [git show]()
    ```bash
    git show commitId
    ```
-   
+
 * [git clone 单个分支项目或者所有项目分支](https://blog.csdn.net/she_lock/article/details/79453484)
   >git clone 默认是克隆Head指向的branch，默认是master分支
 * [Pull Request的正确打开方式](https://blog.csdn.net/zhangdaiscott/article/details/17438153)
