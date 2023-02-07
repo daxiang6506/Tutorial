@@ -34,9 +34,7 @@
 
 * `awk -F',' -v OFS=',' '{print "GPS:"$7,$2,$3,$4,$5,$6,$7}' 2019-02-21_T_08-20-45.759_GMT4.gps > 1.txt`
 
-* `df -h`
-
-* `du -sh *`
+* `du -sh  | sort -nr // 以人类可读的方式显示, 按大小排列` 
 
 * 支持scp，ssh server
   >`sudo apt-get install openssh-server`
