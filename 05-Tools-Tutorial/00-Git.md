@@ -60,6 +60,21 @@ sudo apt-get install git
   ssh-keygen
   cat ~/.ssh/id_rsa.pub
   ```
+* How to integrate git lfs into vscode
+  > download lfs install package for mac
+  > sudo ./install.sh
+  > git lfs install
+  > Add a section, “terminal.integrated.env.osx” that contains a “PATH” key as shown below:
+  > "PATH": "/usr/local/bin:${env:PATH}"
+
+* how to push lfs file to remote
+  > 1. git lfs track *
+  > 2. 添加后，查看管理文件.gitattributes，可以发现.gitattributes中新增加一行：.gz filter=lfs diff=lfs merge=lfs -text
+  > 3. 将管理文件.gitattributes提交至仓库
+  > 4. 获取git lfs管理的所有文件列表：git lfs ls-files
+  > 5. git add *
+  > 6. git commit -m "add * file"
+  > 7. git push
 
 * git clean -fd
   > 删除untracked file 及其目录
