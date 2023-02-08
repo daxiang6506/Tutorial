@@ -61,7 +61,7 @@ sudo apt-get install git
   cat ~/.ssh/id_rsa.pub
   ```
 * How to integrate git lfs into vscode
-  > download lfs install package for mac
+  > download lfs install package for mac [link](https://git-lfs.com/)
   > sudo ./install.sh
   > git lfs install
   > Add a section, “terminal.integrated.env.osx” that contains a “PATH” key as shown below:
